@@ -1,6 +1,5 @@
 #include "Header.h"
 
-
 wxBEGIN_EVENT_TABLE(mFrame, wxFrame)
 EVT_BUTTON(9001, OnReset)
 EVT_BUTTON(9002, OnSetURLB)
@@ -9,6 +8,7 @@ wxEND_EVENT_TABLE()
 
 void mFrame::OnExit(wxCommandEvent& event)
 {
+	curl_easy_cleanup(curl);
 	Close(true);
 }
 void mFrame::OnAbout(wxCommandEvent& event)
@@ -21,15 +21,41 @@ void mFrame::OnSettings(wxCommandEvent& event)
 	wxLogMessage("Settings doesn't exist yet");
 }
 void mFrame::OnReset(wxCommandEvent& evt) {
-
-
+	curl_easy_reset(curl);
 	datalist->Clear();
 	evt.Skip();
 }
+void findPrice(std::string file) {
+	
+
+
+}
+//For payout history, gonna have to do some packet wizardy or something to get data
+size_t got_data(char *buf, size_t itemsize, size_t nitems, void* ignore) {
+	size_t bytes = itemsize * nitems;
+	for (int i = 0; i < bytes; i++) {
+		out.push_back(buf[i]);
+		if (buf[i] == '\n') {
+			file << out;
+			datalist->AppendString(out);
+			out.clear();
+		}
+	}
+	return bytes;
+}
+//https://wiki.wxwidgets.org/Converting_everything_to_and_from_wxString
 void mFrame::OnSetURLB(wxCommandEvent& evt) {
-	datalist->AppendString(text->GetValue());
+	wxString mstring(text->GetValue());
+	std::string temp = std::string(mstring.mb_str());
+	file.open("temp.txt");
+	curl_easy_setopt(curl, CURLOPT_URL, temp.c_str());
+	curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, got_data);
+	curl_easy_perform(curl);
+	//Now just parse data using downloaded file, can probably cut out file in future and just use buffer
+
 	text->Clear();
 	evt.Skip();
+	file.close();
 }
 
 mFrame::mFrame() : wxFrame(NULL, wxID_ANY, "Hello World", wxPoint(30, 30), wxSize(400, 600)) {
@@ -50,15 +76,15 @@ mFrame::mFrame() : wxFrame(NULL, wxID_ANY, "Hello World", wxPoint(30, 30), wxSiz
 	wxButton* reset = new wxButton(this, 9001, "Reset", wxPoint(2, 508), wxSize(40, 30));
 	wxButton* setUrl = new wxButton(this, 9002, "Set URL", wxPoint(2, 28), wxSize(50, 30));
 
-	//Get all these aligned correctly
-	wxStaticText* averagepayout = new wxStaticText(this, wxID_ANY, "0.2");
-	wxStaticText* freq = new wxStaticText(this, wxID_ANY, "Monthly");
-	wxStaticText* pricerecov = new wxStaticText(this, wxID_ANY, "5.1");
-	wxStaticText* avgyield = new wxStaticText(this, wxID_ANY, "4.5%");
-	wxStaticText* yieldanddiv = new wxStaticText(this, wxID_ANY, "9.4%");
-	wxStaticText* price = new wxStaticText(this, wxID_ANY, "$125.89");
-	wxStaticText* mktcap = new wxStaticText(this, wxID_ANY, "345MIL");
-	wxStaticText* growth = new wxStaticText(this, wxID_ANY, "-20.89%");
+	//Add code to concat values pulled from html, and add changing of text when new url parsed
+	wxStaticText* averagepayout = new wxStaticText(this, wxID_ANY, "Average Payout: 0.2", wxPoint(202, 30), wxSize(70, 30));
+	wxStaticText* freq = new wxStaticText(this, wxID_ANY, "Frequency: Monthly", wxPoint(282, 30), wxSize(70, 30));
+	wxStaticText* pricerecov = new wxStaticText(this, wxID_ANY, "Days to Price Recovery: 5.1", wxPoint(204, 70), wxSize(100, 30));
+	wxStaticText* avgyield = new wxStaticText(this, wxID_ANY, "Average Yield: 4.5%", wxPoint(284, 70), wxSize(100, 30));
+	wxStaticText* yieldanddiv = new wxStaticText(this, wxID_ANY, "Yield and Dividend: 9.4%", wxPoint(204, 110), wxSize(100, 30));
+	wxStaticText* price = new wxStaticText(this, wxID_ANY, "Price: $125.89", wxPoint(284, 110), wxSize(100, 30));
+	wxStaticText* mktcap = new wxStaticText(this, wxID_ANY, "Market Cap: 345MIL", wxPoint(204, 150), wxSize(100, 30));
+	wxStaticText* growth = new wxStaticText(this, wxID_ANY, "Growth: -20.89%", wxPoint(284, 150), wxSize(100, 30));
 
 
 	datalist = new wxListBox(this, wxID_ANY, wxPoint(2, 60), wxSize(200, 300));
