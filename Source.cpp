@@ -11,12 +11,12 @@ CURL* curl;
 std::string out;
 wxListBox* datalist;
 
-float pricing;
-float growth;
+std::string pricing;
+std::string growth[5];
 float avgpayout;
-float pricerecovery;
-float averageyield;
-float yieldanddividend;
+std::string pricerecovery;
+std::string averageyield;
+std::string yieldanddividend;
 std::string freqi;
 std::string mktcap;
 
