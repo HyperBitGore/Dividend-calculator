@@ -4,7 +4,7 @@
 #include <curl/curl.h>
 #include <fstream>
 
-enum { ID_HELLO = 1, ID_SETTINGS};
+enum { ID_HELLO = 1, ID_SETTINGS, ID_DRIP};
 
 extern CURL* curl;
 extern std::string out;
@@ -17,6 +17,7 @@ extern std::string averageyield;
 extern std::string yieldanddividend;
 extern std::string freqi;
 extern std::string mktcap;
+extern std::string symbol;
 extern std::fstream file;
 
 class cApp : public wxApp {
@@ -45,10 +46,11 @@ private:
 	wxStaticText* growth5year;
 	wxStaticText* growth10year;
 	wxStaticText* growth20year;
+	wxStaticText* symbolout;
 public:
 	void OnReset(wxCommandEvent& evt);
 	void OnSetURLB(wxCommandEvent& evt);
-
+	void OnDrip(wxCommandEvent& evt);
 	wxDECLARE_EVENT_TABLE();
 };
 

@@ -19,6 +19,7 @@ std::string averageyield;
 std::string yieldanddividend;
 std::string freqi;
 std::string mktcap;
+std::string symbol;
 
 std::fstream file;
 

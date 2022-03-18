@@ -209,6 +209,32 @@ void findGrowths(std::string file) {
 	}
 	f.close();
 }
+void findSymbol(std::string file) {
+	std::ifstream f;
+	f.open(file);
+	std::string line;
+	std::string ret;
+	bool savenextline = false;
+	while (getline(f, line)) {
+		if (savenextline) {
+			for (int i = 0; i < line.size(); i++) {
+				if (line[i] != '\n') {
+					ret.push_back(line[i]);
+				}
+			}
+			symbol = ret;
+			ret.clear();
+			f.close();
+			return;
+		}
+		if (line.find("t-flex t-h-full t-items-center t-font-semibold t-text-2xl md:t-text-lg t-uppercase t-leading-tighter") != std::string::npos) {
+			savenextline = true;
+		}
+	}
+
+	f.close();
+
+}
 
 
 void mFrame::OnExit(wxCommandEvent& event)
@@ -230,8 +256,10 @@ void mFrame::OnReset(wxCommandEvent& evt) {
 	datalist->Clear();
 	evt.Skip();
 }
-
-//For payout history, gonna have to do some packet wizardy or something to get data
+void mFrame::OnDrip(wxCommandEvent& evt) {
+	
+	evt.Skip();
+}
 size_t got_data(char *buf, size_t itemsize, size_t nitems, void* ignore) {
 	size_t bytes = itemsize * nitems;
 	for (int i = 0; i < bytes; i++) {
@@ -243,6 +271,15 @@ size_t got_data(char *buf, size_t itemsize, size_t nitems, void* ignore) {
 	}
 	return bytes;
 }
+size_t get_json_data(char* buf, size_t itemsize, size_t nitems, void* ignore) {
+	size_t bytes = itemsize * nitems;
+	for (int i = 0; i < bytes; i++) {
+		file << buf[i];
+	}
+	return bytes;
+}
+
+
 //https://wiki.wxwidgets.org/Converting_everything_to_and_from_wxString
 void mFrame::OnSetURLB(wxCommandEvent& evt) {
 	wxString mstring(text->GetValue());
@@ -262,6 +299,7 @@ void mFrame::OnSetURLB(wxCommandEvent& evt) {
 	findPriceRecov("temp.txt");
 	findAvgYield("temp.txt");
 	findGrowths("temp.txt");
+	findSymbol("temp.txt");
 
 	std::string tem1 = "Price:" + pricing;
 	wxString temp1(tem1);
@@ -296,15 +334,44 @@ void mFrame::OnSetURLB(wxCommandEvent& evt) {
 	std::string tem11 = "Growth 20 Year: " + growth[4];
 	wxString temp11(tem11);
 	growth20year->SetLabelText(temp11);
+	std::string tem12 = "Symbol: " + symbol;
+	wxString temp12(tem12);
+	symbolout->SetLabelText(temp12);
 
 	//Write code for finding average payout here
+	curl_easy_reset(curl);
+	file.open("payout.txt");
+	//Do a get request to dividend.com api(inspect packet when you click show all payment history). Will returna .json file it seems, write that to a file and figure out how to extract data I need
+	//Need to get symbol of current asset and use that to get the API address
+	//https://niranjanmalviya.wordpress.com/2018/06/23/get-json-data-using-curl/
+	//use above link as starting point in engineering header for dividend.com
+	//Add someway to log everything going on with this so debugging is easier
+	std::string symurl = "https://www.dividend.com/api/u/TPDIMTPDS/?symbol=" + symbol;
+	curl_slist *header = NULL;
+	header = curl_slist_append(header, "accept:application/json,text/plain,*/*");
+	header = curl_slist_append(header, "accept-encoding:gzip, deflate, br");
+	header = curl_slist_append(header, "accept-language:en-US,en;q=0.9");
+	header = curl_slist_append(header, "content-type:application/json;charset=utf-8");
+	header = curl_slist_append(header, "cookie:mid=mid44a0b46924a800697a0ff3c351d09e94; exit_interstitial_without_ad=true");
+	header = curl_slist_append(header, "dnt:1");
+	header = curl_slist_append(header, "if-none-match:W/\"d7d25d30097cad9846896d2b40c0b98f\"");
+	std::string ref = "referer:" + temp;
+	header = curl_slist_append(header, ref.c_str());
 
+	curl_easy_setopt(curl, CURLOPT_HTTPHEADER, header);
+	curl_easy_setopt(curl, CURLOPT_URL, symurl);
+	curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, get_json_data);
+	curl_easy_perform(curl);
 
+	curl_slist_free_all(header);
+	file.close();
 }
 
-mFrame::mFrame() : wxFrame(NULL, wxID_ANY, "Hello World", wxPoint(30, 30), wxSize(400, 600)) {
+mFrame::mFrame() : wxFrame(NULL, wxID_ANY, "Dividend Calculator", wxPoint(30, 30), wxSize(400, 600)) {
 	wxMenu* menuFile = new wxMenu;
-	menuFile->Append(ID_SETTINGS, "&Settings\tCtrl-H", "Help string");
+	menuFile->Append(ID_SETTINGS, "&Settings\tCtrl-H", "The settings");
+	menuFile->AppendSeparator();
+	menuFile->Append(ID_DRIP, "&DRIP", "Calculate DRIP");
 	menuFile->AppendSeparator();
 	menuFile->Append(wxID_EXIT);
 	wxMenu* menHelp = new wxMenu;
@@ -319,6 +386,8 @@ mFrame::mFrame() : wxFrame(NULL, wxID_ANY, "Hello World", wxPoint(30, 30), wxSiz
 
 	wxButton* reset = new wxButton(this, 9001, "Reset", wxPoint(2, 508), wxSize(40, 30));
 	wxButton* setUrl = new wxButton(this, 9002, "Set URL", wxPoint(2, 28), wxSize(50, 30));
+
+	symbolout = new wxStaticText(this, wxID_ANY, "N/A", wxPoint(70, 28), wxSize(75, 30));
 
 	wxStaticText* averagepayout = new wxStaticText(this, wxID_ANY, "Average Payout: 0.2", wxPoint(204, 30), wxSize(70, 30));
 	freq = new wxStaticText(this, wxID_ANY, "Frequency: Monthly", wxPoint(204, 70), wxSize(70, 30));
@@ -341,6 +410,7 @@ mFrame::mFrame() : wxFrame(NULL, wxID_ANY, "Hello World", wxPoint(30, 30), wxSiz
 
 
 	Bind(wxEVT_MENU, &mFrame::OnSettings, this, ID_SETTINGS);
+	Bind(wxEVT_MENU, &mFrame::OnDrip, this, ID_DRIP);
 	Bind(wxEVT_MENU, &mFrame::OnAbout, this, wxID_ABOUT);
 	Bind(wxEVT_MENU, &mFrame::OnExit, this, wxID_EXIT);
 }
