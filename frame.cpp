@@ -5,6 +5,19 @@ EVT_BUTTON(9001, OnReset)
 EVT_BUTTON(9002, OnSetURLB)
 wxEND_EVENT_TABLE()
 
+std::fstream ff;
+
+size_t getStringOccurences(std::string base, std::string cmp) {
+	size_t occ = 0;
+	std::string::size_type pos = 0;
+	while ((pos = base.find(cmp, pos)) != std::string::npos) {
+		occ++;
+		pos += cmp.length();
+	}
+	return occ;
+}
+
+
 void findPrice(std::string file) {
 	std::ifstream f;
 	f.open(file);
@@ -235,6 +248,63 @@ void findSymbol(std::string file) {
 	f.close();
 
 }
+void findPays(std::string file) {
+	std::ifstream f;
+	f.open(file);
+	std::string line;
+	std::string ret;
+	std::string prev = "PEEPEEPOOPPOO";
+
+
+	while (getline(f, line)) {
+		size_t found = line.find("Pay Date");
+		if (line.find(prev) == std::string::npos) {
+			if (found != std::string::npos) {
+				if (getStringOccurences(line, "null") <= 1) {
+					size_t start = found;
+					pay pet;
+					for (int i = found; i < line.size(); i++) {
+						if (std::isdigit(line[i])) {
+							start = i;
+							i = line.size();
+						}
+					}
+					for (int i = start; i < line.size(); i++) {
+						if (line[i] != '}' && line[i] != '\"') {
+							ret.push_back(line[i]);
+						}
+						else {
+							pet.paydate = ret;
+							prev = ret;
+							ret.clear();
+							i = line.size();
+						}
+					}
+					size_t outfind = line.find("DPS");
+					for (int i = outfind; i < line.size(); i++) {
+						if (line[i] == '$') {
+							start = i + 1;
+							i = line.size();
+						}
+					}
+					for (int i = start; i < line.size(); i++) {
+						if (std::isdigit(line[i]) || line[i] == '.') {
+							ret.push_back(line[i]);
+						}
+						else {
+							pet.payout = std::stof(ret);
+							ret.clear();
+							i = line.size();
+						}
+					}
+					pays.push_back(pet);
+				}
+			}
+		}
+	}
+	f.close();
+}
+
 
 
 void mFrame::OnExit(wxCommandEvent& event)
@@ -274,9 +344,42 @@ size_t got_data(char *buf, size_t itemsize, size_t nitems, void* ignore) {
 size_t get_json_data(char* buf, size_t itemsize, size_t nitems, void* ignore) {
 	size_t bytes = itemsize * nitems;
 	for (int i = 0; i < bytes; i++) {
-		file << buf[i];
+		ff << buf[i];
+		if (buf[i] == '}' && buf[i + 1] == ',') {
+			ff << '\n';
+		}
 	}
 	return bytes;
+}
+
+std::string getFullname(std::string url) {
+	size_t found = 0;
+	std::string t;
+	/*if (found != std::string::npos) {
+		std::cout << found << std::endl;
+		size_t start = found + 22;
+		std::cout << start << std::endl;
+		for (int i = start; i < url.size(); i++) {
+			t.push_back(url[i]);
+		}
+		return t;
+	}*/
+	size_t count = 0;
+	for (int i = 0; i < url.size(); i++) {
+		if (url[i] == '/') {
+			count++;
+		}
+		if (count == 5) {
+			found = i;
+		}
+	}
+	if (count < 5) {
+		return "NULL";
+	}
+	for (int i = found; i < url.size(); i++) {
+		t.push_back(url[i]);
+	}
+	return t;
 }
 
 
@@ -287,6 +390,7 @@ void mFrame::OnSetURLB(wxCommandEvent& evt) {
 	file.open("temp.txt");
 	curl_easy_setopt(curl, CURLOPT_URL, temp.c_str());
 	curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, got_data);
+	curl_easy_setopt(curl, CURLOPT_FORBID_REUSE, 1L);
 	curl_easy_perform(curl);
 
 	text->Clear();
@@ -339,32 +443,36 @@ void mFrame::OnSetURLB(wxCommandEvent& evt) {
 	symbolout->SetLabelText(temp12);
 
 	//Write code for finding average payout here
+	std::fstream fl;
+	//Maybe just create a new curl handle for each call of this and each request
 	curl_easy_reset(curl);
-	file.open("payout.txt");
-	//Do a get request to dividend.com api(inspect packet when you click show all payment history). Will returna .json file it seems, write that to a file and figure out how to extract data I need
-	//Need to get symbol of current asset and use that to get the API address
-	//https://niranjanmalviya.wordpress.com/2018/06/23/get-json-data-using-curl/
-	//use above link as starting point in engineering header for dividend.com
-	//Add someway to log everything going on with this so debugging is easier
-	std::string symurl = "https://www.dividend.com/api/u/TPDIMTPDS/?symbol=" + symbol;
+	ff.open("payout.txt");
+	std::string symurl = "https://www.dividend.com/api/dividend/stocks/quote_chart/" + getFullname(temp);
 	curl_slist *header = NULL;
-	header = curl_slist_append(header, "accept:application/json,text/plain,*/*");
-	header = curl_slist_append(header, "accept-encoding:gzip, deflate, br");
-	header = curl_slist_append(header, "accept-language:en-US,en;q=0.9");
-	header = curl_slist_append(header, "content-type:application/json;charset=utf-8");
-	header = curl_slist_append(header, "cookie:mid=mid44a0b46924a800697a0ff3c351d09e94; exit_interstitial_without_ad=true");
-	header = curl_slist_append(header, "dnt:1");
-	header = curl_slist_append(header, "if-none-match:W/\"d7d25d30097cad9846896d2b40c0b98f\"");
-	std::string ref = "referer:" + temp;
-	header = curl_slist_append(header, ref.c_str());
-
+	header = curl_slist_append(header, "authority:www.dividend.com");
+	header = curl_slist_append(header, "sec-ch-ua:\"Chromium\"; v = \"2021\", \";Not A Brand\"; v = \"99\"");
 	curl_easy_setopt(curl, CURLOPT_HTTPHEADER, header);
-	curl_easy_setopt(curl, CURLOPT_URL, symurl);
+	curl_easy_setopt(curl, CURLOPT_URL, symurl.c_str());
 	curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, get_json_data);
+	curl_easy_setopt(curl, CURLOPT_FORBID_REUSE, 1L);
 	curl_easy_perform(curl);
-
+	
 	curl_slist_free_all(header);
-	file.close();
+	ff.close();
+	curl_easy_reset(curl);
+	findPays("payout.txt");
+	float avgp = 0;
+	for (auto& i : pays) {
+		avgp += i.payout;
+		std::string ten = i.paydate + ":$" + std::to_string(i.payout);
+		wxString lt(ten);
+		datalist->AppendString(lt);
+	}
+	avgp = avgp / pays.size();
+	std::string tem13 = "Average Payout: " + std::to_string(avgp);
+	wxString temp13(tem13);
+	averagepayout->SetLabelText(temp13);
+
 }
 
 mFrame::mFrame() : wxFrame(NULL, wxID_ANY, "Dividend Calculator", wxPoint(30, 30), wxSize(400, 600)) {
@@ -389,7 +497,7 @@ mFrame::mFrame() : wxFrame(NULL, wxID_ANY, "Dividend Calculator", wxPoint(30, 30
 
 	symbolout = new wxStaticText(this, wxID_ANY, "N/A", wxPoint(70, 28), wxSize(75, 30));
 
-	wxStaticText* averagepayout = new wxStaticText(this, wxID_ANY, "Average Payout: 0.2", wxPoint(204, 30), wxSize(70, 30));
+	averagepayout = new wxStaticText(this, wxID_ANY, "Average Payout: 0.2", wxPoint(204, 30), wxSize(70, 30));
 	freq = new wxStaticText(this, wxID_ANY, "Frequency: Monthly", wxPoint(204, 70), wxSize(70, 30));
 	pricerecov = new wxStaticText(this, wxID_ANY, "Days to Price Recovery: 5.1", wxPoint(204, 100), wxSize(100, 30));
 	avgyield = new wxStaticText(this, wxID_ANY, "Average Yield: 4.5%", wxPoint(204, 130), wxSize(100, 30));

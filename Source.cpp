@@ -22,7 +22,9 @@ std::string mktcap;
 std::string symbol;
 
 std::fstream file;
-
+std::vector<float> payouts;
+std::vector<std::string> paydates;
+std::vector<pay> pays;
 
 cApp::cApp() {
 
