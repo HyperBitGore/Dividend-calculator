@@ -355,25 +355,17 @@ size_t get_json_data(char* buf, size_t itemsize, size_t nitems, void* ignore) {
 std::string getFullname(std::string url) {
 	size_t found = 0;
 	std::string t;
-	/*if (found != std::string::npos) {
-		std::cout << found << std::endl;
-		size_t start = found + 22;
-		std::cout << start << std::endl;
-		for (int i = start; i < url.size(); i++) {
-			t.push_back(url[i]);
-		}
-		return t;
-	}*/
 	size_t count = 0;
 	for (int i = 0; i < url.size(); i++) {
 		if (url[i] == '/') {
 			count++;
 		}
-		if (count == 5) {
-			found = i;
+		if (count == 7) {
+			found = i + 1;
+			i = url.size();
 		}
 	}
-	if (count < 5) {
+	if (count < 7) {
 		return "NULL";
 	}
 	for (int i = found; i < url.size(); i++) {
@@ -451,6 +443,15 @@ void mFrame::OnSetURLB(wxCommandEvent& evt) {
 	curl_slist *header = NULL;
 	header = curl_slist_append(header, "authority:www.dividend.com");
 	header = curl_slist_append(header, "sec-ch-ua:\"Chromium\"; v = \"2021\", \";Not A Brand\"; v = \"99\"");
+	header = curl_slist_append(header, "accept:application/json,text/plain,*/*");
+	header = curl_slist_append(header, "accept-encoding:identity");
+	header = curl_slist_append(header, "content-type:application/json;charset=utf-8");
+	header = curl_slist_append(header, "dnt:1");
+	header = curl_slist_append(header, "sec-ch-ua-platform:\"Android\"");
+	header = curl_slist_append(header, "sec-fetch-dest:empty");
+	header = curl_slist_append(header, "sec-fetch-mode:cors");
+	header = curl_slist_append(header, "sec-fetch-site:same-origin");
+	header = curl_slist_append(header, "accept-language:en-US,en;q=0.9");
 	curl_easy_setopt(curl, CURLOPT_HTTPHEADER, header);
 	curl_easy_setopt(curl, CURLOPT_URL, symurl.c_str());
 	curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, get_json_data);
@@ -460,8 +461,10 @@ void mFrame::OnSetURLB(wxCommandEvent& evt) {
 	curl_slist_free_all(header);
 	ff.close();
 	curl_easy_reset(curl);
+	pays.clear();
 	findPays("payout.txt");
 	float avgp = 0;
+	datalist->Clear();
 	for (auto& i : pays) {
 		avgp += i.payout;
 		std::string ten = i.paydate + ":$" + std::to_string(i.payout);
