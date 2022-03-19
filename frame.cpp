@@ -482,8 +482,6 @@ mFrame::mFrame() : wxFrame(NULL, wxID_ANY, "Dividend Calculator", wxPoint(30, 30
 	wxMenu* menuFile = new wxMenu;
 	menuFile->Append(ID_SETTINGS, "&Settings\tCtrl-H", "The settings");
 	menuFile->AppendSeparator();
-	menuFile->Append(ID_DRIP, "&DRIP", "Calculate DRIP");
-	menuFile->AppendSeparator();
 	menuFile->Append(wxID_EXIT);
 	wxMenu* menHelp = new wxMenu;
 	menHelp->Append(wxID_ABOUT);
