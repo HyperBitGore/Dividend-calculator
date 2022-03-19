@@ -5,7 +5,6 @@ EVT_BUTTON(9001, OnReset)
 EVT_BUTTON(9002, OnSetURLB)
 wxEND_EVENT_TABLE()
 
-std::fstream ff;
 
 size_t getStringOccurences(std::string base, std::string cmp) {
 	size_t occ = 0;
@@ -327,7 +326,6 @@ void mFrame::OnReset(wxCommandEvent& evt) {
 	evt.Skip();
 }
 void mFrame::OnDrip(wxCommandEvent& evt) {
-	
 	evt.Skip();
 }
 size_t got_data(char *buf, size_t itemsize, size_t nitems, void* ignore) {
@@ -344,9 +342,9 @@ size_t got_data(char *buf, size_t itemsize, size_t nitems, void* ignore) {
 size_t get_json_data(char* buf, size_t itemsize, size_t nitems, void* ignore) {
 	size_t bytes = itemsize * nitems;
 	for (int i = 0; i < bytes; i++) {
-		ff << buf[i];
+		file << buf[i];
 		if (buf[i] == '}' && buf[i + 1] == ',') {
-			ff << '\n';
+			file << '\n';
 		}
 	}
 	return bytes;
@@ -434,11 +432,8 @@ void mFrame::OnSetURLB(wxCommandEvent& evt) {
 	wxString temp12(tem12);
 	symbolout->SetLabelText(temp12);
 
-	//Write code for finding average payout here
-	std::fstream fl;
-	//Maybe just create a new curl handle for each call of this and each request
 	curl_easy_reset(curl);
-	ff.open("payout.txt");
+	file.open("payout.txt");
 	std::string symurl = "https://www.dividend.com/api/dividend/stocks/quote_chart/" + getFullname(temp);
 	curl_slist *header = NULL;
 	header = curl_slist_append(header, "authority:www.dividend.com");
@@ -459,7 +454,7 @@ void mFrame::OnSetURLB(wxCommandEvent& evt) {
 	curl_easy_perform(curl);
 	
 	curl_slist_free_all(header);
-	ff.close();
+	file.close();
 	curl_easy_reset(curl);
 	pays.clear();
 	findPays("payout.txt");

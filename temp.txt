@@ -3,8 +3,8 @@
 <head>
 <link rel="alternate" type="application/rss+xml" title="RSS" href="https://www.dividend.com/feed/" />
 <script>
-  window.websiteProperty = "dividend"; window.MPageTargets = JSON.parse('{"Sec":"financials","Ind":"asset-management","Sub":"investment-management","ShrClass":"Common"}');
-  window.tagList = JSON.parse("[&quot;financials&quot;,&quot;asset-management&quot;,&quot;DHY--ARCX&quot;,&quot;DHY&quot;,&quot;stock&quot;]".replace(/&quot;/g, '\"'));
+  window.websiteProperty = "dividend"; window.MPageTargets = JSON.parse('{"Sec":"technology","Ind":"software","Sub":"infrastructure-software","ShrClass":"Common"}');
+  window.tagList = JSON.parse("[&quot;technology&quot;,&quot;software&quot;,&quot;MSFT--NASDAQ&quot;,&quot;MSFT&quot;,&quot;stock&quot;]".replace(/&quot;/g, '\"'));
   window.MConstants = JSON.parse('{"cachedSecurities":[{"symbol":"MATFX","security_type":"funds","data":{"symbol":"MATFX","share_class":"Inv","price_as_of":"2022-03-07","price_change_percent":-5.016,"dividend_yield_current":0.0,"index_fund":false,"dividend_annual_current":0.0,"net_assets":"1075528404","trailing_yield":null,"expense_ratio":"1.1","exchange":null,"ltm_dividend":0.0,"legal_name":"Matthews Asia Innovators Fund","security_type":"mutual_fund","last_price":14.96,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":50,"created_at":"2021-02-02T15:19:31.000-05:00","updated_at":"2022-03-09T03:59:09.000-05:00","location":"sr"},{"symbol":"MATFX","security_type":"funds","data":{"symbol":"MATFX","share_class":"Inv","price_as_of":"2022-03-07","price_change_percent":-5.016,"dividend_yield_current":0.0,"index_fund":false,"dividend_annual_current":0.0,"net_assets":"1075528404","trailing_yield":null,"expense_ratio":"1.1","exchange":null,"ltm_dividend":0.0,"legal_name":"Matthews Asia Innovators Fund","security_type":"mutual_fund","last_price":14.96,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":51,"created_at":"2021-02-02T15:19:42.000-05:00","updated_at":"2022-03-09T03:59:09.000-05:00","location":"ltm"},{"symbol":"MEGMX","security_type":"funds","data":{"symbol":"MEGMX","share_class":"Inv","price_as_of":"2022-03-16","price_change_percent":5.111,"dividend_yield_current":0,"index_fund":false,"dividend_annual_current":null,"net_assets":"48551136","trailing_yield":0.0,"expense_ratio":"1.08","exchange":null,"ltm_dividend":0,"legal_name":"Matthews Emerging Markets Equity Fund","security_type":"mutual_fund","last_price":12.34,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":52,"created_at":"2021-02-02T15:20:31.000-05:00","updated_at":"2022-03-18T02:21:54.000-04:00","location":"ltm"},{"symbol":"MCHFX","security_type":"funds","data":{"symbol":"MCHFX","share_class":"Inv","price_as_of":"2022-03-16","price_change_percent":16.759,"dividend_yield_current":0.002953337271116362,"index_fund":false,"dividend_annual_current":0.05,"net_assets":"1221673381","trailing_yield":0.003,"expense_ratio":"1.09","exchange":null,"ltm_dividend":0.05,"legal_name":"Matthews China Fund","security_type":"mutual_fund","last_price":16.93,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":53,"created_at":"2021-02-02T15:20:41.000-05:00","updated_at":"2022-03-18T05:22:07.000-04:00","location":"ltm"},{"symbol":"MCSMX","security_type":"funds","data":{"symbol":"MCSMX","share_class":"Other","price_as_of":"2022-03-16","price_change_percent":8.853,"dividend_yield_current":0.009041828040278853,"index_fund":false,"dividend_annual_current":0.11673,"net_assets":"341938426","trailing_yield":0.009,"expense_ratio":"1.43","exchange":null,"ltm_dividend":0.11673,"legal_name":"Matthews China Small Companies Fund","security_type":"mutual_fund","last_price":12.91,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":54,"created_at":"2021-02-02T15:20:58.000-05:00","updated_at":"2022-03-18T05:22:07.000-04:00","location":"ltm"},{"symbol":"MPACX","security_type":"funds","data":{"symbol":"MPACX","share_class":"Inv","price_as_of":"2022-03-16","price_change_percent":7.406,"dividend_yield_current":0.0,"index_fund":false,"dividend_annual_current":0.0,"net_assets":"1338438903","trailing_yield":null,"expense_ratio":"1.08","exchange":null,"ltm_dividend":0.0,"legal_name":"Matthews Asia Growth Fund","security_type":"mutual_fund","last_price":24.51,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":55,"created_at":"2021-02-02T15:21:11.000-05:00","updated_at":"2022-03-18T02:21:54.000-04:00","location":"ltm"},{"symbol":"MEGMX","security_type":"funds","data":{"symbol":"MEGMX","share_class":"Inv","price_as_of":"2022-03-16","price_change_percent":5.111,"dividend_yield_current":0,"index_fund":false,"dividend_annual_current":null,"net_assets":"48551136","trailing_yield":0.0,"expense_ratio":"1.08","exchange":null,"ltm_dividend":0,"legal_name":"Matthews Emerging Markets Equity Fund","security_type":"mutual_fund","last_price":12.34,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":56,"created_at":"2021-02-03T16:37:37.000-05:00","updated_at":"2022-03-18T02:21:54.000-04:00","location":"sr"},{"symbol":"SPAK","security_type":"funds","data":{"symbol":"SPAK","share_class":null,"price_as_of":"2022-03-17","price_change_percent":2.492581602373887,"dividend_yield_current":0.015517346265199768,"index_fund":true,"dividend_annual_current":0.26798457,"net_assets":"21276360","trailing_yield":0.0155,"expense_ratio":"0.45","exchange":"ARCX","ltm_dividend":0.26798457,"legal_name":"Defiance Next Gen SPAC Derived ETF","security_type":"etf","last_price":17.27,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":59,"created_at":"2021-02-16T09:59:43.000-05:00","updated_at":"2022-03-18T05:22:07.000-04:00","location":"sr"},{"symbol":"HERO","security_type":"funds","data":{"symbol":"HERO","share_class":null,"price_as_of":"2022-03-17","price_change_percent":-0.08097165991902834,"dividend_yield_current":0.005306077795786061,"index_fund":true,"dividend_annual_current":0.130954,"net_assets":"358067089","trailing_yield":0.0063,"expense_ratio":"0.5","exchange":"NASDAQ","ltm_dividend":0.15636299999999997,"legal_name":"Global X Video Games \u0026 Esports ETF","security_type":"etf","last_price":24.68,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":62,"created_at":"2021-02-16T17:58:53.000-05:00","updated_at":"2022-03-18T04:22:02.000-04:00","location":"sr"},{"symbol":"VUSFX","security_type":"funds","data":{"symbol":"VUSFX","share_class":"Inst","price_as_of":"2022-03-16","price_change_percent":-0.05,"dividend_yield_current":0.005984886649874056,"index_fund":false,"dividend_annual_current":0.11880000000000002,"net_assets":"19683207383","trailing_yield":0.0055,"expense_ratio":"0.1","exchange":null,"ltm_dividend":0.1086,"legal_name":"Vanguard Ultra-Short-Term Bond Fund","security_type":"mutual_fund","last_price":19.85,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":64,"created_at":"2021-02-18T12:09:43.000-05:00","updated_at":"2022-03-18T06:22:37.000-04:00","location":"sr"},{"symbol":"CWVIX","security_type":"funds","data":{"symbol":"CWVIX","share_class":"Inst","price_as_of":"2022-03-16","price_change_percent":3.968,"dividend_yield_current":0.012413061916878713,"index_fund":false,"dividend_annual_current":0.2927,"net_assets":"869697587","trailing_yield":0.0124,"expense_ratio":"0.89","exchange":null,"ltm_dividend":0.2927,"legal_name":"Calvert International Equity Fund","security_type":"mutual_fund","last_price":23.58,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":68,"created_at":"2021-02-25T13:10:10.000-05:00","updated_at":"2022-03-18T04:22:02.000-04:00","location":"sr"},{"symbol":"LSST","security_type":"funds","data":{"symbol":"LSST","share_class":null,"price_as_of":"2022-03-17","price_change_percent":-0.12340600575894693,"dividend_yield_current":0.007413509060955518,"index_fund":false,"dividend_annual_current":0.18,"net_assets":"49082648","trailing_yield":0.0082,"expense_ratio":"0.38","exchange":"ARCX","ltm_dividend":0.1997,"legal_name":"Natixis Loomis Sayles Short Duration Income ETF","security_type":"etf","last_price":24.28,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":69,"created_at":"2021-03-02T09:24:08.000-05:00","updated_at":"2022-03-18T02:21:54.000-04:00","location":"sr"},{"symbol":"MMIT","security_type":"funds","data":{"symbol":"MMIT","share_class":null,"price_as_of":"2022-03-17","price_change_percent":0.35545023696682465,"dividend_yield_current":0.01712396694214876,"index_fund":false,"dividend_annual_current":0.43512,"net_assets":"247892880","trailing_yield":0.0152,"expense_ratio":"0.31","exchange":"ARCX","ltm_dividend":0.38589,"legal_name":"IQ MacKay Municipal Intermediate ETF","security_type":"etf","last_price":25.41,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":72,"created_at":"2021-03-17T16:49:31.000-04:00","updated_at":"2022-03-18T05:22:07.000-04:00","location":"sr"},{"symbol":"MMIN","security_type":"funds","data":{"symbol":"MMIN","share_class":null,"price_as_of":"2022-03-17","price_change_percent":0.2705836876691148,"dividend_yield_current":0.018675404780262143,"index_fund":false,"dividend_annual_current":0.48444000000000004,"net_assets":"458226352","trailing_yield":0.0185,"expense_ratio":"0.31","exchange":"ARCX","ltm_dividend":0.48063,"legal_name":"IQ MacKay Municipal Insured ETF","security_type":"etf","last_price":25.94,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":73,"created_at":"2021-03-17T16:49:43.000-04:00","updated_at":"2022-03-18T05:22:07.000-04:00","location":"sr"},{"symbol":"AMNA","security_type":"funds","data":{"symbol":"AMNA","share_class":null,"price_as_of":"2022-03-17","price_change_percent":1.338432122370937,"dividend_yield_current":0.05249595687331536,"index_fund":true,"dividend_annual_current":1.9476,"net_assets":"73883600","trailing_yield":0.0514,"expense_ratio":null,"exchange":"ARCX","ltm_dividend":1.9066,"legal_name":"ETRACS Alerian Midstream Energy Index ETN","security_type":"etf","last_price":37.1,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":77,"created_at":"2021-04-08T15:01:05.000-04:00","updated_at":"2022-03-18T04:22:02.000-04:00","location":"sr"},{"symbol":"HYLD","security_type":"funds","data":{"symbol":"HYLD","share_class":null,"price_as_of":"2022-03-17","price_change_percent":0.521557719054242,"dividend_yield_current":0.07056381874783813,"index_fund":false,"dividend_annual_current":2.04,"net_assets":"106068032","trailing_yield":0.0716,"expense_ratio":"1.37","exchange":"ARCX","ltm_dividend":2.0700000000000003,"legal_name":"High Yield ETF","security_type":"etf","last_price":28.91,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":83,"created_at":"2021-05-17T16:32:46.000-04:00","updated_at":"2022-03-18T04:22:02.000-04:00","location":"sr"},{"symbol":"EMQQ","security_type":"funds","data":{"symbol":"EMQQ","share_class":null,"price_as_of":"2022-03-17","price_change_percent":-2.8478196380895877,"dividend_yield_current":0.0,"index_fund":true,"dividend_annual_current":0.0,"net_assets":"810986294","trailing_yield":null,"expense_ratio":"0.86","exchange":"ARCX","ltm_dividend":0.0,"legal_name":"EMQQ The Emerging Markets Internet \u0026 Ecommerce ETF","security_type":"etf","last_price":32.75,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":84,"created_at":"2021-05-17T17:38:51.000-04:00","updated_at":"2022-03-18T01:21:49.000-04:00","location":"sr"},{"symbol":"SEIX","security_type":"funds","data":{"symbol":"SEIX","share_class":null,"price_as_of":"2022-03-17","price_change_percent":0.5330053300533005,"dividend_yield_current":0.041535073409461665,"index_fund":false,"dividend_annual_current":1.01844,"net_assets":"58866489","trailing_yield":0.0326,"expense_ratio":"0.57","exchange":"ARCX","ltm_dividend":0.80023,"legal_name":"Virtus Seix Senior Loan ETF","security_type":"etf","last_price":24.52,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":85,"created_at":"2021-05-18T13:00:48.000-04:00","updated_at":"2022-03-18T05:22:07.000-04:00","location":"sr"},{"symbol":"QQQ","security_type":"funds","data":{"symbol":"QQQ","share_class":null,"price_as_of":"2022-03-17","price_change_percent":1.2106252938410906,"dividend_yield_current":0.005706770409940774,"index_fund":true,"dividend_annual_current":1.96564,"net_assets":"182657287558","trailing_yield":0.0049,"expense_ratio":"0.2","exchange":"NASDAQ","ltm_dividend":1.69679,"legal_name":"Invesco QQQ Trust","security_type":"etf","last_price":344.44,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":91,"created_at":"2021-05-20T12:15:27.000-04:00","updated_at":"2022-03-18T05:22:07.000-04:00","location":"sr"},{"symbol":"TSCSX","security_type":"funds","data":{"symbol":"TSCSX","share_class":"No Load","price_as_of":"2022-03-16","price_change_percent":2.727,"dividend_yield_current":0.005798848736808442,"index_fund":false,"dividend_annual_current":0.18133,"net_assets":"1543637930","trailing_yield":0.0,"expense_ratio":"0.8","exchange":null,"ltm_dividend":0,"legal_name":"Thrivent Small Cap Stock Fund","security_type":"mutual_fund","last_price":31.27,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":92,"created_at":"2021-05-28T11:49:13.000-04:00","updated_at":"2022-03-18T06:22:37.000-04:00","location":"sr"},{"symbol":"TDVG","security_type":"funds","data":{"symbol":"TDVG","share_class":"Other","price_as_of":"2022-03-17","price_change_percent":1.0057909174032307,"dividend_yield_current":0.010331925165962583,"index_fund":false,"dividend_annual_current":0.3424,"net_assets":"121783421","trailing_yield":0.0086,"expense_ratio":"0.5","exchange":"ARCX","ltm_dividend":0.2839,"legal_name":"T. Rowe Price Dividend Growth ETF","security_type":"etf","last_price":33.14,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":93,"created_at":"2021-06-10T15:51:06.000-04:00","updated_at":"2022-03-18T05:22:07.000-04:00","location":"sr"},{"symbol":"TEQI","security_type":"funds","data":{"symbol":"TEQI","share_class":"Other","price_as_of":"2022-03-17","price_change_percent":1.0720175920835624,"dividend_yield_current":0.01840630949143323,"index_fund":false,"dividend_annual_current":0.6768,"net_assets":"68076641","trailing_yield":0.016,"expense_ratio":"0.54","exchange":"ARCX","ltm_dividend":0.5889,"legal_name":"T. Rowe Price Equity Income ETF","security_type":"etf","last_price":36.77,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":94,"created_at":"2021-06-10T15:51:14.000-04:00","updated_at":"2022-03-18T05:22:07.000-04:00","location":"sr"},{"symbol":"NBPIX","security_type":"funds","data":{"symbol":"NBPIX","share_class":"Inst","price_as_of":"2022-03-16","price_change_percent":1.719,"dividend_yield_current":0.014183718861209966,"index_fund":false,"dividend_annual_current":0.6377,"net_assets":"9028258015","trailing_yield":0.0142,"expense_ratio":"0.63","exchange":null,"ltm_dividend":0.6377,"legal_name":"Neuberger Berman Large Cap Value Fund","security_type":"mutual_fund","last_price":44.96,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":95,"created_at":"2021-06-14T11:07:00.000-04:00","updated_at":"2022-03-18T05:22:07.000-04:00","location":"sr"},{"symbol":"SEEGX","security_type":"funds","data":{"symbol":"SEEGX","share_class":"Inst","price_as_of":"2022-03-16","price_change_percent":2.747,"dividend_yield_current":0.0,"index_fund":false,"dividend_annual_current":0.0,"net_assets":"35498903553","trailing_yield":null,"expense_ratio":"0.69","exchange":null,"ltm_dividend":0.0,"legal_name":"JPMorgan Large Cap Growth Fund","security_type":"mutual_fund","last_price":53.48,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":96,"created_at":"2021-06-15T11:41:19.000-04:00","updated_at":"2022-03-18T03:21:58.000-04:00","location":"sr"},{"symbol":"JQUA","security_type":"funds","data":{"symbol":"JQUA","share_class":null,"price_as_of":"2022-03-17","price_change_percent":1.1804384485666104,"dividend_yield_current":0.02016857142857143,"index_fund":true,"dividend_annual_current":0.84708,"net_assets":"373330136","trailing_yield":0.0143,"expense_ratio":"0.12","exchange":"ARCX","ltm_dividend":0.59952,"legal_name":"JPMorgan U.S. Quality Factor ETF","security_type":"etf","last_price":42.0,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":97,"created_at":"2021-06-15T11:41:26.000-04:00","updated_at":"2022-03-18T05:22:07.000-04:00","location":"sr"},{"symbol":"JMSIX","security_type":"funds","data":{"symbol":"JMSIX","share_class":"Inst","price_as_of":"2022-03-16","price_change_percent":0.222,"dividend_yield_current":0.03953488372093023,"index_fund":false,"dividend_annual_current":0.357,"net_assets":"12307525635","trailing_yield":0.0408,"expense_ratio":"0.41","exchange":null,"ltm_dividend":0.368299941,"legal_name":"JPMorgan Income Fund","security_type":"mutual_fund","last_price":9.03,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":98,"created_at":"2021-06-15T11:41:37.000-04:00","updated_at":"2022-03-18T05:22:07.000-04:00","location":"sr"},{"symbol":"JEPI","security_type":"funds","data":{"symbol":"JEPI","share_class":null,"price_as_of":"2022-03-17","price_change_percent":0.9647371922821024,"dividend_yield_current":0.09138583196046128,"index_fund":false,"dividend_annual_current":5.54712,"net_assets":"6911829961","trailing_yield":0.0728,"expense_ratio":"0.35","exchange":"ARCX","ltm_dividend":4.42155,"legal_name":"JPMorgan Equity Premium Income ETF","security_type":"etf","last_price":60.7,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":99,"created_at":"2021-06-15T11:41:44.000-04:00","updated_at":"2022-03-18T05:22:08.000-04:00","location":"sr"},{"symbol":"PARWX","security_type":"funds","data":{"symbol":"PARWX","share_class":"Inv","price_as_of":"2022-03-16","price_change_percent":2.504,"dividend_yield_current":0.019330685203574977,"index_fund":false,"dividend_annual_current":0.9733,"net_assets":"5319059393","trailing_yield":0.0193,"expense_ratio":"0.88","exchange":null,"ltm_dividend":0.9733,"legal_name":"Parnassus Endeavor Fund","security_type":"mutual_fund","last_price":50.35,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":100,"created_at":"2021-06-15T11:50:45.000-04:00","updated_at":"2022-03-18T05:22:09.000-04:00","location":"sr"},{"symbol":"AMLP","security_type":"funds","data":{"symbol":"AMLP","share_class":null,"price_as_of":"2022-03-17","price_change_percent":1.366044047950934,"dividend_yield_current":0.0781078107810781,"index_fund":true,"dividend_annual_current":2.84,"net_assets":"6239621178","trailing_yield":0.0778,"expense_ratio":"0.9","exchange":"ARCX","ltm_dividend":2.83,"legal_name":"Alerian MLP ETF","security_type":"etf","last_price":36.36,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":101,"created_at":"2021-07-07T14:22:06.000-04:00","updated_at":"2022-03-18T04:22:02.000-04:00","location":"sr"},{"symbol":"ILABX","security_type":"funds","data":{"symbol":"ILABX","share_class":"S","price_as_of":"2022-03-16","price_change_percent":0.099,"dividend_yield_current":0.01290772277227723,"index_fund":true,"dividend_annual_current":0.130368,"net_assets":"3238762129","trailing_yield":0.0182,"expense_ratio":"0.63","exchange":null,"ltm_dividend":0.18422214,"legal_name":"Voya U.S. Bond Index Portfolio","security_type":"mutual_fund","last_price":10.1,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":104,"created_at":"2021-07-27T17:09:05.000-04:00","updated_at":"2022-03-18T04:22:02.000-04:00","location":"sr"},{"symbol":"WACPX","security_type":"funds","data":{"symbol":"WACPX","share_class":"Inst","price_as_of":"2022-03-16","price_change_percent":0.465,"dividend_yield_current":0.024899888991674377,"index_fund":false,"dividend_annual_current":0.2691678,"net_assets":"39057509841","trailing_yield":0.0298,"expense_ratio":"0.45","exchange":null,"ltm_dividend":0.322386648,"legal_name":"Western Asset Core Plus Bond Fund","security_type":"mutual_fund","last_price":10.81,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":105,"created_at":"2021-07-28T17:27:18.000-04:00","updated_at":"2022-03-18T06:22:37.000-04:00","location":"sr"},{"symbol":"SMI","security_type":"funds","data":{"symbol":"SMI","share_class":null,"price_as_of":"2022-03-17","price_change_percent":0.12636899747262004,"dividend_yield_current":0.006714345814051325,"index_fund":false,"dividend_annual_current":0.3192,"net_assets":"14564119","trailing_yield":0.0039,"expense_ratio":"0.24","exchange":"BATS","ltm_dividend":0.1852,"legal_name":"VanEck HIP Sustainable Muni ETF","security_type":"etf","last_price":47.54,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":106,"created_at":"2021-09-16T15:43:58.000-04:00","updated_at":"2022-03-18T05:22:09.000-04:00","location":"sr"},{"symbol":"OUSA","security_type":"funds","data":{"symbol":"OUSA","share_class":null,"price_as_of":"2022-03-17","price_change_percent":1.043115438108484,"dividend_yield_current":0.012554163799036474,"index_fund":true,"dividend_annual_current":0.547236,"net_assets":"785823924","trailing_yield":0.0168,"expense_ratio":"0.48","exchange":"ARCX","ltm_dividend":0.731695,"legal_name":"O’Shares U.S. Quality Dividend ETF","security_type":"etf","last_price":43.59,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":107,"created_at":"2021-10-22T12:45:50.000-04:00","updated_at":"2022-03-18T05:22:09.000-04:00","location":"sr"},{"symbol":"JEPIX","security_type":"funds","data":{"symbol":"JEPIX","share_class":"Inst","price_as_of":"2022-03-16","price_change_percent":0.936,"dividend_yield_current":0.0988493880794702,"index_fund":false,"dividend_annual_current":1.4926257600000001,"net_assets":"2531501122","trailing_yield":0.0802,"expense_ratio":"0.61","exchange":null,"ltm_dividend":1.2104805060000001,"legal_name":"JPMorgan Equity Premium Income Fund","security_type":"mutual_fund","last_price":15.1,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":108,"created_at":"2021-10-31T20:25:41.000-04:00","updated_at":"2022-03-18T05:22:09.000-04:00","location":"sr"},{"symbol":"IUESX","security_type":"funds","data":{"symbol":"IUESX","share_class":"Inst","price_as_of":"2022-03-16","price_change_percent":4.702,"dividend_yield_current":0.01992336217552534,"index_fund":false,"dividend_annual_current":0.48354,"net_assets":"3440388597","trailing_yield":0.0199,"expense_ratio":"0.75","exchange":null,"ltm_dividend":0.48354,"legal_name":"JPMorgan International Focus Fund","security_type":"mutual_fund","last_price":24.27,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":109,"created_at":"2021-10-31T20:26:26.000-04:00","updated_at":"2022-03-18T04:22:03.000-04:00","location":"sr"},{"symbol":"SRBFX","security_type":"funds","data":{"symbol":"SRBFX","share_class":"Inst","price_as_of":"2022-03-16","price_change_percent":0.232,"dividend_yield_current":0.027709916531791907,"index_fund":false,"dividend_annual_current":0.958763112,"net_assets":"3687258731","trailing_yield":0.0298,"expense_ratio":"0.49","exchange":null,"ltm_dividend":1.030581237,"legal_name":"Columbia Total Return Bond Fund","security_type":"mutual_fund","last_price":34.6,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":111,"created_at":"2021-11-11T18:57:07.000-05:00","updated_at":"2022-03-18T05:22:09.000-04:00","location":"sr"},{"symbol":"NOBL","security_type":"funds","data":{"symbol":"NOBL","share_class":null,"price_as_of":"2022-03-17","price_change_percent":1.1256629505357723,"dividend_yield_current":0.027124949159798777,"index_fund":true,"dividend_annual_current":2.534284,"net_assets":"9687807201","trailing_yield":0.0199,"expense_ratio":"0.35","exchange":"ARCX","ltm_dividend":1.860206,"legal_name":"ProShares S\u0026P 500 Dividend Aristocrats ETF","security_type":"etf","last_price":93.43,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":112,"created_at":"2021-11-17T12:51:41.000-05:00","updated_at":"2022-03-18T05:22:09.000-04:00","location":"sr"},{"symbol":"OEIAX","security_type":"funds","data":{"symbol":"OEIAX","share_class":"A","price_as_of":"2022-03-16","price_change_percent":3.458,"dividend_yield_current":0.04130822281167108,"index_fund":false,"dividend_annual_current":0.77866,"net_assets":"4633958408","trailing_yield":0.0413,"expense_ratio":"0.6","exchange":null,"ltm_dividend":0.77866,"legal_name":"JPMorgan International Research Enhanced Equity Fund","security_type":"mutual_fund","last_price":18.85,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":113,"created_at":"2021-11-18T12:07:43.000-05:00","updated_at":"2022-03-18T05:22:09.000-04:00","location":"ltm"},{"symbol":"WOBDX","security_type":"funds","data":{"symbol":"WOBDX","share_class":"Inst","price_as_of":"2022-03-16","price_change_percent":0.089,"dividend_yield_current":0.017501340482573728,"index_fund":false,"dividend_annual_current":0.19584000000000001,"net_assets":"35371854422","trailing_yield":0.0213,"expense_ratio":"0.5","exchange":null,"ltm_dividend":0.2388,"legal_name":"JPMorgan Core Bond Fund","security_type":"mutual_fund","last_price":11.19,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":114,"created_at":"2021-11-18T12:07:52.000-05:00","updated_at":"2022-03-18T06:22:37.000-04:00","location":"ltm"},{"symbol":"JUEAX","security_type":"funds","data":{"symbol":"JUEAX","share_class":"A","price_as_of":"2022-03-16","price_change_percent":2.422,"dividend_yield_current":0.0029674876847290642,"index_fund":false,"dividend_annual_current":0.06024,"net_assets":"21062294617","trailing_yield":0.0034,"expense_ratio":"0.94","exchange":null,"ltm_dividend":0.06975,"legal_name":"JPMorgan U.S. Equity Fund","security_type":"mutual_fund","last_price":20.3,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":115,"created_at":"2021-11-18T12:07:59.000-05:00","updated_at":"2022-03-18T05:22:10.000-04:00","location":"ltm"},{"symbol":"OGEAX","security_type":"funds","data":{"symbol":"OGEAX","share_class":"A","price_as_of":"2022-03-16","price_change_percent":2.235,"dividend_yield_current":0.011112809538367472,"index_fund":true,"dividend_annual_current":0.727,"net_assets":"7460759405","trailing_yield":0.0093,"expense_ratio":"0.45","exchange":null,"ltm_dividend":0.61077,"legal_name":"JPMorgan Equity Index Fund","security_type":"mutual_fund","last_price":65.42,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":116,"created_at":"2021-11-18T12:08:06.000-05:00","updated_at":"2022-03-18T05:22:10.000-04:00","location":"ltm"},{"symbol":"JVAAX","security_type":"funds","data":{"symbol":"JVAAX","share_class":"A","price_as_of":"2022-03-16","price_change_percent":1.518,"dividend_yield_current":0.007889581256231307,"index_fund":false,"dividend_annual_current":0.31653,"net_assets":"10719711417","trailing_yield":0.0079,"expense_ratio":"1.04","exchange":null,"ltm_dividend":0.31653,"legal_name":"JPMorgan Value Advantage Fund","security_type":"mutual_fund","last_price":40.12,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":117,"created_at":"2021-11-18T12:46:38.000-05:00","updated_at":"2022-03-18T05:22:10.000-04:00","location":"ltm"},{"symbol":"PBCKX","security_type":"funds","data":{"symbol":"PBCKX","share_class":"Inst","price_as_of":"2022-03-16","price_change_percent":3.222,"dividend_yield_current":0.0026662777129521586,"index_fund":false,"dividend_annual_current":0.0914,"net_assets":"9653072770","trailing_yield":0.0,"expense_ratio":"0.66","exchange":null,"ltm_dividend":0,"legal_name":"Principal Blue Chip Fund","security_type":"mutual_fund","last_price":34.28,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":118,"created_at":"2021-11-18T16:38:08.000-05:00","updated_at":"2022-03-18T05:22:10.000-04:00","location":"sr"},{"symbol":"PEIIX","security_type":"funds","data":{"symbol":"PEIIX","share_class":"Inst","price_as_of":"2022-03-16","price_change_percent":1.79,"dividend_yield_current":0.015043973098810141,"index_fund":false,"dividend_annual_current":0.5816,"net_assets":"10251648858","trailing_yield":0.0115,"expense_ratio":"0.52","exchange":null,"ltm_dividend":0.443,"legal_name":"Principal Equity Income Fund","security_type":"mutual_fund","last_price":38.66,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":119,"created_at":"2021-11-18T16:43:03.000-05:00","updated_at":"2022-03-18T05:22:11.000-04:00","location":"sr"},{"symbol":"PITEX","security_type":"funds","data":{"symbol":"PITEX","share_class":"Inst","price_as_of":"2022-03-16","price_change_percent":0.0,"dividend_yield_current":0.021562639330543934,"index_fund":false,"dividend_annual_current":0.154604124,"net_assets":"806320556","trailing_yield":0.0253,"expense_ratio":"0.48","exchange":null,"ltm_dividend":0.181115874,"legal_name":"Principal Tax-Exempt Bond Fund","security_type":"mutual_fund","last_price":7.17,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":120,"created_at":"2021-11-18T16:43:13.000-05:00","updated_at":"2022-03-18T05:22:11.000-04:00","location":"sr"},{"symbol":"OIEIX","security_type":"funds","data":{"symbol":"OIEIX","share_class":"A","price_as_of":"2022-03-16","price_change_percent":1.323,"dividend_yield_current":0.014518067043970398,"index_fund":false,"dividend_annual_current":0.33348,"net_assets":"50346801658","trailing_yield":0.0133,"expense_ratio":"0.96","exchange":null,"ltm_dividend":0.30562,"legal_name":"JPMorgan Equity Income Fund","security_type":"mutual_fund","last_price":22.97,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":121,"created_at":"2021-11-18T19:24:15.000-05:00","updated_at":"2022-03-18T05:22:11.000-04:00","location":"sr"},{"symbol":"BITO","security_type":"funds","data":{"symbol":"BITO","share_class":null,"price_as_of":"2022-03-17","price_change_percent":-0.03897116134060795,"dividend_yield_current":0,"index_fund":false,"dividend_annual_current":null,"net_assets":"1091403284","trailing_yield":null,"expense_ratio":"0.95","exchange":"ARCX","ltm_dividend":null,"legal_name":"ProShares Bitcoin Strategy ETF","security_type":"etf","last_price":25.65,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":122,"created_at":"2021-11-19T11:00:27.000-05:00","updated_at":"2022-03-18T01:21:49.000-04:00","location":"sr"},{"symbol":"MOON","security_type":"funds","data":{"symbol":"MOON","share_class":null,"price_as_of":"2022-03-17","price_change_percent":5.11147362697118,"dividend_yield_current":0.06160372478013452,"index_fund":true,"dividend_annual_current":1.1908,"net_assets":"70347431","trailing_yield":0.0228,"expense_ratio":"0.65","exchange":"ARCX","ltm_dividend":0.44160000000000005,"legal_name":"Direxion Moonshot Innovators ETF","security_type":"etf","last_price":19.33,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":123,"created_at":"2021-11-19T11:04:26.000-05:00","updated_at":"2022-03-18T05:22:11.000-04:00","location":"sr"},{"symbol":"OGVXX","security_type":"funds","data":{"symbol":"OGVXX","share_class":"Retirement","price_as_of":"2021-12-17","price_change_percent":0.0,"dividend_yield_current":0.00023927999999999997,"index_fund":false,"dividend_annual_current":0.00023927999999999997,"net_assets":"244744444843","trailing_yield":0.0003,"expense_ratio":"0.18","exchange":null,"ltm_dividend":0.000270068,"legal_name":"JPMorgan U.S. Government Money Market Fund","security_type":"mutual_fund","last_price":1.0,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":124,"created_at":"2021-11-22T10:00:25.000-05:00","updated_at":"2022-03-05T02:53:28.000-05:00","location":"sr"},{"symbol":"JHMM","security_type":"funds","data":{"symbol":"JHMM","share_class":null,"price_as_of":"2022-03-17","price_change_percent":1.2643454580820852,"dividend_yield_current":0.009612370341913177,"index_fund":true,"dividend_annual_current":0.50042,"net_assets":"2507301391","trailing_yield":0.0077,"expense_ratio":"0.41","exchange":"ARCX","ltm_dividend":0.40129,"legal_name":"John Hancock Multifactor Mid Cap ETF","security_type":"etf","last_price":52.06,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":125,"created_at":"2021-12-01T15:15:45.000-05:00","updated_at":"2022-03-18T05:22:11.000-04:00","location":"sr"},{"symbol":"SCHD","security_type":"funds","data":{"symbol":"SCHD","share_class":null,"price_as_of":"2022-03-17","price_change_percent":0.8857509627727856,"dividend_yield_current":0.03154599821860288,"index_fund":true,"dividend_annual_current":2.4792,"net_assets":"34110154871","trailing_yield":0.0286,"expense_ratio":"0.06","exchange":"ARCX","ltm_dividend":2.249,"legal_name":"Schwab U.S. Dividend Equity ETF™","security_type":"etf","last_price":78.59,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":126,"created_at":"2021-12-01T19:21:13.000-05:00","updated_at":"2022-03-18T05:22:12.000-04:00","location":"sr"},{"symbol":"SCHJ","security_type":"funds","data":{"symbol":"SCHJ","share_class":null,"price_as_of":"2022-03-17","price_change_percent":0.14382576535853708,"dividend_yield_current":0.013861304883052932,"index_fund":true,"dividend_annual_current":0.6756,"net_assets":"428382439","trailing_yield":0.0103,"expense_ratio":"0.04","exchange":"ARCX","ltm_dividend":0.5036,"legal_name":"Schwab 1-5 Year Corporate Bond ETF","security_type":"etf","last_price":48.74,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":127,"created_at":"2021-12-01T19:21:38.000-05:00","updated_at":"2022-03-18T05:22:12.000-04:00","location":"sr"},{"symbol":"GBTC","security_type":"funds","data":{"symbol":"GBTC","share_class":null,"price_as_of":"2022-03-18T16:35:20.000Z","price_change_percent":3.7974683544303827,"dividend_yield_current":0,"index_fund":true,"dividend_annual_current":null,"net_assets":"26933802699","trailing_yield":null,"expense_ratio":"2","exchange":null,"ltm_dividend":0,"legal_name":"Grayscale Bitcoin Trust (BTC)","security_type":"mutual_fund","last_price":28.7,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":128,"created_at":"2021-12-02T15:31:23.000-05:00","updated_at":"2022-03-18T18:23:18.000-04:00","location":"sr"},{"symbol":"FLHY","security_type":"funds","data":{"symbol":"FLHY","share_class":null,"price_as_of":"2022-03-17","price_change_percent":0.4065040650406504,"dividend_yield_current":0.04905036437246964,"index_fund":false,"dividend_annual_current":1.211544,"net_assets":"398814886","trailing_yield":0.0522,"expense_ratio":"0.4","exchange":"BATS","ltm_dividend":1.288691,"legal_name":"Franklin Liberty High Yield Corporate ETF","security_type":"etf","last_price":24.7,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":129,"created_at":"2021-12-08T12:53:33.000-05:00","updated_at":"2022-03-18T04:22:04.000-04:00","location":"sr"},{"symbol":"ABTYX","security_type":"funds","data":{"symbol":"ABTYX","share_class":"Adv","price_as_of":"2022-03-16","price_change_percent":0.087,"dividend_yield_current":0,"index_fund":false,"dividend_annual_current":null,"net_assets":"3846248694","trailing_yield":0.0,"expense_ratio":"0.6","exchange":null,"ltm_dividend":0,"legal_name":"AB High Income Municipal Portfolio","security_type":"mutual_fund","last_price":11.46,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":130,"created_at":"2021-12-13T13:17:41.000-05:00","updated_at":"2022-03-18T00:21:46.000-04:00","location":"sr"},{"symbol":"AGDAX","security_type":"funds","data":{"symbol":"AGDAX","share_class":"A","price_as_of":"2022-03-16","price_change_percent":0.682,"dividend_yield_current":0.05579541788617886,"index_fund":false,"dividend_annual_current":0.411770184,"net_assets":"4027709185","trailing_yield":0.063,"expense_ratio":"0.84","exchange":null,"ltm_dividend":0.464716587,"legal_name":"AB High Income Fund","security_type":"mutual_fund","last_price":7.38,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":131,"created_at":"2021-12-13T13:27:44.000-05:00","updated_at":"2022-03-18T04:22:04.000-04:00","location":"sr"},{"symbol":"NSFBX","security_type":"funds","data":{"symbol":"NSFBX","share_class":"N","price_as_of":"2022-03-16","price_change_percent":1.275,"dividend_yield_current":0.02001049317943337,"index_fund":false,"dividend_annual_current":0.1907,"net_assets":"4708176","trailing_yield":0.02,"expense_ratio":"0.55","exchange":null,"ltm_dividend":0.1907,"legal_name":"Natixis Sustainable Future 2015 Fund","security_type":"mutual_fund","last_price":9.53,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":132,"created_at":"2021-12-21T15:33:38.000-05:00","updated_at":"2022-03-18T05:22:12.000-04:00","location":"sr"},{"symbol":"TAXF","security_type":"funds","data":{"symbol":"TAXF","share_class":null,"price_as_of":"2022-03-17","price_change_percent":0.2686624448282479,"dividend_yield_current":0.015686124401913876,"index_fund":false,"dividend_annual_current":0.8196,"net_assets":"226673428","trailing_yield":0.0158,"expense_ratio":"0.29","exchange":"ARCX","ltm_dividend":0.827,"legal_name":"American Century Diversified Municipal Bond ETF","security_type":"etf","last_price":52.25,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":133,"created_at":"2022-01-06T14:26:50.000-05:00","updated_at":"2022-03-18T05:22:18.000-04:00","location":"sr"},{"symbol":"MCHFX","security_type":"funds","data":{"symbol":"MCHFX","share_class":"Inv","price_as_of":"2022-03-16","price_change_percent":16.759,"dividend_yield_current":0.002953337271116362,"index_fund":false,"dividend_annual_current":0.05,"net_assets":"1221673381","trailing_yield":0.003,"expense_ratio":"1.09","exchange":null,"ltm_dividend":0.05,"legal_name":"Matthews China Fund","security_type":"mutual_fund","last_price":16.93,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":134,"created_at":"2022-02-08T15:58:38.000-05:00","updated_at":"2022-03-18T05:22:13.000-04:00","location":"sr"},{"symbol":"MSMLX","security_type":"funds","data":{"symbol":"MSMLX","share_class":"Inv","price_as_of":"2022-03-16","price_change_percent":3.922,"dividend_yield_current":0.0,"index_fund":false,"dividend_annual_current":0.0,"net_assets":"371276048","trailing_yield":null,"expense_ratio":"1.4","exchange":null,"ltm_dividend":0.0,"legal_name":"Matthews Emerging Markets Small Companies Fund","security_type":"mutual_fund","last_price":25.44,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":135,"created_at":"2022-02-08T16:00:24.000-05:00","updated_at":"2022-03-18T03:21:59.000-04:00","location":"ltm"},{"symbol":"BNDC","security_type":"funds","data":{"symbol":"BNDC","share_class":null,"price_as_of":"2022-03-17","price_change_percent":0.28688524590163933,"dividend_yield_current":0.01843351042092358,"index_fund":false,"dividend_annual_current":0.45106799999999997,"net_assets":"136278774","trailing_yield":0.018,"expense_ratio":"0.35","exchange":"ARCX","ltm_dividend":0.440832,"legal_name":"FlexShares Core Select Bond Fund","security_type":"etf","last_price":24.47,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":136,"created_at":"2022-02-10T17:40:55.000-05:00","updated_at":"2022-03-18T04:22:04.000-04:00","location":"sr"},{"symbol":"HYGV","security_type":"funds","data":{"symbol":"HYGV","share_class":null,"price_as_of":"2022-03-17","price_change_percent":0.5875952121871599,"dividend_yield_current":0.05414305495456513,"index_fund":true,"dividend_annual_current":2.502492,"net_assets":"718217891","trailing_yield":0.0558,"expense_ratio":"0.37","exchange":"ARCX","ltm_dividend":2.579542,"legal_name":"FlexShares® High Yield Value-Scored Bond Index Fund","security_type":"etf","last_price":46.22,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":137,"created_at":"2022-02-10T17:47:10.000-05:00","updated_at":"2022-03-18T04:22:04.000-04:00","location":"sr"},{"symbol":"PHJFX","security_type":"funds","data":{"symbol":"PHJFX","share_class":"Retirement","price_as_of":"2022-03-16","price_change_percent":1.056,"dividend_yield_current":0,"index_fund":false,"dividend_annual_current":null,"net_assets":"87265500","trailing_yield":0.0,"expense_ratio":"0.62","exchange":null,"ltm_dividend":0,"legal_name":"Principal LifeTime Hybrid Income Fund","security_type":"mutual_fund","last_price":10.53,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":138,"created_at":"2022-02-14T13:08:16.000-05:00","updated_at":"2022-03-18T03:21:59.000-04:00","location":"sr"},{"symbol":"STIP","security_type":"funds","data":{"symbol":"STIP","share_class":null,"price_as_of":"2022-03-17","price_change_percent":0.7958313595452392,"dividend_yield_current":0.01811606353980637,"index_fund":true,"dividend_annual_current":1.927368,"net_assets":"9725284414","trailing_yield":0.0459,"expense_ratio":"0.03","exchange":"ARCX","ltm_dividend":4.88347,"legal_name":"iShares 0-5 Year TIPS Bond ETF","security_type":"etf","last_price":106.39,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":139,"created_at":"2022-02-17T17:56:27.000-05:00","updated_at":"2022-03-18T05:22:13.000-04:00","location":"sr"},{"symbol":"FDG","security_type":"funds","data":{"symbol":"FDG","share_class":null,"price_as_of":"2022-03-17","price_change_percent":2.5109006164486543,"dividend_yield_current":0.0,"index_fund":false,"dividend_annual_current":0.0,"net_assets":"164815702","trailing_yield":null,"expense_ratio":"0.45","exchange":"BATS","ltm_dividend":0.0,"legal_name":"American Century Focused Dynamic Growth ETF","security_type":"etf","last_price":68.18,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":140,"created_at":"2022-02-25T16:12:24.000-05:00","updated_at":"2022-03-18T01:21:49.000-04:00","location":"sr"},{"symbol":"CEYIX","security_type":"funds","data":{"symbol":"CEYIX","share_class":"Inst","price_as_of":"2022-03-16","price_change_percent":2.183,"dividend_yield_current":0.000920403850669171,"index_fund":false,"dividend_annual_current":0.0784,"net_assets":"5800676841","trailing_yield":0.0009,"expense_ratio":"0.66","exchange":null,"ltm_dividend":0.0784,"legal_name":"Calvert Equity Fund","security_type":"mutual_fund","last_price":85.18,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":141,"created_at":"2022-02-28T14:16:13.000-05:00","updated_at":"2022-03-18T04:22:04.000-04:00","location":"sr"},{"symbol":"WIPIX","security_type":"funds","data":{"symbol":"WIPIX","share_class":"Inst","price_as_of":"2022-03-16","price_change_percent":0.241,"dividend_yield_current":0.027069767441860463,"index_fund":false,"dividend_annual_current":0.33755999999999997,"net_assets":"2473644939","trailing_yield":0.0204,"expense_ratio":"0.36","exchange":null,"ltm_dividend":0.25444,"legal_name":"Allspring Core Plus Bond Fund","security_type":"mutual_fund","last_price":12.47,"intraday_price":null,"changes":0,"watchlist_state":"false"},"id":142,"created_at":"2022-03-15T15:10:57.000-04:00","updated_at":"2022-03-18T06:22:39.000-04:00","location":"sr"}],"ltms":{}}');
   window.serverEnv = "production"
 </script>
@@ -13,9 +13,9 @@
 <script src="/packs/js/dividend/ticker-application-6d8769f0a1e5a720075f.js"></script>
 <script src="/packs/js/page-d7fee5724fba57918379.js" defer="defer" async="async"></script>
 <title>
-DHY: Dividend Date &amp; History for Credit Suisse High Yield Bond Fund - Dividend.com
+MSFT: Dividend Date &amp; History for Microsoft - Dividend.com
 </title>
-<meta name="description" content="DHY's dividend yield, history, payout ratio, proprietary DARS™ rating & much more! Dividend.com: The #1 Source For Dividend Investing.">
+<meta name="description" content="MSFT's dividend yield, history, payout ratio, proprietary DARS™ rating & much more! Dividend.com: The #1 Source For Dividend Investing.">
 <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0' name='viewport'>
 <meta property="og:description">
 <meta property="og:site_name" content="Dividend.com">
@@ -36,7 +36,7 @@ DHY: Dividend Date &amp; History for Credit Suisse High Yield Bond Fund - Divide
 <link rel="apple-touch-icon" type="image/png" href="/packs/media/images/dividend/apple-touch-icon-120x120-dc3147bf6f3978d033fabdeac3c93197.png" sizes="120x120" />
 <link rel="apple-touch-icon" type="image/png" href="/packs/media/images/dividend/apple-touch-icon-152x152-23e1b4daba6daf6ff97246e9e3bf747d.png" sizes="152x152" />
 <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="H2uHze1BtCjlSBJNstDQd9i32vTBbIt+qVBmQuhChpZc/EKvL38/EcbcCZUHxZ/GD7HEKY2v+0GO2bDV/L/Ruw==" />
+<meta name="csrf-token" content="BqohbeddeS8QdkfGIBfl0dzGmPqMVBugjAIVP+M0yfiXZdgn8DR9tQqyzqe6tqRjYI6cZlCvG5hk9wEtdpBBgw==" />
 
 
 <div class='async-js' data-js-files='[]'></div>
@@ -99,8 +99,8 @@ DHY: Dividend Date &amp; History for Credit Suisse High Yield Bond Fund - Divide
 <div class='t-hidden' id='desktop-only-header-container'></div>
 </header>
 
-<div class="mitread--adunit__fpa ad-type-FP-01-A t-flex t-justify-center t-items-center t-my-1" id="a4edcd0ad085eb84eec97e5bb565de23-c"><div id="a4edcd0ad085eb84eec97e5bb565de23" data-controller="ad-unit" data-ad-unit-id="a4edcd0ad085eb84eec97e5bb565de23" data-ad-unit-name="Div/T-stk/financials/FP-01-A" data-ad-unit-ad-unit="FP-01-A" data-ad-unit-type="fpa" data-ad-unit-is-native="true" data-ad-unit-kfp="true"></div>
-<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/financials/FP-01-A"></div></div>
+<div class="mitread--adunit__fpa ad-type-FP-01-A t-flex t-justify-center t-items-center t-my-1" id="045bf23ea96df4935b71f60416a8376b-c"><div id="045bf23ea96df4935b71f60416a8376b" data-controller="ad-unit" data-ad-unit-id="045bf23ea96df4935b71f60416a8376b" data-ad-unit-name="Div/T-stk/technology/FP-01-A" data-ad-unit-ad-unit="FP-01-A" data-ad-unit-type="fpa" data-ad-unit-is-native="true" data-ad-unit-kfp="true"></div>
+<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/technology/FP-01-A"></div></div>
 <div class='t-fixed t-w-screen t-h-screen t-left-0 t-top-0 t-bg-shadow-overlay t-z-50 background-drop-overlay t-hidden'></div>
 <section class='n-nav__mobile t-bg-white t-hidden'>
 <div id='mobile-user-data-area'></div>
@@ -1633,11 +1633,11 @@ Portfolio Management Channel
 <div class='t-w-full'>
 <div class='m-table m-welcome-inter-table' data-controller='simple-table' data-table-collection-key='CollectionFunds' data-table-key='Welcome-InterstitialEtfList' data-theme=''>
 <div class='t-flex t-flex-col'>
-<div class="mitread--adunit__srax ad-type-SR-13-AX t-flex t-justify-center t-items-center" id="05445c75fe58da902020e4a5954f2bd1-c"><div id="05445c75fe58da902020e4a5954f2bd1" data-controller="ad-unit" data-ad-unit-id="05445c75fe58da902020e4a5954f2bd1" data-ad-unit-name="Div/T-stk/financials/SR-13-AX" data-ad-unit-ad-unit="SR-13-AX" data-ad-unit-type="srax" data-ad-unit-is-native="true" data-ad-unit-kfp="true"></div></div>
-<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/financials/SR-13-AX"></div>
+<div class="mitread--adunit__srax ad-type-SR-13-AX t-flex t-justify-center t-items-center" id="3da7d25efe1be2ba8c916909fa08efb4-c"><div id="3da7d25efe1be2ba8c916909fa08efb4" data-controller="ad-unit" data-ad-unit-id="3da7d25efe1be2ba8c916909fa08efb4" data-ad-unit-name="Div/T-stk/technology/SR-13-AX" data-ad-unit-ad-unit="SR-13-AX" data-ad-unit-type="srax" data-ad-unit-is-native="true" data-ad-unit-kfp="true"></div></div>
+<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/technology/SR-13-AX"></div>
 <div class='m-table-sponsored-publisher-placeholder t-hidden'></div>
-<div class="mitread--adunit__srax ad-type-SR-14-AX t-flex t-justify-center t-items-center" id="d2ca928da23e074adfc2c312a2add74f-c"><div id="d2ca928da23e074adfc2c312a2add74f" data-controller="ad-unit" data-ad-unit-id="d2ca928da23e074adfc2c312a2add74f" data-ad-unit-name="Div/T-stk/financials/SR-14-AX" data-ad-unit-ad-unit="SR-14-AX" data-ad-unit-type="srax" data-ad-unit-is-native="true" data-ad-unit-kfp="true"></div></div>
-<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/financials/SR-14-AX"></div>
+<div class="mitread--adunit__srax ad-type-SR-14-AX t-flex t-justify-center t-items-center" id="8d28e275391c4886267b3eed2aec4c31-c"><div id="8d28e275391c4886267b3eed2aec4c31" data-controller="ad-unit" data-ad-unit-id="8d28e275391c4886267b3eed2aec4c31" data-ad-unit-name="Div/T-stk/technology/SR-14-AX" data-ad-unit-ad-unit="SR-14-AX" data-ad-unit-type="srax" data-ad-unit-is-native="true" data-ad-unit-kfp="true"></div></div>
+<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/technology/SR-14-AX"></div>
 </div>
 </div>
 </div>
@@ -1647,8 +1647,8 @@ Portfolio Management Channel
 </div>
 </div>
 </div>
-<div class="mitread--adunit__npc ad-type-NP-15-C t-flex t-justify-end" id="987909b3f2532d6408dbddab26dbac58-c"><div id="987909b3f2532d6408dbddab26dbac58" data-controller="ad-unit" data-ad-unit-id="987909b3f2532d6408dbddab26dbac58" data-ad-unit-name="Div/T-stk/financials/NP-15-C" data-ad-unit-ad-unit="NP-15-C" data-ad-unit-type="npc" data-ad-unit-is-native="false" data-ad-unit-kfp="true"></div>
-<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/financials/NP-15-C"></div></div>
+<div class="mitread--adunit__npc ad-type-NP-15-C t-flex t-justify-end" id="ae9b8d63ef7e3b6c7bfb23de05bf1556-c"><div id="ae9b8d63ef7e3b6c7bfb23de05bf1556" data-controller="ad-unit" data-ad-unit-id="ae9b8d63ef7e3b6c7bfb23de05bf1556" data-ad-unit-name="Div/T-stk/technology/NP-15-C" data-ad-unit-ad-unit="NP-15-C" data-ad-unit-type="npc" data-ad-unit-is-native="false" data-ad-unit-kfp="true"></div>
+<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/technology/NP-15-C"></div></div>
 </div>
 </div>
 </div>
@@ -1668,8 +1668,8 @@ Portfolio Management Channel
 </div>
 <div class='async-js' data-js-files='[]'></div>
 
-<div class="mitread--adunit__fpax ad-type-FP-02-AX t-flex t-justify-center t-items-center mitread--adunit__fp_02_ax" id="23ac283e348b0cd24abf46735a0ae407-c"><div id="23ac283e348b0cd24abf46735a0ae407" data-controller="ad-unit" data-ad-unit-id="23ac283e348b0cd24abf46735a0ae407" data-ad-unit-name="Div/T-stk/financials/FP-02-AX" data-ad-unit-ad-unit="FP-02-AX" data-ad-unit-type="fpax" data-ad-unit-is-native="true" data-ad-unit-kfp="true"></div>
-<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/financials/FP-02-AX"></div></div>
+<div class="mitread--adunit__fpax ad-type-FP-02-AX t-flex t-justify-center t-items-center mitread--adunit__fp_02_ax" id="1f3ea21f2746bde3b8a2c4846f8e774d-c"><div id="1f3ea21f2746bde3b8a2c4846f8e774d" data-controller="ad-unit" data-ad-unit-id="1f3ea21f2746bde3b8a2c4846f8e774d" data-ad-unit-name="Div/T-stk/technology/FP-02-AX" data-ad-unit-ad-unit="FP-02-AX" data-ad-unit-type="fpax" data-ad-unit-is-native="true" data-ad-unit-kfp="true"></div>
+<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/technology/FP-02-AX"></div></div>
 <nav class='n-nav sticky-element t-bg-white t-sticky t-top-0 t-z-40'>
 <header class='n-header t-w-full t-container t-mx-auto t-px-4 t-py-3 t-hidden xl:t-flex xl:t-flex-col'>
 <div class='t-flex t-items-center'>
@@ -2411,7 +2411,7 @@ Pricing
 <span class='n-nav-bottom-bar'></span>
 </div>
 </a>
-<a class='n-nav-button t-self-center t-text-sm t-font-bold t-text-mitre-blue-200 hover:t-text-mitre-blue-200 hover:t-no-underline' href='/login/?redirect_url=/stocks/financials/asset-management/investment-management/dhy-credit-suisse-high-yield-bond-fund'>
+<a class='n-nav-button t-self-center t-text-sm t-font-bold t-text-mitre-blue-200 hover:t-text-mitre-blue-200 hover:t-no-underline' href='/login/?redirect_url=/stocks/technology/software/infrastructure-software/msft-microsoft'>
 Login
 <span class='n-nav-bottom-bar'></span>
 </a>
@@ -2455,7 +2455,7 @@ Upgrade to Premium to access your Watchlist and more.
 Upgrade Now
 </button>
 </a>
-<a class='t-mt-2 t-text-black t-text-xs' href='/login/?redirect_url=/stocks/financials/asset-management/investment-management/dhy-credit-suisse-high-yield-bond-fund'>
+<a class='t-mt-2 t-text-black t-text-xs' href='/login/?redirect_url=/stocks/technology/software/infrastructure-software/msft-microsoft'>
 Or Login to Your Premium Account
 </a>
 </div>
@@ -2475,19 +2475,19 @@ Or Login to Your Premium Account
 <div class='t-hidden t-flex-col t-justify-center t-w-200 xl:t-flex'>
 <div class='t-flex t-flex-row t-justify-start t-mb-2'>
 <h3 class='md:t-text-2xl t-font-semibold md:t-leading-snug t-text-xl t-leading-tight t-mr-4'>
-Credit Suisse High Yield Bond Fund
+Microsoft
 </h3>
-<button name="button" type="button" data-controller="watchlist-action cta-modal component-render" data-watchlist-action-state-value="false" data-watchlist-action-security-type-value="stock" data-watchlist-action-type-value="table" data-watchlist-action-symbol-value="DHY" data-watchlist-action-button-selected-bg-class="n-ticker-watchlist-btn-white__active" data-watchlist-action-button-unselected-bg-class="n-ticker-watchlist-btn-white__inactive" data-action="click-&gt;watchlist-action#toggleState error-&gt;cta-modal#showModal success-&gt;component-render#replace" data-modal-key="TblColAddToWatchlist" data-modal-url="/api/dividend/cta-content/" data-modal-location="table" data-component-render-type="replace" data-component-render-url="/api/components/watchlist-action-button/" data-component-render-url-method="post" data-component-render-url-data="{ &quot;stroke_color&quot;: &quot;#2542D0&quot;, &quot;border_color&quot;: &quot;#2542D0&quot; }" data-component-render-cache-response-value="true"></button>
+<button name="button" type="button" data-controller="watchlist-action cta-modal component-render" data-watchlist-action-state-value="false" data-watchlist-action-security-type-value="stock" data-watchlist-action-type-value="table" data-watchlist-action-symbol-value="MSFT" data-watchlist-action-button-selected-bg-class="n-ticker-watchlist-btn-white__active" data-watchlist-action-button-unselected-bg-class="n-ticker-watchlist-btn-white__inactive" data-action="click-&gt;watchlist-action#toggleState error-&gt;cta-modal#showModal success-&gt;component-render#replace" data-modal-key="TblColAddToWatchlist" data-modal-url="/api/dividend/cta-content/" data-modal-location="table" data-component-render-type="replace" data-component-render-url="/api/components/watchlist-action-button/" data-component-render-url-method="post" data-component-render-url-data="{ &quot;stroke_color&quot;: &quot;#2542D0&quot;, &quot;border_color&quot;: &quot;#2542D0&quot; }" data-component-render-cache-response-value="true"></button>
 <div class='async-js' data-js-files='[]'></div>
 
 </div>
 <div class='t-flex t-flex-row t-justify-start'>
 <div class='t-flex t-flex-col t-flex-none t-mr-8'>
 <div class='t-uppercase t-text-2xs t-opacity-75 t-leading-tight t-font-medium'>
-Stock (ARCX)
+Stock (NASDAQ)
 </div>
 <div class='t-flex t-h-full t-items-center t-font-semibold t-text-2xl md:t-text-lg t-uppercase t-leading-tighter'>
-DHY
+MSFT
 </div>
 </div>
 <div class='t-flex t-flex-col t-flex-none t-mr-8'>
@@ -2503,14 +2503,14 @@ No Change
 <div class='t-flex t-flex-col t-flex-none t-mr-8'>
 <div class='t-uppercase t-text-2xs t-opacity-75 t-leading-tight t-font-medium'>
 Price as of:
-<time class='price-as-of' datetime='2022-03-18T17:03:47+00:00'>
-MAR 18, 01:03 PM EDT
+<time class='price-as-of' datetime='2022-03-18T16:00:02+00:00'>
+MAR 18, 12:00 PM EDT
 </time>
 </div>
 <div class='t-text-lg t-font-semibold t-flex t-flex-row t-items-center t-h-full t-leading-tighter'>
-$2.2
+$300.43
 <span class='n-ticker-quickfacts_chip'>
-+0.02
++5.21
 </span>
 <span class='n-ticker-quickfacts_chip'>
 +0%
@@ -2522,7 +2522,7 @@ $2.2
 Dividend (Fwd)
 </div>
 <div class='t-flex t-h-full t-items-center t-font-semibold t-text-2xl md:t-text-lg t-uppercase t-leading-tighter'>
-$0.19
+$2.48
 </div>
 </div>
 <div class='t-flex t-flex-col t-flex-none t-mr-8'>
@@ -2530,7 +2530,7 @@ $0.19
 Yield (Fwd)
 </div>
 <div class='t-flex t-h-full t-items-center t-font-semibold t-text-2xl md:t-text-lg t-uppercase t-leading-tighter'>
-8.45%
+0.83%
 </div>
 </div>
 </div>
@@ -2540,22 +2540,22 @@ Yield (Fwd)
 <div class='t-flex t-flex-row ticker-header'>
 <div class='t-flex t-flex-col t-mr-4'>
 <div class='t-uppercase t-text-2xs t-opacity-75 t-leading-tight t-font-medium'>
-DHY: ARCX (Stock)
+MSFT: NASDAQ (Stock)
 </div>
 <h3 class='t-font-semibold md:t-leading-snug t-text-xl t-leading-tight'>
-Credit Suisse High Yield Bond Fund
+Microsoft
 </h3>
 </div>
-<button name="button" type="button" data-controller="watchlist-action cta-modal component-render" data-watchlist-action-state-value="false" data-watchlist-action-security-type-value="stock" data-watchlist-action-type-value="table" data-watchlist-action-symbol-value="DHY" data-watchlist-action-button-selected-bg-class="n-ticker-watchlist-btn-white__active" data-watchlist-action-button-unselected-bg-class="n-ticker-watchlist-btn-white__inactive" data-action="click-&gt;watchlist-action#toggleState error-&gt;cta-modal#showModal success-&gt;component-render#replace" data-modal-key="TblColAddToWatchlist" data-modal-url="/api/dividend/cta-content/" data-modal-location="table" data-component-render-type="replace" data-component-render-url="/api/components/watchlist-action-button/" data-component-render-url-method="post" data-component-render-url-data="{ &quot;stroke_color&quot;: &quot;#2542D0&quot;, &quot;border_color&quot;: &quot;#2542D0&quot; }" data-component-render-cache-response-value="true"></button>
+<button name="button" type="button" data-controller="watchlist-action cta-modal component-render" data-watchlist-action-state-value="false" data-watchlist-action-security-type-value="stock" data-watchlist-action-type-value="table" data-watchlist-action-symbol-value="MSFT" data-watchlist-action-button-selected-bg-class="n-ticker-watchlist-btn-white__active" data-watchlist-action-button-unselected-bg-class="n-ticker-watchlist-btn-white__inactive" data-action="click-&gt;watchlist-action#toggleState error-&gt;cta-modal#showModal success-&gt;component-render#replace" data-modal-key="TblColAddToWatchlist" data-modal-url="/api/dividend/cta-content/" data-modal-location="table" data-component-render-type="replace" data-component-render-url="/api/components/watchlist-action-button/" data-component-render-url-method="post" data-component-render-url-data="{ &quot;stroke_color&quot;: &quot;#2542D0&quot;, &quot;border_color&quot;: &quot;#2542D0&quot; }" data-component-render-cache-response-value="true"></button>
 <div class='async-js' data-js-files='[]'></div>
 
 </div>
 <div class='xl:t-px-6 xl:t-py-3 md:t-w-auto xl:t-bg-mitre-purple-300'>
-<div class='t-flex t-flex-col' data-controller='analytics popup-modal' data-popup-modal-url-value='/components/dividend/research_reports/dhy-credit-suisse-high-yield-bond-fund/?t=stock'>
+<div class='t-flex t-flex-col' data-controller='analytics popup-modal' data-popup-modal-url-value='/components/dividend/research_reports/msft-microsoft/?t=stock'>
 <button class='t-flex t-items-center t-self-center t-justify-center t-bg-mitre-green-200 t-py-2 t-px-2 t-leading-tighter t-w-full t-text-mitre-blue-200 t-font-semibold t-text-xs' data-action='click->analytics#dispatchGA click->popup-modal#open' data-analytics='W3sic2hvcnRjb2RlIjoiVFBIUElNVFBIUlNFVEYiLCJwYXJhbXMiOnsic3lt
-Ym9sIjoiREhZIn19XQ==
+Ym9sIjoiTVNGVCJ9fV0=
 '>
-[REPORT] DHY vs Benchmark, Mar 2022
+[REPORT] MSFT vs Benchmark, Mar 2022
 </button>
 </div>
 <div class='async-js' data-js-files='[]'></div>
@@ -2577,14 +2577,14 @@ No Change
 <div class='t-flex t-flex-col t-flex-none t-mr-8'>
 <div class='t-uppercase t-text-2xs t-opacity-75 t-leading-tight t-font-medium'>
 Price as of:
-<time class='price-as-of' datetime='2022-03-18T17:03:47+00:00'>
-MAR 18, 01:03 PM EDT
+<time class='price-as-of' datetime='2022-03-18T16:00:02+00:00'>
+MAR 18, 12:00 PM EDT
 </time>
 </div>
 <div class='t-text-xl t-font-semibold t-flex t-flex-row t-items-center t-h-full t-leading-tighter'>
-$2.2
+$300.43
 <span class='n-ticker-quickfacts_chip'>
-+0.02
++5.21
 </span>
 <span class='n-ticker-quickfacts_chip'>
 +0%
@@ -2596,7 +2596,7 @@ $2.2
 Dividend (Fwd)
 </div>
 <div class='t-flex t-h-full t-items-center t-font-semibold t-text-2xl md:t-text-lg t-uppercase t-leading-tighter'>
-$0.19
+$2.48
 </div>
 </div>
 <div class='t-flex t-flex-col t-flex-none t-mr-8'>
@@ -2604,7 +2604,7 @@ $0.19
 Yield (Fwd)
 </div>
 <div class='t-flex t-h-full t-items-center t-font-semibold t-text-2xl md:t-text-lg t-uppercase t-leading-tighter'>
-8.45%
+0.83%
 </div>
 </div>
 </div>
@@ -2614,13 +2614,13 @@ Yield (Fwd)
 <div class='t-flex t-flex-row t-justify-between t-mb-2 ticker-header'>
 <div class='t-flex t-flex-col'>
 <div class='t-uppercase t-text-2xs t-opacity-75 t-leading-tight t-font-medium'>
-DHY: ARCX (Stock)
+MSFT: NASDAQ (Stock)
 </div>
 <h3 class='t-items-center t-font-semibold t-text-xl t-leading-md'>
-Credit Suisse High Yield Bond Fund
+Microsoft
 </h3>
 </div>
-<button name="button" type="button" data-controller="watchlist-action cta-modal component-render" data-watchlist-action-state-value="false" data-watchlist-action-security-type-value="stock" data-watchlist-action-type-value="table" data-watchlist-action-symbol-value="DHY" data-watchlist-action-button-selected-bg-class="n-ticker-watchlist-btn-white__active" data-watchlist-action-button-unselected-bg-class="n-ticker-watchlist-btn-white__inactive" data-action="click-&gt;watchlist-action#toggleState error-&gt;cta-modal#showModal success-&gt;component-render#replace" data-modal-key="TblColAddToWatchlist" data-modal-url="/api/dividend/cta-content/" data-modal-location="table" data-component-render-type="replace" data-component-render-url="/api/components/watchlist-action-button/" data-component-render-url-method="post" data-component-render-url-data="{ &quot;stroke_color&quot;: &quot;#2542D0&quot;, &quot;border_color&quot;: &quot;#2542D0&quot; }" data-component-render-cache-response-value="true"></button>
+<button name="button" type="button" data-controller="watchlist-action cta-modal component-render" data-watchlist-action-state-value="false" data-watchlist-action-security-type-value="stock" data-watchlist-action-type-value="table" data-watchlist-action-symbol-value="MSFT" data-watchlist-action-button-selected-bg-class="n-ticker-watchlist-btn-white__active" data-watchlist-action-button-unselected-bg-class="n-ticker-watchlist-btn-white__inactive" data-action="click-&gt;watchlist-action#toggleState error-&gt;cta-modal#showModal success-&gt;component-render#replace" data-modal-key="TblColAddToWatchlist" data-modal-url="/api/dividend/cta-content/" data-modal-location="table" data-component-render-type="replace" data-component-render-url="/api/components/watchlist-action-button/" data-component-render-url-method="post" data-component-render-url-data="{ &quot;stroke_color&quot;: &quot;#2542D0&quot;, &quot;border_color&quot;: &quot;#2542D0&quot; }" data-component-render-cache-response-value="true"></button>
 <div class='async-js' data-js-files='[]'></div>
 
 </div>
@@ -2637,14 +2637,14 @@ No Change
 <div class='t-flex t-flex-col t-mb-2'>
 <div class='t-uppercase t-text-2xs t-opacity-75 t-leading-tight t-font-medium'>
 Price as of:
-<time class='price-as-of' datetime='2022-03-18T17:03:47+00:00'>
-MAR 18, 01:03 PM EDT
+<time class='price-as-of' datetime='2022-03-18T16:00:02+00:00'>
+MAR 18, 12:00 PM EDT
 </time>
 </div>
 <div class='t-text-lg t-font-semibold t-flex t-flex-row t-items-center t-h-full t-leading-tighter'>
-$2.2
+$300.43
 <span class='n-ticker-quickfacts_chip'>
-+0.02
++5.21
 </span>
 <span class='n-ticker-quickfacts_chip'>
 +0%
@@ -2657,7 +2657,7 @@ $2.2
 Dividend (Fwd)
 </div>
 <div class='t-flex t-h-full t-items-center t-font-semibold t-text-lg t-uppercase t-leading-tighter'>
-$0.19
+$2.48
 </div>
 </div>
 <div class='t-flex t-flex-col'>
@@ -2665,28 +2665,28 @@ $0.19
 Yield (Fwd)
 </div>
 <div class='t-flex t-h-full t-items-center t-font-semibold t-text-lg t-uppercase t-leading-tighter'>
-8.45%
+0.83%
 </div>
 </div>
 </div>
 </div>
 <div class='t-hidden xl:t-flex'>
-<div class='t-flex t-flex-col' data-controller='analytics popup-modal' data-popup-modal-url-value='/components/dividend/research_reports/dhy-credit-suisse-high-yield-bond-fund/?t=stock'>
+<div class='t-flex t-flex-col' data-controller='analytics popup-modal' data-popup-modal-url-value='/components/dividend/research_reports/msft-microsoft/?t=stock'>
 <button class='t-flex t-items-center t-self-center t-justify-center t-bg-mitre-green-200 t-py-2 t-px-2 t-leading-tighter t-w-full t-text-mitre-blue-200 t-font-semibold t-text-xs' data-action='click->analytics#dispatchGA click->popup-modal#open' data-analytics='W3sic2hvcnRjb2RlIjoiVFBIUElNVFBIUlNFVEYiLCJwYXJhbXMiOnsic3lt
-Ym9sIjoiREhZIn19XQ==
+Ym9sIjoiTVNGVCJ9fV0=
 '>
-[REPORT] DHY vs Benchmark, Mar 2022
+[REPORT] MSFT vs Benchmark, Mar 2022
 </button>
 </div>
 <div class='async-js' data-js-files='[]'></div>
 
 </div>
 <div class='md:t-hidden'>
-<div class='t-flex t-flex-col' data-controller='analytics popup-modal' data-popup-modal-url-value='/components/dividend/research_reports/dhy-credit-suisse-high-yield-bond-fund/?t=stock'>
+<div class='t-flex t-flex-col' data-controller='analytics popup-modal' data-popup-modal-url-value='/components/dividend/research_reports/msft-microsoft/?t=stock'>
 <button class='t-flex t-items-center t-self-center t-justify-center t-bg-mitre-green-200 t-py-2 t-px-2 t-leading-tighter t-w-full t-text-mitre-blue-200 t-font-semibold t-text-xs' data-action='click->analytics#dispatchGA click->popup-modal#open' data-analytics='W3sic2hvcnRjb2RlIjoiVFBIUElNVFBIUlNFVEYiLCJwYXJhbXMiOnsic3lt
-Ym9sIjoiREhZIn19XQ==
+Ym9sIjoiTVNGVCJ9fV0=
 '>
-[REPORT] DHY vs Benchmark, Mar 2022
+[REPORT] MSFT vs Benchmark, Mar 2022
 </button>
 </div>
 <div class='async-js' data-js-files='[]'></div>
@@ -2766,35 +2766,35 @@ Ym9sIjoiREhZIn19XQ==
 <div class='ticker-table-body-row-container'>
 <div class='t-flex t-flex-1 t-flex-row'>
 <div class='t-flex t-flex-col t-px-2 t-w-2/5 ticker-table-body-cell'>
-<a href='#'>Credit Suisse High Yield Bond Fund</a>
-<p class='t-text-mitre-gray-300 t-text-2xs t-font-medium t-text-left t-leading-normal t-uppercase'>DHY | stock</p>
+<a href='#'>Microsoft</a>
+<p class='t-text-mitre-gray-300 t-text-2xs t-font-medium t-text-left t-leading-normal t-uppercase'>MSFT | stock</p>
 </div>
 <div class='t-flex t-flex-col t-px-2 t-w-1/10 ticker-table-body-cell'>
-<p class='t-text-black t-text-sm t-font-normal t-text-left t-leading-normal'>$2.20</p>
-<p class='m-table-body-subtext-increaser t-font-medium t-leading-normal t-text-2xs t-text-left t-text-mitre-gray-300'>0.92%</p>
+<p class='t-text-black t-text-sm t-font-normal t-text-left t-leading-normal'>$300.43</p>
+<p class='m-table-body-subtext-increaser t-font-medium t-leading-normal t-text-2xs t-text-left t-text-mitre-gray-300'>1.76%</p>
 </div>
 <div class='t-flex t-flex-col t-px-2 t-w-3/20 ticker-table-body-cell'>
-<p class='t-text-black t-text-sm t-font-normal t-text-left t-leading-normal'>$219 M</p>
+<p class='t-text-black t-text-sm t-font-normal t-text-left t-leading-normal'>$2.21 T</p>
 </div>
 <div class='t-flex t-flex-col t-px-2 t-w-3/20 ticker-table-body-cell'>
-<p class='t-text-black t-text-sm t-font-normal t-text-left t-leading-normal'>8.45%</p>
-<p class='t-text-mitre-gray-300 t-text-2xs t-font-medium t-text-left t-leading-normal'>$0.19</p>
+<p class='t-text-black t-text-sm t-font-normal t-text-left t-leading-normal'>0.83%</p>
+<p class='t-text-mitre-gray-300 t-text-2xs t-font-medium t-text-left t-leading-normal'>$2.48</p>
 </div>
 <div class='t-flex t-flex-col t-px-2 t-w-1/10 ticker-table-body-cell'>
 <p class='t-text-black t-text-sm t-font-normal t-text-left t-leading-normal'>-</p>
 </div>
 <div class='t-flex t-justify-center t-px-2 t-w-1/10 ticker-table-body-cell'>
-<button name="button" type="button" data-controller="watchlist-action cta-modal component-render" data-watchlist-action-state-value="false" data-watchlist-action-security-type-value="stock" data-watchlist-action-type-value="table" data-watchlist-action-symbol-value="DHY" data-watchlist-action-button-selected-bg-class="n-ticker-watchlist-btn-blue__active" data-watchlist-action-button-unselected-bg-class="n-ticker-watchlist-btn-blue__inactive" data-action="click-&gt;watchlist-action#toggleState error-&gt;cta-modal#showModal success-&gt;component-render#replace" data-modal-key="TblColAddToWatchlist" data-modal-url="/api/dividend/cta-content/" data-modal-location="table" data-component-render-type="replace" data-component-render-url="/api/components/watchlist-action-button/" data-component-render-url-method="post" data-component-render-url-data="{ &quot;stroke_color&quot;: &quot;#2542D0&quot;, &quot;border_color&quot;: &quot;#2542D0&quot; }" data-component-render-cache-response-value="true"></button>
+<button name="button" type="button" data-controller="watchlist-action cta-modal component-render" data-watchlist-action-state-value="false" data-watchlist-action-security-type-value="stock" data-watchlist-action-type-value="table" data-watchlist-action-symbol-value="MSFT" data-watchlist-action-button-selected-bg-class="n-ticker-watchlist-btn-blue__active" data-watchlist-action-button-unselected-bg-class="n-ticker-watchlist-btn-blue__inactive" data-action="click-&gt;watchlist-action#toggleState error-&gt;cta-modal#showModal success-&gt;component-render#replace" data-modal-key="TblColAddToWatchlist" data-modal-url="/api/dividend/cta-content/" data-modal-location="table" data-component-render-type="replace" data-component-render-url="/api/components/watchlist-action-button/" data-component-render-url-method="post" data-component-render-url-data="{ &quot;stroke_color&quot;: &quot;#2542D0&quot;, &quot;border_color&quot;: &quot;#2542D0&quot; }" data-component-render-cache-response-value="true"></button>
 <div class='async-js' data-js-files='[]'></div>
 
 </div>
 </div>
 </div>
 </div>
-<div class="mitread--adunit__srax ad-type-SR-06-AX t-flex t-justify-center t-items-center" id="7b0817e0b84efbf15cc792c6253701e7-c"><div id="7b0817e0b84efbf15cc792c6253701e7" data-controller="ad-unit" data-ad-unit-id="7b0817e0b84efbf15cc792c6253701e7" data-ad-unit-name="Div/T-stk/financials/SR-06-AX" data-ad-unit-ad-unit="SR-06-AX" data-ad-unit-type="srax" data-ad-unit-devices="m" data-ad-unit-is-native="true" data-ad-unit-kfp="true"></div></div>
-<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/financials/SR-06-AX"></div>
-<div class="mitread--adunit__srax ad-type-SR-07-AX t-flex t-justify-center t-items-center" id="3093a46fc4657c5a4614a2f33ec503f8-c"><div id="3093a46fc4657c5a4614a2f33ec503f8" data-controller="ad-unit" data-ad-unit-id="3093a46fc4657c5a4614a2f33ec503f8" data-ad-unit-name="Div/T-stk/financials/SR-07-AX" data-ad-unit-ad-unit="SR-07-AX" data-ad-unit-type="srax" data-ad-unit-devices="m" data-ad-unit-is-native="true" data-ad-unit-kfp="true"></div></div>
-<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/financials/SR-07-AX"></div>
+<div class="mitread--adunit__srax ad-type-SR-06-AX t-flex t-justify-center t-items-center" id="33e92a985f5d4f66ff1742fa484372e8-c"><div id="33e92a985f5d4f66ff1742fa484372e8" data-controller="ad-unit" data-ad-unit-id="33e92a985f5d4f66ff1742fa484372e8" data-ad-unit-name="Div/T-stk/technology/SR-06-AX" data-ad-unit-ad-unit="SR-06-AX" data-ad-unit-type="srax" data-ad-unit-devices="m" data-ad-unit-is-native="true" data-ad-unit-kfp="true"></div></div>
+<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/technology/SR-06-AX"></div>
+<div class="mitread--adunit__srax ad-type-SR-07-AX t-flex t-justify-center t-items-center" id="ced49d14bb9b0e2a1864d25b56e4e2ae-c"><div id="ced49d14bb9b0e2a1864d25b56e4e2ae" data-controller="ad-unit" data-ad-unit-id="ced49d14bb9b0e2a1864d25b56e4e2ae" data-ad-unit-name="Div/T-stk/technology/SR-07-AX" data-ad-unit-ad-unit="SR-07-AX" data-ad-unit-type="srax" data-ad-unit-devices="m" data-ad-unit-is-native="true" data-ad-unit-kfp="true"></div></div>
+<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/technology/SR-07-AX"></div>
 <div class='ticker-table-body-row-container t-p-px t-hidden sm:t-block'></div>
 </div>
 </div>
@@ -2824,22 +2824,22 @@ Dividend Stocks
 </a>
 </li>
 <li class='n-breadcrumb_text n-breadcrumb_text__disabled'>
-<a class='t-text-black' href='/stocks/financials/'>
-Financials
+<a class='t-text-black' href='/stocks/technology/'>
+Technology
 </a>
 </li>
 <li class='n-breadcrumb_text n-breadcrumb_text__disabled'>
-<a class='t-text-black' href='/stocks/financials/asset-management/'>
-Asset Management
+<a class='t-text-black' href='/stocks/technology/software/'>
+Software
 </a>
 </li>
 <li class='n-breadcrumb_text n-breadcrumb_text__disabled'>
-<a class='t-text-black' href='/stocks/financials/asset-management/investment-management'>
-Investment Management
+<a class='t-text-black' href='/stocks/technology/software/infrastructure-software'>
+Infrastructure Software
 </a>
 </li>
 <li class='n-breadcrumb_text n-breadcrumb_text__disabled'>
-Credit Suisse High Yield Bond Fund (DHY)
+Microsoft (MSFT)
 </li>
 </ol>
 </nav>
@@ -2864,7 +2864,7 @@ Stock Data
 <div class='t-flex'>
 Avg Price Recovery
 </div>
-<div class='t-leading-snug t-font-semibold'>6.0 Days</div>
+<div class='t-leading-snug t-font-semibold'>1.8 Days</div>
 </div>
 <a class='t-text-mitre-blue-200 t-text-sm t-leading-tight t-font-medium t-w-full t-flex t-flex-row t-justify-between t-pt-2' href='/best-dividend-capture-stocks-etfs-and-funds/'>
 <span class='t-border-b t-border-mitre-blue-200 t-mb-1'>Best dividend capture stocks in Mar</span>
@@ -2891,7 +2891,7 @@ Fwd Payout Ratio is used to examine if a company’s earnings can support the cu
 <div class='async-js' data-js-files='[]'></div>
 
 </div>
-<div class='t-leading-snug t-font-semibold'>N/A</div>
+<div class='t-leading-snug t-font-semibold'>23.09%</div>
 </div>
 <div class='n-ticker_list_item'>
 <div class='t-flex'>
@@ -2911,21 +2911,21 @@ Consecutive Years of Dividend Increase is the number of years in a row in which 
 <div class='async-js' data-js-files='[]'></div>
 
 </div>
-<div class='t-leading-snug t-font-semibold'>0 yrs</div>
+<div class='t-leading-snug t-font-semibold'>20 yrs</div>
 </div>
 <div class='n-ticker_list_item'>
 <div class='t-flex'>Dividend Frequency</div>
-<div class='t-leading-snug t-font-semibold t-capitalize'>Monthly</div>
+<div class='t-leading-snug t-font-semibold t-capitalize'>Quarterly</div>
 </div>
 <div class='n-ticker_list_item_col'>
 <div class='t-flex t-flex-row t-justify-between t-items-center'>
 <div class='t-flex'>
-Financials Avg Yield
+Technology Avg Yield
 </div>
-<div class='t-leading-snug t-font-semibold'>3.18%</div>
+<div class='t-leading-snug t-font-semibold'>1.37%</div>
 </div>
-<a class='t-text-mitre-blue-200 t-text-sm t-leading-tight t-font-medium t-w-full t-flex t-flex-row t-justify-between t-pt-2' href='/best-financial-dividend-stocks/'>
-<span class='t-border-b t-border-mitre-blue-200 t-mb-1'>5 best financial dividend stocks</span>
+<a class='t-text-mitre-blue-200 t-text-sm t-leading-tight t-font-medium t-w-full t-flex t-flex-row t-justify-between t-pt-2' href='/best-technology-dividend-stocks/'>
+<span class='t-border-b t-border-mitre-blue-200 t-mb-1'>5 best technology dividend stocks</span>
 <svg class='t-h-5 t-w-5 t-flex' fill='none' stroke='#2532D0' viewbox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'>
 <path d='M13 7l5 5m0 0l-5 5m5-5H6' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'></path>
 </svg>
@@ -2935,31 +2935,31 @@ Financials Avg Yield
 <div class='n-ticker-tab-pane t-hidden t-w-full' data-refer='trading-data'>
 <div class='n-ticker_list_item'>
 <div class='t-flex'>Market Cap</div>
-<div class='t-leading-snug t-font-semibold t-capitalize'>$0.219 B</div>
+<div class='t-leading-snug t-font-semibold t-capitalize'>$2,207.003 B</div>
 </div>
 <div class='n-ticker_list_item'>
 <div class='t-flex'>Day’s Range</div>
-<div class='t-leading-snug t-font-semibold'>$2.17 - $2.2</div>
+<div class='t-leading-snug t-font-semibold'>$292.73 - $301.0</div>
 </div>
 <div class='n-ticker_list_item'>
 <div class='t-flex'>Volume</div>
-<div class='t-leading-snug t-font-semibold'>430,353</div>
+<div class='t-leading-snug t-font-semibold'>43,317,036</div>
 </div>
 <div class='n-ticker_list_item'>
 <div class='t-flex'>52 Wk Low/High</div>
-<div class='t-leading-snug t-font-semibold'>$2.09 - $2.57</div>
+<div class='t-leading-snug t-font-semibold'>$229.35 - $349.67</div>
 </div>
 <div class='n-ticker_list_item'>
 <div class='t-flex'>Percent off 52 Wk High</div>
-<div class='t-leading-snug t-font-semibold'><span class="t-text-red-700">-14.40%</span></div>
+<div class='t-leading-snug t-font-semibold'><span class="t-text-red-700">-14.08%</span></div>
 </div>
 <div class='n-ticker_list_item'>
 <div class='t-flex'>FY1 PE</div>
-<div class='t-leading-snug t-font-semibold'>N/A</div>
+<div class='t-leading-snug t-font-semibold'>27.97x</div>
 </div>
 <div class='n-ticker_list_item'>
 <div class='t-flex'>FY1 EPS / Growth</div>
-<div class='t-leading-snug t-font-semibold'>N/A / N/A</div>
+<div class='t-leading-snug t-font-semibold'>$10.74 / 14.69%</div>
 </div>
 </div>
 </div>
@@ -3003,35 +3003,35 @@ Financials Avg Yield
 <div class='ticker-table-body-row-container'>
 <div class='t-flex t-flex-1 t-flex-row'>
 <div class='t-flex t-flex-col t-px-2 t-w-2/5 ticker-table-body-cell'>
-<a href='#'>Credit Suisse High Yield Bond Fund</a>
-<p class='t-text-mitre-gray-300 t-text-2xs t-font-medium t-text-left t-leading-normal t-uppercase'>DHY | stock</p>
+<a href='#'>Microsoft</a>
+<p class='t-text-mitre-gray-300 t-text-2xs t-font-medium t-text-left t-leading-normal t-uppercase'>MSFT | stock</p>
 </div>
 <div class='t-flex t-flex-col t-px-2 t-w-1/10 ticker-table-body-cell'>
-<p class='t-text-black t-text-sm t-font-normal t-text-left t-leading-normal'>$2.20</p>
-<p class='m-table-body-subtext-increaser t-font-medium t-leading-normal t-text-2xs t-text-left t-text-mitre-gray-300'>0.92%</p>
+<p class='t-text-black t-text-sm t-font-normal t-text-left t-leading-normal'>$300.43</p>
+<p class='m-table-body-subtext-increaser t-font-medium t-leading-normal t-text-2xs t-text-left t-text-mitre-gray-300'>1.76%</p>
 </div>
 <div class='t-flex t-flex-col t-px-2 t-w-3/20 ticker-table-body-cell'>
-<p class='t-text-black t-text-sm t-font-normal t-text-left t-leading-normal'>$219 M</p>
+<p class='t-text-black t-text-sm t-font-normal t-text-left t-leading-normal'>$2.21 T</p>
 </div>
 <div class='t-flex t-flex-col t-px-2 t-w-3/20 ticker-table-body-cell'>
-<p class='t-text-black t-text-sm t-font-normal t-text-left t-leading-normal'>8.45%</p>
-<p class='t-text-mitre-gray-300 t-text-2xs t-font-medium t-text-left t-leading-normal'>$0.19</p>
+<p class='t-text-black t-text-sm t-font-normal t-text-left t-leading-normal'>0.83%</p>
+<p class='t-text-mitre-gray-300 t-text-2xs t-font-medium t-text-left t-leading-normal'>$2.48</p>
 </div>
 <div class='t-flex t-flex-col t-px-2 t-w-1/10 ticker-table-body-cell'>
 <p class='t-text-black t-text-sm t-font-normal t-text-left t-leading-normal'>-</p>
 </div>
 <div class='t-flex t-justify-center t-px-2 t-w-1/10 ticker-table-body-cell'>
-<button name="button" type="button" data-controller="watchlist-action cta-modal component-render" data-watchlist-action-state-value="false" data-watchlist-action-security-type-value="stock" data-watchlist-action-type-value="table" data-watchlist-action-symbol-value="DHY" data-watchlist-action-button-selected-bg-class="n-ticker-watchlist-btn-blue__active" data-watchlist-action-button-unselected-bg-class="n-ticker-watchlist-btn-blue__inactive" data-action="click-&gt;watchlist-action#toggleState error-&gt;cta-modal#showModal success-&gt;component-render#replace" data-modal-key="TblColAddToWatchlist" data-modal-url="/api/dividend/cta-content/" data-modal-location="table" data-component-render-type="replace" data-component-render-url="/api/components/watchlist-action-button/" data-component-render-url-method="post" data-component-render-url-data="{ &quot;stroke_color&quot;: &quot;#2542D0&quot;, &quot;border_color&quot;: &quot;#2542D0&quot; }" data-component-render-cache-response-value="true"></button>
+<button name="button" type="button" data-controller="watchlist-action cta-modal component-render" data-watchlist-action-state-value="false" data-watchlist-action-security-type-value="stock" data-watchlist-action-type-value="table" data-watchlist-action-symbol-value="MSFT" data-watchlist-action-button-selected-bg-class="n-ticker-watchlist-btn-blue__active" data-watchlist-action-button-unselected-bg-class="n-ticker-watchlist-btn-blue__inactive" data-action="click-&gt;watchlist-action#toggleState error-&gt;cta-modal#showModal success-&gt;component-render#replace" data-modal-key="TblColAddToWatchlist" data-modal-url="/api/dividend/cta-content/" data-modal-location="table" data-component-render-type="replace" data-component-render-url="/api/components/watchlist-action-button/" data-component-render-url-method="post" data-component-render-url-data="{ &quot;stroke_color&quot;: &quot;#2542D0&quot;, &quot;border_color&quot;: &quot;#2542D0&quot; }" data-component-render-cache-response-value="true"></button>
 <div class='async-js' data-js-files='[]'></div>
 
 </div>
 </div>
 </div>
 </div>
-<div class="mitread--adunit__srax ad-type-SR-06-AX t-flex t-justify-center t-items-center" id="75d8f7a8261e03b53d8b5d1736b3344f-c"><div id="75d8f7a8261e03b53d8b5d1736b3344f" data-controller="ad-unit" data-ad-unit-id="75d8f7a8261e03b53d8b5d1736b3344f" data-ad-unit-name="Div/T-stk/financials/SR-06-AX" data-ad-unit-ad-unit="SR-06-AX" data-ad-unit-type="srax" data-ad-unit-devices="t,dt" data-ad-unit-is-native="true" data-ad-unit-kfp="true"></div></div>
-<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/financials/SR-06-AX"></div>
-<div class="mitread--adunit__srax ad-type-SR-07-AX t-flex t-justify-center t-items-center" id="69c2866d8b62c2b9f67b3be38c9956ef-c"><div id="69c2866d8b62c2b9f67b3be38c9956ef" data-controller="ad-unit" data-ad-unit-id="69c2866d8b62c2b9f67b3be38c9956ef" data-ad-unit-name="Div/T-stk/financials/SR-07-AX" data-ad-unit-ad-unit="SR-07-AX" data-ad-unit-type="srax" data-ad-unit-devices="t,dt" data-ad-unit-is-native="true" data-ad-unit-kfp="true"></div></div>
-<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/financials/SR-07-AX"></div>
+<div class="mitread--adunit__srax ad-type-SR-06-AX t-flex t-justify-center t-items-center" id="41aff20c41c34bf2bc889980a7040aad-c"><div id="41aff20c41c34bf2bc889980a7040aad" data-controller="ad-unit" data-ad-unit-id="41aff20c41c34bf2bc889980a7040aad" data-ad-unit-name="Div/T-stk/technology/SR-06-AX" data-ad-unit-ad-unit="SR-06-AX" data-ad-unit-type="srax" data-ad-unit-devices="t,dt" data-ad-unit-is-native="true" data-ad-unit-kfp="true"></div></div>
+<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/technology/SR-06-AX"></div>
+<div class="mitread--adunit__srax ad-type-SR-07-AX t-flex t-justify-center t-items-center" id="037f41058e656db5fc38419313733495-c"><div id="037f41058e656db5fc38419313733495" data-controller="ad-unit" data-ad-unit-id="037f41058e656db5fc38419313733495" data-ad-unit-name="Div/T-stk/technology/SR-07-AX" data-ad-unit-ad-unit="SR-07-AX" data-ad-unit-type="srax" data-ad-unit-devices="t,dt" data-ad-unit-is-native="true" data-ad-unit-kfp="true"></div></div>
+<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/technology/SR-07-AX"></div>
 <div class='ticker-table-body-row-container t-p-px t-hidden sm:t-block'></div>
 </div>
 </div>
@@ -3039,7 +3039,7 @@ Financials Avg Yield
 </div>
 <div class='t-mb-6 t-flex t-flex-col t-relative t-px-4 t-py-3 t-rounded-sm t-bg-blue-25 md:t-h-65 xl:t-mb-4 xl:t-h-38'>
 <div class='t-flex t-flex-row t-justify-between t-items-center t-mb-2'>
-<div class='t-text-black t-font-semibold t-text-md'>DHY&#39;s Next Dividend</div>
+<div class='t-text-black t-font-semibold t-text-md'>MSFT&#39;s Next Dividend</div>
 <span class='t-flex t-text-white t-font-semibold t-text-xs t-rounded-sm t-bg-white t-border t-border-green-450 t-rounded-full t-px-3'>
 <div class='t-bg-green-450 t-h-5/8 t-inline-flex t-mr-1 t-rounded-full t-self-center t-w-5/8'></div>
 <div class='t-text-black t-font-semibold t-text-xs'>Declared</div>
@@ -3063,11 +3063,11 @@ Financials Avg Yield
 <div class='t-flex t-flex-col md:t-flex-row t-mr-3 md:t-mr-0 t-flex-1'>
 <div class='md:t-w-1/4 sm:t-mr-3 t-flex t-flex-col t-mr-0 t-w-full'>
 <div class='t-flex t-text-mini t-font-semibold t-text-indigo-960'>Next Amount</div>
-<div class='t-flex t-text-lg t-font-medium t-leading-tighter t-h-5 t-mt-1 t-mb-3 md:t-mt-1 md:t-mb-1'>$0.0155</div>
+<div class='t-flex t-text-lg t-font-medium t-leading-tighter t-h-5 t-mt-1 t-mb-3 md:t-mt-1 md:t-mb-1'>$0.6200</div>
 </div>
 <div class='md:t-w-2/5 sm:t-mr-4 t-flex t-flex-col t-mr-0 t-w-full'>
 <div class='t-flex t-text-mini t-font-semibold t-text-indigo-960'>Next Pay Date</div>
-<div class='t-flex t-text-lg t-font-medium t-leading-tighter t-h-5 t-mt-1 t-mb-3 md:t-mt-1 md:t-mb-1'>Mar 23, 2022</div>
+<div class='t-flex t-text-lg t-font-medium t-leading-tighter t-h-5 t-mt-1 t-mb-3 md:t-mt-1 md:t-mb-1'>Jun 09, 2022</div>
 </div>
 <div class='md:t-w-2/12 sm:t-mr-2 t-flex t-flex-col t-mr-0 t-w-full'>
 <div class='t-flex t-text-mini t-font-semibold t-text-indigo-960'>Type</div>
@@ -3075,17 +3075,17 @@ Financials Avg Yield
 </div>
 <div class='md:t-w-3/10 t-flex t-flex-col t-w-full'>
 <div class='t-flex t-text-mini t-font-semibold t-text-indigo-960'>Freq</div>
-<div class='t-flex t-text-xs t-font-medium t-leading-relaxed t-h-5 t-mt-1 t-mb-3 md:t-mt-1 md:t-mb-1'>Monthly</div>
+<div class='t-flex t-text-xs t-font-medium t-leading-relaxed t-h-5 t-mt-1 t-mb-3 md:t-mt-1 md:t-mb-1'>Quarterly</div>
 </div>
 </div>
 <div class='t-flex t-flex-col md:t-flex-row t-flex-1'>
 <div class='md:t-w-1/4 sm:t-mr-3 t-flex t-flex-col t-mr-0 t-text-gray-700 t-w-full'>
 <div class='t-flex t-text-mini t-font-semibold'>Last Amount</div>
-<div class='t-flex t-text-lg t-font-medium t-leading-tighter t-h-5 t-mt-1 t-mb-3 md:t-mt-1 md:t-mb-1'>$0.0155</div>
+<div class='t-flex t-text-lg t-font-medium t-leading-tighter t-h-5 t-mt-1 t-mb-3 md:t-mt-1 md:t-mb-1'>$0.6200</div>
 </div>
 <div class='md:t-w-2/5 sm:t-mr-4 t-flex t-flex-col t-mr-0 t-text-gray-700 t-w-full'>
 <div class='t-flex t-text-mini t-font-semibold'>Last Pay Date</div>
-<div class='t-flex t-text-lg t-font-medium t-leading-tighter t-h-5 t-mt-1 t-mb-3 md:t-mt-1 md:t-mb-1'>Feb 23, 2022</div>
+<div class='t-flex t-text-lg t-font-medium t-leading-tighter t-h-5 t-mt-1 t-mb-3 md:t-mt-1 md:t-mb-1'>Mar 10, 2022</div>
 </div>
 <div class='md:t-w-2/12 sm:t-mr-2 t-flex t-flex-col t-mr-0 t-text-gray-700 t-w-full'>
 <div class='t-flex t-text-mini t-font-semibold'>Type</div>
@@ -3093,7 +3093,7 @@ Financials Avg Yield
 </div>
 <div class='md:t-w-3/10 t-flex t-flex-col t-text-gray-700 t-w-full'>
 <div class='t-flex t-text-mini t-font-semibold'>Freq</div>
-<div class='t-flex t-text-xs t-font-medium t-leading-relaxed t-h-5 t-mt-1 t-mb-3 md:t-mt-1 md:t-mb-1'>Monthly</div>
+<div class='t-flex t-text-xs t-font-medium t-leading-relaxed t-h-5 t-mt-1 t-mb-3 md:t-mt-1 md:t-mb-1'>Quarterly</div>
 </div>
 </div>
 </div>
@@ -3116,17 +3116,17 @@ The time remaining before the next ex-dividend date. If a future payout has been
 <div class='async-js' data-js-files='[]'></div>
 
 </div>
-<div class='shotclock t-my-3 xl:t-my-0' data-ex-date='Mar 15, 2022'>
+<div class='shotclock t-my-3 xl:t-my-0' data-ex-date='May 18, 2022'>
 <div class='shotclock-clock'></div>
 </div>
-<div class='t-flex t-font-medium t-text-xs xl:t-mb-2'>Ex-Date: Mar 15, 2022</div>
+<div class='t-flex t-font-medium t-text-xs xl:t-mb-2'>Ex-Date: May 18, 2022</div>
 </div>
 </div>
 </div>
 <div class='async-js' data-js-files='["/components/reveal_upcoming_payout", "/components/shotclock"]'></div>
 
 <div class='md:t-h-30 md:t-mb-0 md:t-mt-4 t-block t-mb-4 xl:t-h-30 xl:t-mt-5/8'>
-<div data-dividend-policy-status='DividendNoChange' data-symbol='DHY' id='dividend-email-subscribe-container'>
+<div data-dividend-policy-status='DividendNoChange' data-symbol='MSFT' id='dividend-email-subscribe-container'>
 <div id='dividend-email-subscribe'></div>
 </div>
 <div class='async-js' data-js-files='["/components/dividend_email_subscribe"]'></div>
@@ -3134,20 +3134,20 @@ The time remaining before the next ex-dividend date. If a future payout has been
 </div>
 </div>
 <div class='t-flex-col t-hidden t-items-end t-mb-4 t-ml-0 t-mt-5/8 t-w-3/12 xl:t-flex'>
-<div class="mitread--adunit__npc ad-type-NP-01-C t-flex t-justify-end" id="8e4af8de7522bc90e3addc1cf3c5dd62-c"><div id="8e4af8de7522bc90e3addc1cf3c5dd62" data-controller="ad-unit" data-ad-unit-id="8e4af8de7522bc90e3addc1cf3c5dd62" data-ad-unit-name="Div/T-stk/financials/NP-01-C" data-ad-unit-ad-unit="NP-01-C" data-ad-unit-type="npc" data-ad-unit-is-native="true" data-ad-unit-kfp="true"></div>
-<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/financials/NP-01-C"></div></div>
-<div class="mitread--adunit__npc ad-type-NP-02-C t-flex t-justify-end" id="94ef3f8af94e4409943c87ea737c5249-c"><div id="94ef3f8af94e4409943c87ea737c5249" data-controller="ad-unit" data-ad-unit-id="94ef3f8af94e4409943c87ea737c5249" data-ad-unit-name="Div/T-stk/financials/NP-02-C" data-ad-unit-ad-unit="NP-02-C" data-ad-unit-type="npc" data-ad-unit-is-native="true" data-ad-unit-kfp="true"></div>
-<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/financials/NP-02-C"></div></div>
+<div class="mitread--adunit__npc ad-type-NP-01-C t-flex t-justify-end" id="3e3cd893d36e425c3c8746c8a93d694c-c"><div id="3e3cd893d36e425c3c8746c8a93d694c" data-controller="ad-unit" data-ad-unit-id="3e3cd893d36e425c3c8746c8a93d694c" data-ad-unit-name="Div/T-stk/technology/NP-01-C" data-ad-unit-ad-unit="NP-01-C" data-ad-unit-type="npc" data-ad-unit-is-native="true" data-ad-unit-kfp="true"></div>
+<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/technology/NP-01-C"></div></div>
+<div class="mitread--adunit__npc ad-type-NP-02-C t-flex t-justify-end" id="b92d054852e662db5d759825fdcdc4d4-c"><div id="b92d054852e662db5d759825fdcdc4d4" data-controller="ad-unit" data-ad-unit-id="b92d054852e662db5d759825fdcdc4d4" data-ad-unit-name="Div/T-stk/technology/NP-02-C" data-ad-unit-ad-unit="NP-02-C" data-ad-unit-type="npc" data-ad-unit-is-native="true" data-ad-unit-kfp="true"></div>
+<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/technology/NP-02-C"></div></div>
 </div>
 </div>
 </div>
 </section>
 <div class='async-js' data-js-files='[]'></div>
 
-<div class="mitread--adunit__wpa ad-type-WP-01-A t-flex t-justify-center t-items-center t-mt-3 t-mb-2 md:t-my-0 md:t-mb-12" id="8602fc06fc6f8b8150468dc5563116c4-c"><div id="8602fc06fc6f8b8150468dc5563116c4" data-controller="ad-unit" data-ad-unit-id="8602fc06fc6f8b8150468dc5563116c4" data-ad-unit-name="Div/T-stk/financials/WP-01-A" data-ad-unit-ad-unit="WP-01-A" data-ad-unit-type="wpa" data-ad-unit-only-if="emailSubmittedDivActive" data-ad-unit-devices="m,t" data-ad-unit-is-native="true" data-ad-unit-kfp="true"></div>
-<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/financials/WP-01-A"></div></div>
-<div class="mitread--adunit__fpa ad-type-FP-03-A t-flex t-justify-center t-items-center t-mt-3 t-mb-2 md:t-my-0" id="be080d047a75123619109cd11e933675-c"><div id="be080d047a75123619109cd11e933675" data-controller="ad-unit" data-ad-unit-id="be080d047a75123619109cd11e933675" data-ad-unit-name="Div/T-stk/financials/FP-03-A" data-ad-unit-ad-unit="FP-03-A" data-ad-unit-type="fpa" data-ad-unit-devices="m" data-ad-unit-is-native="true" data-ad-unit-kfp="true"></div>
-<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/financials/FP-03-A"></div></div>
+<div class="mitread--adunit__wpa ad-type-WP-01-A t-flex t-justify-center t-items-center t-mt-3 t-mb-2 md:t-my-0 md:t-mb-12" id="ce03245ad7650989f0734041870b7a8f-c"><div id="ce03245ad7650989f0734041870b7a8f" data-controller="ad-unit" data-ad-unit-id="ce03245ad7650989f0734041870b7a8f" data-ad-unit-name="Div/T-stk/technology/WP-01-A" data-ad-unit-ad-unit="WP-01-A" data-ad-unit-type="wpa" data-ad-unit-only-if="emailSubmittedDivActive" data-ad-unit-devices="m,t" data-ad-unit-is-native="true" data-ad-unit-kfp="true"></div>
+<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/technology/WP-01-A"></div></div>
+<div class="mitread--adunit__fpa ad-type-FP-03-A t-flex t-justify-center t-items-center t-mt-3 t-mb-2 md:t-my-0" id="320cf0d826ba9035c3502893e97b5861-c"><div id="320cf0d826ba9035c3502893e97b5861" data-controller="ad-unit" data-ad-unit-id="320cf0d826ba9035c3502893e97b5861" data-ad-unit-name="Div/T-stk/technology/FP-03-A" data-ad-unit-ad-unit="FP-03-A" data-ad-unit-type="fpa" data-ad-unit-devices="m" data-ad-unit-is-native="true" data-ad-unit-kfp="true"></div>
+<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/technology/FP-03-A"></div></div>
 <section class='dividend-payout-history t-p-0 t-mt-1 md:t-mb-16 md:t-mt-0'>
 <button class='n-ticker_button_collapse_reference t-bg-gray-60 t-transition-250' data-collapse-target='dividend-payout-history' type='button'>
 <span class='t-flex-1 t-text-left'>Payout History</span>
@@ -3157,10 +3157,10 @@ The time remaining before the next ex-dividend date. If a future payout has been
 </button>
 <div class='n-ticker_button_collapse_target n-ticker_button_collapse_target_bottom_shrink t-relative t-container t-mx-auto' id='dividend-payout-history'>
 <a class='div-ticker-anchor t-absolute t-left-0 t--top-220' id='dividend-payout-history-anchor'></a>
-<div class="mitread--adunit__fpa ad-type-FP-03-A t-flex t-justify-center t-items-center t-mb-8 md:t-mb-16" id="92706670249d42ddb82572eb19195814-c"><div id="92706670249d42ddb82572eb19195814" data-controller="ad-unit" data-ad-unit-id="92706670249d42ddb82572eb19195814" data-ad-unit-name="Div/T-stk/financials/FP-03-A" data-ad-unit-ad-unit="FP-03-A" data-ad-unit-type="fpa" data-ad-unit-devices="dt" data-ad-unit-is-native="true" data-ad-unit-kfp="true"></div>
-<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/financials/FP-03-A"></div></div>
+<div class="mitread--adunit__fpa ad-type-FP-03-A t-flex t-justify-center t-items-center t-mb-8 md:t-mb-16" id="54356f092a462722b34ca2a01bb15ab1-c"><div id="54356f092a462722b34ca2a01bb15ab1" data-controller="ad-unit" data-ad-unit-id="54356f092a462722b34ca2a01bb15ab1" data-ad-unit-name="Div/T-stk/technology/FP-03-A" data-ad-unit-ad-unit="FP-03-A" data-ad-unit-type="fpa" data-ad-unit-devices="dt" data-ad-unit-is-native="true" data-ad-unit-kfp="true"></div>
+<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/technology/FP-03-A"></div></div>
 <div class='t-flex t-justify-between t-items-start t-flex-col t-mb-1 md:t-flex-row md:t-items-center'>
-<h2 class='n-ticker_text__section_title'>DHY Payout History (Paid, Declared and Estimated)</h2>
+<h2 class='n-ticker_text__section_title'>MSFT Payout History (Paid, Declared and Estimated)</h2>
 <div class='t-flex t-flex-row'>
 <div class='t-flex t-uppercase t-text-xs'>
 <div class='n-table-status-dot declared'></div>
@@ -3177,7 +3177,7 @@ Estimated
 </div>
 </div>
 <section class='t-mb-2'>
-<section class='tm' data-default-sticky-height='45' data-enable-cta-body='' data-enable-sticky='true' data-enable-striped-css='' data-full-screen='' data-prevent-pagin-scroll-top='true' data-tm data-tm-default-filter='null' data-tm-name='3-ticker-payout-history' data-tm-resource='ES::DividendStock::Stock#DHY--ARCX' id='3-ticker-payout-history'>
+<section class='tm' data-default-sticky-height='45' data-enable-cta-body='' data-enable-sticky='true' data-enable-striped-css='' data-full-screen='' data-prevent-pagin-scroll-top='true' data-tm data-tm-default-filter='null' data-tm-name='3-ticker-payout-history' data-tm-resource='ES::DividendStock::Stock#MSFT--NASDAQ' id='3-ticker-payout-history'>
 <div class='t-flex t-flex-col'>
 <div class='t-flex-1 t-flex t-flex-col'>
 <div class='t-flex'>
@@ -3268,7 +3268,7 @@ Become a Premium Member to “stick” up to 3 rows and access more exclusive be
 Join Now
 </button>
 </a>
-<a class='t-mt-2 t-text-blue-700 t-text-xs t-underline' href='/login/?redirect_url=/stocks/financials/asset-management/investment-management/dhy-credit-suisse-high-yield-bond-fund'>
+<a class='t-mt-2 t-text-blue-700 t-text-xs t-underline' href='/login/?redirect_url=/stocks/technology/software/infrastructure-software/msft-microsoft'>
 Or Login to Your Premium Account
 </a>
 </div>
@@ -3291,11 +3291,11 @@ Or Login to Your Premium Account
 </a>
 </button>
 <button class='n-ticker_button_expand full-screen-payout-history t-items-center t-text-tiny t-text-center md:t-text-sm' data-action='click->analytics#dispatchGA' data-analytics='W3sic2hvcnRjb2RlIjoiVFBESU1UUERTIiwicGFyYW1zIjp7InN5bWJvbCI6
-IkRIWSJ9fV0=
+Ik1TRlQifX1d
 ' type='button'>View All Payout History</button>
 </section>
 <div class='t-mt-12 md:t-mt-16' id='dividend-growth-history'>
-<h2 class='n-ticker_text__section_title'>DHY Dividend Growth</h2>
+<h2 class='n-ticker_text__section_title'>MSFT Dividend Growth</h2>
 <section class='t-overflow-scroll md:t-overflow-visible'>
 <table class='n-table page--text__link'>
 <thead class='n-table-head'>
@@ -3336,32 +3336,32 @@ Years Of Consecutive Dividend Growth
 <tr class='n-table-row'>
 <td class='n-table-cell' data-col='0' data-row='0'>
 <p class='t-my-4'>
--5.05%
+10.05%
 </p>
 </td>
 <td class='n-table-cell' data-col='1' data-row='0'>
 <p class='t-my-4'>
--8.20%
+10.17%
 </p>
 </td>
 <td class='n-table-cell' data-col='2' data-row='0'>
 <p class='t-my-4'>
--7.72%
+9.37%
 </p>
 </td>
 <td class='n-table-cell' data-col='3' data-row='0'>
 <p class='t-my-4'>
--5.12%
+12.96%
 </p>
 </td>
 <td class='n-table-cell' data-col='4' data-row='0'>
 <p class='t-my-4'>
--7.35%
+N/A
 </p>
 </td>
 <td class='n-table-cell' data-col='5' data-row='0'>
 <p class='t-my-4'>
-0
+20
 </p>
 </td>
 </tr>
@@ -3388,7 +3388,7 @@ Years Of Consecutive Dividend Growth
 <a class='div-ticker-anchor t-absolute t-left-0 t--top-220' id='trading-ideas-anchor'></a>
 </section>
 <h2 class='n-ticker_text__section_title t-mt-4 md:t-mt-0 t-flex t-justify-between md:t-justify-start ticker-header'>
-<span class='t-mr-0 md:t-mr-2'>Dividend Capture Strategy for DHY</span>
+<span class='t-mr-0 md:t-mr-2'>Dividend Capture Strategy for MSFT</span>
 <button name="button" type="button" data-controller="info-popup-modal component-render" data-action="click-&gt;info-popup-modal#showModal" data-modal-params="{&quot;key&quot;: &quot;CaptureStrategyInfoModal&quot;}" data-modal-slug="stock" data-modal-name="InfoPopupModalComponent" data-modal-url="/component/html/" data-component-render-url="/api/components/info-popup-modal-button/" data-component-render-type="append" data-component-render-url-method="post" data-component-render-url-data="{&quot;icon&quot;:&quot;info&quot;,&quot;stroke_color&quot;:&quot;#2542D0&quot;,&quot;border_color&quot;:&quot;#2542D0&quot;,&quot;background_color&quot;:&quot;#F3F7FF&quot;}" data-component-render-cache-response-value="true"></button>
 <div class='async-js' data-js-files='[]'></div>
 
@@ -3401,33 +3401,33 @@ Years Of Consecutive Dividend Growth
 <path d='M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'></path>
 </svg>
 <p class='t-text-yellow-700 t-font-semibold t-text-sm t-leading-tight'>
-Dividend capture strategy is based on DHY’s historical data. Past performance is no guarantee of future results.
+Dividend capture strategy is based on MSFT’s historical data. Past performance is no guarantee of future results.
 </p>
 </div>
-<p class='t-text-mitre-gray-300 t-text-sm t-leading-tighter md:t-leading-none t-uppercase t-font-semibold t-mt-6'>Step 1: Buy DHY shares 1 day before the ex-dividend date</p>
+<p class='t-text-mitre-gray-300 t-text-sm t-leading-tighter md:t-leading-none t-uppercase t-font-semibold t-mt-6'>Step 1: Buy MSFT shares 1 day before the ex-dividend date</p>
 <div class='t-flex t-flex-wrap t-flex-row t-w-full t-mt-2 t-items-center'>
 <div class='md:t-w-1/2 t-bg-mitre-green-200 t-py-3 t-rounded-md t-w-full'>
 <p class='t-uppercase t-text-2xs t-font-medium t-leading-tighter t-text-mitre-gray-300 t-text-center'>purchase date (estimate)</p>
-<p class='t-text-sm t-font-semibold t-leading-tight t-text-black t-text-center'>Apr 22, 2022</p>
+<p class='t-text-sm t-font-semibold t-leading-tight t-text-black t-text-center'>Sep 08, 2022</p>
 </div>
 <div class='md:t-w-1/2 t-bg-white t-py-3 t-rounded-md t-w-full'>
 <p class='t-uppercase t-text-2xs t-font-medium t-leading-tighter t-text-mitre-gray-300 t-text-center'>Upcoming Ex-dividend date</p>
-<p class='t-text-sm t-font-semibold t-leading-tight t-text-black t-text-center'>Apr 23, 2022</p>
+<p class='t-text-sm t-font-semibold t-leading-tight t-text-black t-text-center'>Sep 09, 2022</p>
 </div>
 </div>
-<p class='t-text-mitre-gray-300 t-text-sm t-leading-tighter md:t-leading-none t-uppercase t-font-semibold t-mt-6'>Step 2: SEll DHY shares when price recovers</p>
+<p class='t-text-mitre-gray-300 t-text-sm t-leading-tighter md:t-leading-none t-uppercase t-font-semibold t-mt-6'>Step 2: SEll MSFT shares when price recovers</p>
 <div class='t-flex t-flex-wrap t-flex-row t-w-full t-mt-2'>
 <div class='md:t-w-1/3 t-bg-mitre-green-200 t-py-3 t-rounded-md t-w-full'>
 <p class='t-uppercase t-text-2xs t-font-medium t-leading-tighter t-text-mitre-gray-300 t-text-center'>sell date (estimate)</p>
-<p class='t-text-sm t-font-semibold t-leading-tight t-text-black t-text-center'>Apr 29, 2022</p>
+<p class='t-text-sm t-font-semibold t-leading-tight t-text-black t-text-center'>Sep 11, 2022</p>
 </div>
 <div class='md:t-w-1/3 t-bg-white t-py-3 t-rounded-md t-w-1/2'>
 <p class='t-uppercase t-text-2xs t-font-medium t-leading-tighter t-text-mitre-gray-300 t-text-center'>Avg Price Recovery</p>
-<p class='t-text-sm t-font-semibold t-leading-tight t-text-black t-text-center'>6.0 Days</p>
+<p class='t-text-sm t-font-semibold t-leading-tight t-text-black t-text-center'>1.8 Days</p>
 </div>
 <div class='md:t-w-1/3 t-bg-white t-py-3 t-rounded-md t-w-1/2'>
 <p class='t-uppercase t-text-2xs t-font-medium t-leading-tighter t-text-mitre-gray-300 t-text-center'>Avg yield on cost</p>
-<p class='t-text-sm t-font-semibold t-leading-tight t-text-black t-text-center'>0.94%</p>
+<p class='t-text-sm t-font-semibold t-leading-tight t-text-black t-text-center'>0.49%</p>
 </div>
 </div>
 <a class='t-text-mitre-blue-200 t-text-sm t-leading-tighter t-font-semibold t-mt-4 t-text-center hover:t-no-underline' href='#dividend-payout-history-anchor'>
@@ -3469,30 +3469,340 @@ See Full History
 <section class='article-list t-flex t-items-top t-flex-col t-pb-3 md:t-pb-0 md:t-py-3 md:t-mt-3'>
 <h2 class='t-text-xl t-font-semibold t-mb-3'>News</h2>
 <div class='t-px-6 t-pt-6 t-pb-3 t-bg-gray-100 t-rounded'>
-<div class='t-flex t-justify-center'>
-<p class='t-text-tiny'>
-Sorry, there are no articles available for this stock.
+<div class='t-flex t-flex-wrap t-justify-between' id='wrap_articles'>
+<div class='lg:t-mb-2 lg:t-w-9/20 md:t-w-12/25 t-flex t-flex-col t-w-full'>
+<article class='t-flex t-flex-row t-flex-1 t-px-3'>
+<a class='t-hidden lg:t-block' href='/news/2022/01/26/trending-exxon-mobil-shares-edge-higher-thanks-to-oil-rally/'>
+<figure class='t-relative t-mr-2 lg:t-mr-4 t-flex feature-article-list'>
+<img alt='Exxon Mobil website displayed on a modern smartphone' class='t-max-w-sm t-z-10 t-w-28 lg:t-w-32' href='/news/2022/01/26/trending-exxon-mobil-shares-edge-higher-thanks-to-oil-rally/' onerror='this.src=`/dividend-logo.svg`;this.classList.add(`t-border`);this.classList.add(`t-bg-white`);this.classList.add(`t-border-gray-300`);this.classList.add(`t-border-solid`);' src='//images.ctfassets.net/94t4bn80wfcg/6wWp8IB51M334LwqnZiXN3/016bfa9f1cd3cbb93b7e0e9ad6724239/Exxon_Mobil_website_displayed_on_a_modern_smartphone.png?fl=progressive'>
+</figure>
+</a>
+<div class='t-flex-1 t-flex-col'>
+<a class='t-block lg:t-hidden t-float-left' href='/news/2022/01/26/trending-exxon-mobil-shares-edge-higher-thanks-to-oil-rally/'>
+<figure class='t-relative t-mr-2 t-flex t-mb-1 feature-article-list'>
+<img alt='Exxon Mobil website displayed on a modern smartphone' class='t-max-w-sm t-z-10 t-w-18 md:t-w-25' href='/news/2022/01/26/trending-exxon-mobil-shares-edge-higher-thanks-to-oil-rally/' onerror='this.src=`/dividend-logo.svg`;this.classList.add(`t-border`);this.classList.add(`t-bg-white`);this.classList.add(`t-border-gray-300`);this.classList.add(`t-border-solid`);' src='//images.ctfassets.net/94t4bn80wfcg/6wWp8IB51M334LwqnZiXN3/016bfa9f1cd3cbb93b7e0e9ad6724239/Exxon_Mobil_website_displayed_on_a_modern_smartphone.png?fl=progressive'>
+</figure>
+</a>
+<p class='t-text-xs t-mb-0 t-uppercase t-leading-none'>
+News
+</p>
+<h2 class='t-mb-0 t-py-1 t-font-semibold t-text-md t-leading-tight hover:t-underline'>
+<a href='/news/2022/01/26/trending-exxon-mobil-shares-edge-higher-thanks-to-oil-rally/'>
+Trending: Exxon Mobil Shares Edge Higher Thanks to Oil Rally
+</a>
+</h2>
+<div class='t-flex t-flex-row t-mb-1 t-text-sm'>
+<p class='t-mb-0 t-whitespace-no-wrap'>
+Iuri Struta
+</p>
+<p class='t-mb-0 t-px-1'>&#124;</p>
+<time class='t-whitespace-no-wrap'>
+Jan 26, 2022
+</time>
+</div>
+<p class='t-text-sm t-mb-0'>
+Oil has again trended this fortnight as it continued to rally on imbalances...
 </p>
 </div>
-<div class='t-flex t-flex-wrap t-justify-between' id='wrap_articles'>
+</article>
+<div class='t-h-px t-bg-gray-75 t-w-full t-my-6 md:t-hidden'></div>
+<div class='t-h-px t-bg-gray-75 t-w-full t-my-6 t-hidden md:t-block'></div>
+</div>
+<div class='lg:t-mb-2 lg:t-w-9/20 md:t-w-12/25 t-flex t-flex-col t-w-full'>
+<article class='t-flex t-flex-row t-flex-1 t-px-3'>
+<a class='t-hidden lg:t-block' href='/news/2021/12/30/don-t-forget-the-buyback-boost/'>
+<figure class='t-relative t-mr-2 lg:t-mr-4 t-flex feature-article-list'>
+<div class='t-absolute t--top-3 t--left-3 t-bg-orange-400 t-p-1 t-shadow t-border t-z-20'>
+<p class='t-text-white t-mb-0 t-uppercase t-font-semibold t-text-tiny t-tracking-wider n-text__with_shadow'>
+Premium
+</p>
+</div>
+<div class='t-absolute t--top-3 t-left-0 t-bg-orange-400 t-p-1 t-shadow t-border t-w-8 t-h-8 t-z-0 n-img__arrow'></div>
+<img alt='Stock Buybacks theme with Manhattan New York City skyscrapers' class='t-max-w-sm t-z-10 t-w-28 lg:t-w-32' href='/news/2021/12/30/don-t-forget-the-buyback-boost/' onerror='this.src=`/dividend-logo.svg`;this.classList.add(`t-border`);this.classList.add(`t-bg-white`);this.classList.add(`t-border-gray-300`);this.classList.add(`t-border-solid`);' src='//images.ctfassets.net/94t4bn80wfcg/4Q7PAgZogrXnHtoOYSRE9g/dcf3e8b98cefcf22f59c3e5b76a2e579/Stock_Buybacks_theme_with_Manhattan_New_York_City_skyscrapers.jpg?fl=progressive'>
+</figure>
+</a>
+<div class='t-flex-1 t-flex-col'>
+<a class='t-block lg:t-hidden t-float-left' href='/news/2021/12/30/don-t-forget-the-buyback-boost/'>
+<figure class='t-relative t-mr-2 t-flex t-mb-1 feature-article-list'>
+<div class='t-absolute t--top-3 t--left-3 t-bg-orange-400 t-p-1 t-shadow t-border t-z-20'>
+<p class='t-text-white t-mb-0 t-uppercase t-font-semibold t-text-tiny t-tracking-wider n-text__with_shadow'>
+Premium
+</p>
+</div>
+<div class='t-absolute t--top-3 t-left-0 t-bg-orange-400 t-p-1 t-shadow t-border t-w-8 t-h-8 t-z-0 n-img__arrow'></div>
+<img alt='Stock Buybacks theme with Manhattan New York City skyscrapers' class='t-max-w-sm t-z-10 t-w-18 md:t-w-25' href='/news/2021/12/30/don-t-forget-the-buyback-boost/' onerror='this.src=`/dividend-logo.svg`;this.classList.add(`t-border`);this.classList.add(`t-bg-white`);this.classList.add(`t-border-gray-300`);this.classList.add(`t-border-solid`);' src='//images.ctfassets.net/94t4bn80wfcg/4Q7PAgZogrXnHtoOYSRE9g/dcf3e8b98cefcf22f59c3e5b76a2e579/Stock_Buybacks_theme_with_Manhattan_New_York_City_skyscrapers.jpg?fl=progressive'>
+</figure>
+</a>
+<p class='t-text-xs t-mb-0 t-uppercase t-leading-none'>
+News
+</p>
+<h2 class='t-mb-0 t-py-1 t-font-semibold t-text-md t-leading-tight hover:t-underline'>
+<a href='/news/2021/12/30/don-t-forget-the-buyback-boost/'>
+Don&#39;t Forget the Buyback Boost
+</a>
+</h2>
+<div class='t-flex t-flex-row t-mb-1 t-text-sm'>
+<p class='t-mb-0 t-whitespace-no-wrap'>
+Aaron Levitt
+</p>
+<p class='t-mb-0 t-px-1'>&#124;</p>
+<time class='t-whitespace-no-wrap'>
+Dec 30, 2021
+</time>
+</div>
+<p class='t-text-sm t-mb-0'>
+Buyback activity is already surging in the post-pandemic world as the economy and...
+</p>
+</div>
+</article>
+<div class='t-h-px t-bg-gray-75 t-w-full t-my-6 md:t-hidden'></div>
+<div class='t-h-px t-bg-gray-75 t-w-full t-my-6 t-hidden md:t-block'></div>
+</div>
+<div class='lg:t-mb-2 lg:t-w-9/20 md:t-w-12/25 t-flex t-flex-col t-w-full'>
+<article class='t-flex t-flex-row t-flex-1 t-px-3'>
+<a class='t-hidden lg:t-block' href='/news/2021/11/18/trending-british-american-tobacco-sees-vape-authorized-by-fda/'>
+<figure class='t-relative t-mr-2 lg:t-mr-4 t-flex feature-article-list'>
+<img alt='smoking versus vaping' class='t-max-w-sm t-z-10 t-w-28 lg:t-w-32' href='/news/2021/11/18/trending-british-american-tobacco-sees-vape-authorized-by-fda/' onerror='this.src=`/dividend-logo.svg`;this.classList.add(`t-border`);this.classList.add(`t-bg-white`);this.classList.add(`t-border-gray-300`);this.classList.add(`t-border-solid`);' src='//images.ctfassets.net/94t4bn80wfcg/2I4hphr6qbofzgnmysjkbP/59c0b7529b69f8b26a0f141ebbcc531b/smoking_versus_vaping.jpg?fl=progressive'>
+</figure>
+</a>
+<div class='t-flex-1 t-flex-col'>
+<a class='t-block lg:t-hidden t-float-left' href='/news/2021/11/18/trending-british-american-tobacco-sees-vape-authorized-by-fda/'>
+<figure class='t-relative t-mr-2 t-flex t-mb-1 feature-article-list'>
+<img alt='smoking versus vaping' class='t-max-w-sm t-z-10 t-w-18 md:t-w-25' href='/news/2021/11/18/trending-british-american-tobacco-sees-vape-authorized-by-fda/' onerror='this.src=`/dividend-logo.svg`;this.classList.add(`t-border`);this.classList.add(`t-bg-white`);this.classList.add(`t-border-gray-300`);this.classList.add(`t-border-solid`);' src='//images.ctfassets.net/94t4bn80wfcg/2I4hphr6qbofzgnmysjkbP/59c0b7529b69f8b26a0f141ebbcc531b/smoking_versus_vaping.jpg?fl=progressive'>
+</figure>
+</a>
+<p class='t-text-xs t-mb-0 t-uppercase t-leading-none'>
+News
+</p>
+<h2 class='t-mb-0 t-py-1 t-font-semibold t-text-md t-leading-tight hover:t-underline'>
+<a href='/news/2021/11/18/trending-british-american-tobacco-sees-vape-authorized-by-fda/'>
+Trending: British American Tobacco Sees Vape Authorized by FDA
+</a>
+</h2>
+<div class='t-flex t-flex-row t-mb-1 t-text-sm'>
+<p class='t-mb-0 t-whitespace-no-wrap'>
+Iuri Struta
+</p>
+<p class='t-mb-0 t-px-1'>&#124;</p>
+<time class='t-whitespace-no-wrap'>
+Nov 18, 2021
+</time>
+</div>
+<p class='t-text-sm t-mb-0'>
+This fortnight’s trends do not look much changed compared to the last ones.
+</p>
+</div>
+</article>
+<div class='t-h-px t-bg-gray-75 t-w-full t-my-6 md:t-hidden'></div>
+</div>
+<div class='lg:t-mb-2 lg:t-w-9/20 md:t-w-12/25 t-flex t-flex-col t-w-full'>
+<article class='t-flex t-flex-row t-flex-1 t-px-3'>
+<a class='t-hidden lg:t-block' href='/news/2021/11/15/microsoft-johnson-and-johnson-and-united-parcel-service-go-ex-dividend-this-week/'>
+<figure class='t-relative t-mr-2 lg:t-mr-4 t-flex feature-article-list'>
+<img alt='Computer user touching on Microsoft word icon' class='t-max-w-sm t-z-10 t-w-28 lg:t-w-32' href='/news/2021/11/15/microsoft-johnson-and-johnson-and-united-parcel-service-go-ex-dividend-this-week/' onerror='this.src=`/dividend-logo.svg`;this.classList.add(`t-border`);this.classList.add(`t-bg-white`);this.classList.add(`t-border-gray-300`);this.classList.add(`t-border-solid`);' src='//images.ctfassets.net/94t4bn80wfcg/5vJwhIajscdoDI98HNY8Ik/ed7ef05d54451e4f8e8dcaa15514905c/Computer_user_touching_on_Microsoft_word_icon.jpg?fl=progressive'>
+</figure>
+</a>
+<div class='t-flex-1 t-flex-col'>
+<a class='t-block lg:t-hidden t-float-left' href='/news/2021/11/15/microsoft-johnson-and-johnson-and-united-parcel-service-go-ex-dividend-this-week/'>
+<figure class='t-relative t-mr-2 t-flex t-mb-1 feature-article-list'>
+<img alt='Computer user touching on Microsoft word icon' class='t-max-w-sm t-z-10 t-w-18 md:t-w-25' href='/news/2021/11/15/microsoft-johnson-and-johnson-and-united-parcel-service-go-ex-dividend-this-week/' onerror='this.src=`/dividend-logo.svg`;this.classList.add(`t-border`);this.classList.add(`t-bg-white`);this.classList.add(`t-border-gray-300`);this.classList.add(`t-border-solid`);' src='//images.ctfassets.net/94t4bn80wfcg/5vJwhIajscdoDI98HNY8Ik/ed7ef05d54451e4f8e8dcaa15514905c/Computer_user_touching_on_Microsoft_word_icon.jpg?fl=progressive'>
+</figure>
+</a>
+<p class='t-text-xs t-mb-0 t-uppercase t-leading-none'>
+News
+</p>
+<h2 class='t-mb-0 t-py-1 t-font-semibold t-text-md t-leading-tight hover:t-underline'>
+<a href='/news/2021/11/15/microsoft-johnson-and-johnson-and-united-parcel-service-go-ex-dividend-this-week/'>
+Microsoft, Johnson &amp; Johnson and United Parcel Service go Ex-dividend this Week
+</a>
+</h2>
+<div class='t-flex t-flex-row t-mb-1 t-text-sm'>
+<p class='t-mb-0 t-whitespace-no-wrap'>
+Shauvik Haldar
+</p>
+<p class='t-mb-0 t-px-1'>&#124;</p>
+<time class='t-whitespace-no-wrap'>
+Nov 15, 2021
+</time>
+</div>
+<p class='t-text-sm t-mb-0'>
+Check out the securities going ex-dividend this week.
+</p>
+</div>
+</article>
+</div>
 </div>
 <div class='async-js' data-js-files='["/components/resize_feature_article"]'></div>
 
 </div>
+<section class='t-flex t-flex-1 t-justify-end'>
+<button class='t-mt-2 t-px-3 t-py-2 t-text-tiny n-ticker_button_outline t-bg-transparent' style='border-radius: 0.2rem;' type='button'>
+<a href='/dividend-stocks/news/technology/software/msft-microsoft/'>More MSFT News</a>
+</button>
+</section>
 </section>
 <section class='article-list t-flex t-items-top t-flex-col t-pb-3 md:t-pb-0 md:t-py-3 md:t-mt-3'>
 <h2 class='t-text-xl t-font-semibold t-mb-3'>Research</h2>
 <div class='t-px-6 t-pt-6 t-pb-3 t-bg-gray-100 t-rounded'>
-<div class='t-flex t-justify-center'>
-<p class='t-text-tiny'>
-Sorry, there are no articles available for this stock.
+<div class='t-flex t-flex-wrap t-justify-between' id='wrap_articles'>
+<div class='lg:t-mb-2 lg:t-w-9/20 md:t-w-12/25 t-flex t-flex-col t-w-full'>
+<article class='t-flex t-flex-row t-flex-1 t-px-3'>
+<a class='t-hidden lg:t-block' href='/dividend-education/the-ten-commandments-of-dividend-investing/'>
+<figure class='t-relative t-mr-2 lg:t-mr-4 t-flex feature-article-list'>
+<img alt='Moses and 10 Commandments ' class='t-max-w-sm t-z-10 t-w-28 lg:t-w-32' href='/dividend-education/the-ten-commandments-of-dividend-investing/' onerror='this.src=`/dividend-logo.svg`;this.classList.add(`t-border`);this.classList.add(`t-bg-white`);this.classList.add(`t-border-gray-300`);this.classList.add(`t-border-solid`);' src='//images.ctfassets.net/joaw4km50ods/2y90yyVdCvidEZxi88JqvT/8cedab131461849684b1b81d735ec931/10CommandmentsMoses.png?fl=progressive'>
+</figure>
+</a>
+<div class='t-flex-1 t-flex-col'>
+<a class='t-block lg:t-hidden t-float-left' href='/dividend-education/the-ten-commandments-of-dividend-investing/'>
+<figure class='t-relative t-mr-2 t-flex t-mb-1 feature-article-list'>
+<img alt='Moses and 10 Commandments ' class='t-max-w-sm t-z-10 t-w-18 md:t-w-25' href='/dividend-education/the-ten-commandments-of-dividend-investing/' onerror='this.src=`/dividend-logo.svg`;this.classList.add(`t-border`);this.classList.add(`t-bg-white`);this.classList.add(`t-border-gray-300`);this.classList.add(`t-border-solid`);' src='//images.ctfassets.net/joaw4km50ods/2y90yyVdCvidEZxi88JqvT/8cedab131461849684b1b81d735ec931/10CommandmentsMoses.png?fl=progressive'>
+</figure>
+</a>
+<p class='t-text-xs t-mb-0 t-uppercase t-leading-none'>
+Dividend University
+</p>
+<h2 class='t-mb-0 t-py-1 t-font-semibold t-text-md t-leading-tight hover:t-underline'>
+<a href='/dividend-education/the-ten-commandments-of-dividend-investing/'>
+The Ten Commandments of Dividend Investing
+</a>
+</h2>
+<div class='t-flex t-flex-row t-mb-1 t-text-sm'>
+<p class='t-mb-0 t-whitespace-no-wrap'>
+Jared Cummans
+</p>
+<p class='t-mb-0 t-px-1'>&#124;</p>
+<time class='t-whitespace-no-wrap'>
+Jun 14, 2018
+</time>
+</div>
+<p class='t-text-sm t-mb-0'>
+This articles highlights and explains 10 of the most important concepts that dividend...
 </p>
 </div>
-<div class='t-flex t-flex-wrap t-justify-between' id='wrap_articles'>
+</article>
+<div class='t-h-px t-bg-gray-75 t-w-full t-my-6 md:t-hidden'></div>
+<div class='t-h-px t-bg-gray-75 t-w-full t-my-6 t-hidden md:t-block'></div>
+</div>
+<div class='lg:t-mb-2 lg:t-w-9/20 md:t-w-12/25 t-flex t-flex-col t-w-full'>
+<article class='t-flex t-flex-row t-flex-1 t-px-3'>
+<a class='t-hidden lg:t-block' href='/how-to-invest/what-are-economic-moats/'>
+<figure class='t-relative t-mr-2 lg:t-mr-4 t-flex feature-article-list'>
+<img alt='Castle with a Moat' class='t-max-w-sm t-z-10 t-w-28 lg:t-w-32' href='/how-to-invest/what-are-economic-moats/' onerror='this.src=`/dividend-logo.svg`;this.classList.add(`t-border`);this.classList.add(`t-bg-white`);this.classList.add(`t-border-gray-300`);this.classList.add(`t-border-solid`);' src='//images.ctfassets.net/joaw4km50ods/3tYS3Qv8VCZhQ2gHN04LKL/03e7fd1f67d4eed342e1ab474edcbd6a/Castle_with_a_Moat.jpg?fl=progressive'>
+</figure>
+</a>
+<div class='t-flex-1 t-flex-col'>
+<a class='t-block lg:t-hidden t-float-left' href='/how-to-invest/what-are-economic-moats/'>
+<figure class='t-relative t-mr-2 t-flex t-mb-1 feature-article-list'>
+<img alt='Castle with a Moat' class='t-max-w-sm t-z-10 t-w-18 md:t-w-25' href='/how-to-invest/what-are-economic-moats/' onerror='this.src=`/dividend-logo.svg`;this.classList.add(`t-border`);this.classList.add(`t-bg-white`);this.classList.add(`t-border-gray-300`);this.classList.add(`t-border-solid`);' src='//images.ctfassets.net/joaw4km50ods/3tYS3Qv8VCZhQ2gHN04LKL/03e7fd1f67d4eed342e1ab474edcbd6a/Castle_with_a_Moat.jpg?fl=progressive'>
+</figure>
+</a>
+<p class='t-text-xs t-mb-0 t-uppercase t-leading-none'>
+Dividend Investing Ideas Center
+</p>
+<h2 class='t-mb-0 t-py-1 t-font-semibold t-text-md t-leading-tight hover:t-underline'>
+<a href='/how-to-invest/what-are-economic-moats/'>
+What Are Economic Moats?
+</a>
+</h2>
+<div class='t-flex t-flex-row t-mb-1 t-text-sm'>
+<p class='t-mb-0 t-whitespace-no-wrap'>
+Sam Bourgi
+</p>
+<p class='t-mb-0 t-px-1'>&#124;</p>
+<time class='t-whitespace-no-wrap'>
+Jun 14, 2018
+</time>
+</div>
+<p class='t-text-sm t-mb-0'>
+Investors have become interested in the concept of economic moats ever since Warren...
+</p>
+</div>
+</article>
+<div class='t-h-px t-bg-gray-75 t-w-full t-my-6 md:t-hidden'></div>
+<div class='t-h-px t-bg-gray-75 t-w-full t-my-6 t-hidden md:t-block'></div>
+</div>
+<div class='lg:t-mb-2 lg:t-w-9/20 md:t-w-12/25 t-flex t-flex-col t-w-full'>
+<article class='t-flex t-flex-row t-flex-1 t-px-3'>
+<a class='t-hidden lg:t-block' href='/how-to-invest/5-dividend-stocks-exposure-to-artificial-intelligence/'>
+<figure class='t-relative t-mr-2 lg:t-mr-4 t-flex feature-article-list'>
+<img alt='Artificial Intelligence' class='t-max-w-sm t-z-10 t-w-28 lg:t-w-32' href='/how-to-invest/5-dividend-stocks-exposure-to-artificial-intelligence/' onerror='this.src=`/dividend-logo.svg`;this.classList.add(`t-border`);this.classList.add(`t-bg-white`);this.classList.add(`t-border-gray-300`);this.classList.add(`t-border-solid`);' src='//images.ctfassets.net/joaw4km50ods/4jg6NLIJIZN5xpTzk8Tuu7/a2e55dd0f0f748a260fe75277dd5d54d/artificialintelligence.jpg?fl=progressive'>
+</figure>
+</a>
+<div class='t-flex-1 t-flex-col'>
+<a class='t-block lg:t-hidden t-float-left' href='/how-to-invest/5-dividend-stocks-exposure-to-artificial-intelligence/'>
+<figure class='t-relative t-mr-2 t-flex t-mb-1 feature-article-list'>
+<img alt='Artificial Intelligence' class='t-max-w-sm t-z-10 t-w-18 md:t-w-25' href='/how-to-invest/5-dividend-stocks-exposure-to-artificial-intelligence/' onerror='this.src=`/dividend-logo.svg`;this.classList.add(`t-border`);this.classList.add(`t-bg-white`);this.classList.add(`t-border-gray-300`);this.classList.add(`t-border-solid`);' src='//images.ctfassets.net/joaw4km50ods/4jg6NLIJIZN5xpTzk8Tuu7/a2e55dd0f0f748a260fe75277dd5d54d/artificialintelligence.jpg?fl=progressive'>
+</figure>
+</a>
+<p class='t-text-xs t-mb-0 t-uppercase t-leading-none'>
+Dividend Investing Ideas Center
+</p>
+<h2 class='t-mb-0 t-py-1 t-font-semibold t-text-md t-leading-tight hover:t-underline'>
+<a href='/how-to-invest/5-dividend-stocks-exposure-to-artificial-intelligence/'>
+5 Dividend Stocks With Exposure to AI
+</a>
+</h2>
+<div class='t-flex t-flex-row t-mb-1 t-text-sm'>
+<p class='t-mb-0 t-whitespace-no-wrap'>
+Sam Bourgi
+</p>
+<p class='t-mb-0 t-px-1'>&#124;</p>
+<time class='t-whitespace-no-wrap'>
+Nov 23, 2017
+</time>
+</div>
+<p class='t-text-sm t-mb-0'>
+Doomsday scenarios aside, the growth of AI has significant implications on work, life...
+</p>
+</div>
+</article>
+<div class='t-h-px t-bg-gray-75 t-w-full t-my-6 md:t-hidden'></div>
+</div>
+<div class='lg:t-mb-2 lg:t-w-9/20 md:t-w-12/25 t-flex t-flex-col t-w-full'>
+<article class='t-flex t-flex-row t-flex-1 t-px-3'>
+<a class='t-hidden lg:t-block' href='/dividend-investing-101/interpreting-payout-ratio-evaluating-dividend-paying-stocks/'>
+<figure class='t-relative t-mr-2 lg:t-mr-4 t-flex feature-article-list'>
+<img alt='dividend payment analysis ' class='t-max-w-sm t-z-10 t-w-28 lg:t-w-32' href='/dividend-investing-101/interpreting-payout-ratio-evaluating-dividend-paying-stocks/' onerror='this.src=`/dividend-logo.svg`;this.classList.add(`t-border`);this.classList.add(`t-bg-white`);this.classList.add(`t-border-gray-300`);this.classList.add(`t-border-solid`);' src='//images.ctfassets.net/joaw4km50ods/59niU6Owj60yYI9ZasfUBD/a83b132a0ff1daf65c2f84d342314344/shutterstock_599824394.jpg?fl=progressive'>
+</figure>
+</a>
+<div class='t-flex-1 t-flex-col'>
+<a class='t-block lg:t-hidden t-float-left' href='/dividend-investing-101/interpreting-payout-ratio-evaluating-dividend-paying-stocks/'>
+<figure class='t-relative t-mr-2 t-flex t-mb-1 feature-article-list'>
+<img alt='dividend payment analysis ' class='t-max-w-sm t-z-10 t-w-18 md:t-w-25' href='/dividend-investing-101/interpreting-payout-ratio-evaluating-dividend-paying-stocks/' onerror='this.src=`/dividend-logo.svg`;this.classList.add(`t-border`);this.classList.add(`t-bg-white`);this.classList.add(`t-border-gray-300`);this.classList.add(`t-border-solid`);' src='//images.ctfassets.net/joaw4km50ods/59niU6Owj60yYI9ZasfUBD/a83b132a0ff1daf65c2f84d342314344/shutterstock_599824394.jpg?fl=progressive'>
+</figure>
+</a>
+<p class='t-text-xs t-mb-0 t-uppercase t-leading-none'>
+Dividend Investing 101
+</p>
+<h2 class='t-mb-0 t-py-1 t-font-semibold t-text-md t-leading-tight hover:t-underline'>
+<a href='/dividend-investing-101/interpreting-payout-ratio-evaluating-dividend-paying-stocks/'>
+How to Interpret the Payout Ratio While Evaluating Dividend-Paying Stocks
+</a>
+</h2>
+<div class='t-flex t-flex-row t-mb-1 t-text-sm'>
+<p class='t-mb-0 t-whitespace-no-wrap'>
+Michael McDonald
+</p>
+<p class='t-mb-0 t-px-1'>&#124;</p>
+<time class='t-whitespace-no-wrap'>
+Jul 13, 2017
+</time>
+</div>
+<p class='t-text-sm t-mb-0'>
+Payout ratios help investors to determine if a firm’s dividend is secure and...
+</p>
+</div>
+</article>
+</div>
 </div>
 <div class='async-js' data-js-files='["/components/resize_feature_article"]'></div>
 
 </div>
+<section class='t-flex t-flex-1 t-justify-end'>
+<button class='t-mt-2 t-px-3 t-py-2 t-text-tiny n-ticker_button_outline t-bg-transparent' style='border-radius: 0.2rem;' type='button'>
+<a href='/dividend-stocks/research/technology/software/msft-microsoft/'>More MSFT Research</a>
+</button>
+</section>
 </section>
 </div>
 </section>
@@ -3524,19 +3834,19 @@ Sorry, there are no articles available for this stock.
 <p class='t-font-semibold t-text-tiny t-flex-1 t-my-0'>
 Exchanges:
 <span class='t-font-normal'>
-ARCX
+NASDAQ
 </span>
 </p>
 <p class='t-font-semibold t-text-tiny t-flex-1 t-my-0'>
 Sector:
-<a class='t-font-normal t-underline hover:t-text-black' href='/stocks/financials/'>
-Financials
+<a class='t-font-normal t-underline hover:t-text-black' href='/stocks/technology/'>
+Technology
 </a>
 </p>
 <p class='t-font-semibold t-text-tiny t-flex-1 t-my-0'>
 Industry:
-<a class='t-font-normal t-underline hover:t-text-black' href='/stocks/financials/asset-management/'>
-Asset Management
+<a class='t-font-normal t-underline hover:t-text-black' href='/stocks/technology/software/'>
+Software
 </a>
 </p>
 </section>
@@ -3562,92 +3872,64 @@ No company description available.
 <p class='t-mx-2 t-w-17 t-my-0'>% Change</p>
 </div>
 <div class='t-flex t-text-tiny t-border-b t-py-4 t-px-6 t-bg-gray-100 md:t-bg-white last:t-border-b-0 last:t-rounded-b'>
-<a class='t-flex-1 t-text-black t-underline hover:t-text-black' href='/stocks/financials/asset-management/investment-companies/mxrsf-coin-hodl-inc/'>
-Coin Hodl Inc
+<a class='t-flex-1 t-text-black t-underline hover:t-text-black' href='/stocks/technology/software/other/mrai-marpai-inc-ordinary-shares-class-a/'>
+Marpai Inc - Ordinary Shares Class A
 </a>
 <p class='t-mx-2 t-w-16 t-my-0'>
-$0.25
+$1.93
+</p>
+<p class='t-mx-2 t-my-0 t-text-green-750 t-w-16'>
+$0.08
+</p>
+<p class='t-mx-2 t-my-0 t-text-green-750 t-w-17'>
+4.324%
+</p>
+</div>
+<div class='t-flex t-text-tiny t-border-b t-py-4 t-px-6 t-bg-gray-100 md:t-bg-white last:t-border-b-0 last:t-rounded-b'>
+<a class='t-flex-1 t-text-black t-underline hover:t-text-black' href='/stocks/technology/software/application-software/mitk-mitek-systems-inc/'>
+Mitek Systems Inc
+</a>
+<p class='t-mx-2 t-w-16 t-my-0'>
+$14.82
+</p>
+<p class='t-mx-2 t-my-0 t-text-green-750 t-w-16'>
+$0.19
+</p>
+<p class='t-mx-2 t-my-0 t-text-green-750 t-w-17'>
+1.299%
+</p>
+</div>
+<div class='t-flex t-text-tiny t-border-b t-py-4 t-px-6 t-bg-gray-100 md:t-bg-white last:t-border-b-0 last:t-rounded-b'>
+<a class='t-flex-1 t-text-black t-underline hover:t-text-black' href='/stocks/technology/software/infrastructure-software/mime-mimecast-ltd/'>
+Mimecast Ltd
+</a>
+<p class='t-mx-2 t-w-16 t-my-0'>
+$79.02
 </p>
 <p class='t-mx-2 t-my-0 t-text-red-650 t-w-16'>
-$0.00
+-$0.45
 </p>
 <p class='t-mx-2 t-my-0 t-text-red-650 t-w-17'>
-0.000%
+-0.566%
 </p>
 </div>
 <div class='t-flex t-text-tiny t-border-b t-py-4 t-px-6 t-bg-gray-100 md:t-bg-white last:t-border-b-0 last:t-rounded-b'>
-<a class='t-flex-1 t-text-black t-underline hover:t-text-black' href='/stocks/financials/asset-management/investment-companies/mtpp-mountain-top-properties-inc/'>
-Mountain Top Properties Inc
+<a class='t-flex-1 t-text-black t-underline hover:t-text-black' href='/stocks/technology/software/other/mappf-prostar-holdings-inc/'>
+ProStar Holdings Inc.
 </a>
 <p class='t-mx-2 t-w-16 t-my-0'>
-$0.06
-</p>
-<p class='t-mx-2 t-my-0 t-text-green-750 t-w-16'>
-$0.02
-</p>
-<p class='t-mx-2 t-my-0 t-text-green-750 t-w-17'>
-50.000%
-</p>
-</div>
-<div class='t-flex t-text-tiny t-border-b t-py-4 t-px-6 t-bg-gray-100 md:t-bg-white last:t-border-b-0 last:t-rounded-b'>
-<a class='t-flex-1 t-text-black t-underline hover:t-text-black' href='/stocks/financials/asset-management/investment-management/nrgd-bank-of-montreal-zc-sp-etn-redeem-25-03-2039-usd-500-ser-e-nrgd/'>
-Bank of Montreal - ZC SP ETN REDEEM 25/03/2039 USD 500 - Ser E NRGD
-</a>
-<p class='t-mx-2 t-w-16 t-my-0'>
-$2.64
+$0.24
 </p>
 <p class='t-mx-2 t-my-0 t-text-red-650 t-w-16'>
-$0.00
+-$0.01
 </p>
 <p class='t-mx-2 t-my-0 t-text-red-650 t-w-17'>
-0.000%
+-4.000%
 </p>
 </div>
 <div class='t-flex t-text-tiny t-border-b t-py-4 t-px-6 t-bg-gray-100 md:t-bg-white last:t-border-b-0 last:t-rounded-b'>
-<a class='t-flex-1 t-text-black t-underline hover:t-text-black' href='/stocks/financials/asset-management/investment-management//'>
-
-</a>
-<p class='t-mx-2 t-w-16 t-my-0'>
-$51.90
-</p>
-<p class='t-mx-2 t-my-0 t-text-green-750 t-w-16'>
-$0.59
-</p>
-<p class='t-mx-2 t-my-0 t-text-green-750 t-w-17'>
-1.150%
-</p>
-</div>
-<div class='t-flex t-text-tiny t-border-b t-py-4 t-px-6 t-bg-gray-100 md:t-bg-white last:t-border-b-0 last:t-rounded-b'>
-<a class='t-flex-1 t-text-black t-underline hover:t-text-black' href='/stocks/financials/asset-management/investment-companies/hcchu-hl-acquisitions-corp-units-1-ord-1-rts-and-1-war/'>
-HL Acquisitions Corp - Units (1 Ord,1 Rts &amp; 1 War)
-</a>
-<p class='t-mx-2 t-w-16 t-my-0'>
-$39.60
-</p>
-<p class='t-mx-2 t-my-0 t-text-green-750 t-w-16'>
-$3.60
-</p>
-<p class='t-mx-2 t-my-0 t-text-green-750 t-w-17'>
-10.000%
-</p>
-</div>
-<div class='t-flex t-text-tiny t-border-b t-py-4 t-px-6 t-bg-gray-100 md:t-bg-white last:t-border-b-0 last:t-rounded-b'>
-<a class='t-flex-1 t-text-black t-underline hover:t-text-black' href='/stocks/financials/asset-management/investment-companies/hyacu-haymaker-acquisition-corp-iii-units-1-ord-share-class-a-and-1-4-war/'>
-Haymaker Acquisition Corp III - Units (1 Ord Share Class A &amp; 1/4 War)
-</a>
-<p class='t-mx-2 t-w-16 t-my-0'>
-$9.90
-</p>
-<p class='t-mx-2 t-my-0 t-text-green-750 t-w-16'>
-$0.02
-</p>
-<p class='t-mx-2 t-my-0 t-text-green-750 t-w-17'>
-0.202%
-</p>
-</div>
-<div class='t-flex t-text-tiny t-border-b t-py-4 t-px-6 t-bg-gray-100 md:t-bg-white last:t-border-b-0 last:t-rounded-b'>
-<a class='t-flex-1 t-text-black t-underline hover:t-text-black' href='/stocks/financials/asset-management/investment-companies/hloi-previsto-international-holdings-inc/'>
-Previsto International Holdings Inc
+<a class='t-flex-1 t-text-black t-underline hover:t-text-black' href='/stocks/technology/software/application-software/mlruy-mailru-group-ltd-gdr-144a/'>
+Mail.ru Group Ltd - GDR - 144A
 </a>
 <p class='t-mx-2 t-w-16 t-my-0'>
 $0.00
@@ -3660,25 +3942,53 @@ $0.00
 </p>
 </div>
 <div class='t-flex t-text-tiny t-border-b t-py-4 t-px-6 t-bg-gray-100 md:t-bg-white last:t-border-b-0 last:t-rounded-b'>
-<a class='t-flex-1 t-text-black t-underline hover:t-text-black' href='/stocks/financials/asset-management/investment-companies/hpil-cybernetic-technologies-ltd/'>
-Cybernetic Technologies Ltd
+<a class='t-flex-1 t-text-black t-underline hover:t-text-black' href='/stocks/technology/software/other/magtf-magnet-forensics-inc-ordinary-shares-sub-voting/'>
+Magnet Forensics Inc - Ordinary Shares (Sub Voting)
+</a>
+<p class='t-mx-2 t-w-16 t-my-0'>
+$22.74
+</p>
+<p class='t-mx-2 t-my-0 t-text-green-750 t-w-16'>
+$3.11
+</p>
+<p class='t-mx-2 t-my-0 t-text-green-750 t-w-17'>
+15.843%
+</p>
+</div>
+<div class='t-flex t-text-tiny t-border-b t-py-4 t-px-6 t-bg-gray-100 md:t-bg-white last:t-border-b-0 last:t-rounded-b'>
+<a class='t-flex-1 t-text-black t-underline hover:t-text-black' href='/stocks/technology/software/application-software/mvlsf-marvelous-inc/'>
+Marvelous Inc
 </a>
 <p class='t-mx-2 t-w-16 t-my-0'>
 $0.00
 </p>
 <p class='t-mx-2 t-my-0 t-text-red-650 t-w-16'>
 $0.00
+</p>
+<p class='t-mx-2 t-my-0 t-text-red-650 t-w-17'>
+0.000%
+</p>
+</div>
+<div class='t-flex t-text-tiny t-border-b t-py-4 t-px-6 t-bg-gray-100 md:t-bg-white last:t-border-b-0 last:t-rounded-b'>
+<a class='t-flex-1 t-text-black t-underline hover:t-text-black' href='/stocks/technology/software/application-software/mblv-mobiventures-inc/'>
+MobiVentures Inc
+</a>
+<p class='t-mx-2 t-w-16 t-my-0'>
+$0.00
+</p>
+<p class='t-mx-2 t-my-0 t-text-red-650 t-w-16'>
+-$0.01
 </p>
 <p class='t-mx-2 t-my-0 t-text-red-650 t-w-17'>
 -100.000%
 </p>
 </div>
 <div class='t-flex t-text-tiny t-border-b t-py-4 t-px-6 t-bg-gray-100 md:t-bg-white last:t-border-b-0 last:t-rounded-b'>
-<a class='t-flex-1 t-text-black t-underline hover:t-text-black' href='/stocks/financials/asset-management/investment-management/husxf-haus-invest-shs-hldgs-units/'>
-Haus-Invest Shs HLDGS - Units
+<a class='t-flex-1 t-text-black t-underline hover:t-text-black' href='/stocks/technology/software/application-software/mccx-mcx-technologies-corporation/'>
+MCX Technologies Corporation
 </a>
 <p class='t-mx-2 t-w-16 t-my-0'>
-$45.94
+$0.11
 </p>
 <p class='t-mx-2 t-my-0 t-text-red-650 t-w-16'>
 $0.00
@@ -3688,16 +3998,16 @@ $0.00
 </p>
 </div>
 <div class='t-flex t-text-tiny t-border-b t-py-4 t-px-6 t-bg-gray-100 md:t-bg-white last:t-border-b-0 last:t-rounded-b'>
-<a class='t-flex-1 t-text-black t-underline hover:t-text-black' href='/stocks/financials/asset-management/other//'>
-
+<a class='t-flex-1 t-text-black t-underline hover:t-text-black' href='/stocks/technology/software/other/mnyff-money-forward-inc/'>
+Money Forward Inc.
 </a>
 <p class='t-mx-2 t-w-16 t-my-0'>
-
+$76.27
 </p>
-<p class='t-mx-2 t-my-0 t-text-green-750 t-w-16'>
+<p class='t-mx-2 t-my-0 t-text-red-650 t-w-16'>
 $0.00
 </p>
-<p class='t-mx-2 t-my-0 t-text-green-750 t-w-17'>
+<p class='t-mx-2 t-my-0 t-text-red-650 t-w-17'>
 0.000%
 </p>
 </div>
@@ -3706,7 +4016,7 @@ $0.00
 <section class='t-flex t-items-center t-flex-1'>
 <section class='t-flex t-flex-1 t-justify-end'>
 <button class='t-bg-transparent t-mt-2 t-px-3 t-py-2 t-text-tiny n-ticker_button_outline' style='border-radius: 0.2rem;' type='button'>
-<a href='/stocks/financials/asset-management/'>View All Related Stocks</a>
+<a href='/stocks/technology/software/'>View All Related Stocks</a>
 </button>
 </section>
 </section>
@@ -3716,8 +4026,8 @@ $0.00
 </div>
 </div>
 <aside class='lg:t-justify-end lg:t-ml-4 lg:t-mt-0 t-flex t-justify-center t-mt-6 xl:t-w-7/25'>
-<div class="mitread--adunit__npc ad-type-NP-09-C t-flex t-justify-center t-items-center lg:t-items-start" id="4f0a551b12b19a0420c5d9caec311105-c"><div id="4f0a551b12b19a0420c5d9caec311105" data-controller="ad-unit" data-ad-unit-id="4f0a551b12b19a0420c5d9caec311105" data-ad-unit-name="Div/T-stk/financials/NP-09-C" data-ad-unit-ad-unit="NP-09-C" data-ad-unit-type="npc" data-ad-unit-is-native="true" data-ad-unit-kfp="true"></div>
-<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/financials/NP-09-C"></div></div>
+<div class="mitread--adunit__npc ad-type-NP-09-C t-flex t-justify-center t-items-center lg:t-items-start" id="fb64c97fd6a7be35826b884f38d0fdb7-c"><div id="fb64c97fd6a7be35826b884f38d0fdb7" data-controller="ad-unit" data-ad-unit-id="fb64c97fd6a7be35826b884f38d0fdb7" data-ad-unit-name="Div/T-stk/technology/NP-09-C" data-ad-unit-ad-unit="NP-09-C" data-ad-unit-type="npc" data-ad-unit-is-native="true" data-ad-unit-kfp="true"></div>
+<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/technology/NP-09-C"></div></div>
 </aside>
 </div>
 </div>
@@ -3784,7 +4094,7 @@ OK
 <div class='t-container t-mx-auto t-mb-3 sm:t-mb-0'>
 <div class='t-flex t-flex-row t-justify-between sm:t-flex-col sm:t-justify-center'>
 <div class='t-flex t-justify-between t-items-start t-flex-col t-mb-1 md:t-flex-row md:t-items-center'>
-<h2 class='n-ticker_text__section_title'>DHY Payout History (Paid and Declared)</h2>
+<h2 class='n-ticker_text__section_title'>MSFT Payout History (Paid and Declared)</h2>
 <div class='t-flex t-flex-row'>
 <div class='t-flex t-uppercase t-text-xs'>
 <div class='n-table-status-dot declared'></div>
@@ -3805,7 +4115,7 @@ Paid
 </div>
 <div class='sm sm:t-max-h-4/5 sm:t-mx-auto t-container t-max-h-full t-overflow-x-scroll'>
 <section class='t-mb-2'>
-<section class='tm' data-default-sticky-height='45' data-enable-cta-body='' data-enable-sticky='true' data-enable-striped-css='true' data-full-screen='true' data-prevent-pagin-scroll-top='true' data-tm data-tm-default-filter='null' data-tm-name='3-ticker-payout-history-full-screen' data-tm-resource='ES::DividendStock::Stock#DHY--ARCX' id='3-ticker-payout-history-full-screen'>
+<section class='tm' data-default-sticky-height='45' data-enable-cta-body='' data-enable-sticky='true' data-enable-striped-css='true' data-full-screen='true' data-prevent-pagin-scroll-top='true' data-tm data-tm-default-filter='null' data-tm-name='3-ticker-payout-history-full-screen' data-tm-resource='ES::DividendStock::Stock#MSFT--NASDAQ' id='3-ticker-payout-history-full-screen'>
 <div class='t-flex t-flex-col'>
 <div class='t-flex-1 t-flex t-flex-col'>
 <div class='t-flex'>
@@ -3896,7 +4206,7 @@ Become a Premium Member to “stick” up to 3 rows and access more exclusive be
 Join Now
 </button>
 </a>
-<a class='t-mt-2 t-text-blue-700 t-text-xs t-underline' href='/login/?redirect_url=/stocks/financials/asset-management/investment-management/dhy-credit-suisse-high-yield-bond-fund'>
+<a class='t-mt-2 t-text-blue-700 t-text-xs t-underline' href='/login/?redirect_url=/stocks/technology/software/infrastructure-software/msft-microsoft'>
 Or Login to Your Premium Account
 </a>
 </div>
@@ -4150,8 +4460,8 @@ Advertisement
 </div>
 <div class='t-h-px t-bg-gray-400 t-w-full'></div>
 <div class='t-flex t-my-2 t-items-center t-justify-center'>
-<div class="mitread--adunit__oa ad-type-O-01-A t-flex t-flex-end" id="e0357a7bb595dcbf3a18c59d7d5161b0-c"><div id="e0357a7bb595dcbf3a18c59d7d5161b0" data-controller="ad-unit" data-ad-unit-id="e0357a7bb595dcbf3a18c59d7d5161b0" data-ad-unit-name="Div/T-stk/financials/O-01-A" data-ad-unit-ad-unit="O-01-A" data-ad-unit-type="oa" data-ad-unit-only-if="enterInterstitialHasNotBeenServed" data-ad-unit-is-native="false" data-ad-unit-kfp="true"></div>
-<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/financials/O-01-A"></div></div>
+<div class="mitread--adunit__oa ad-type-O-01-A t-flex t-flex-end" id="7a14da717468d888b438aee9da21d858-c"><div id="7a14da717468d888b438aee9da21d858" data-controller="ad-unit" data-ad-unit-id="7a14da717468d888b438aee9da21d858" data-ad-unit-name="Div/T-stk/technology/O-01-A" data-ad-unit-ad-unit="O-01-A" data-ad-unit-type="oa" data-ad-unit-only-if="enterInterstitialHasNotBeenServed" data-ad-unit-is-native="false" data-ad-unit-kfp="true"></div>
+<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/technology/O-01-A"></div></div>
 </div>
 <div class='t-flex t-justify-end t-pt-2'>
 <button class='modal-close t-px-4 t-h-8 t-bg-white t-border t-rounded t-text-gray-800 hover:t-bg-gray-200' data-action='click->modal#closeModal'>
@@ -4263,8 +4573,8 @@ If you are reaching retirement age, there is a good chance that you...
 
 </div>
 <div class='t-flex t-flex-col t-flex-1'>
-<div class="mitread--adunit__oa ad-type-O-02-A t-flex t-flex-end" id="769122f85f4ea3366449c3fa7317d82c-c"><div id="769122f85f4ea3366449c3fa7317d82c" data-controller="ad-unit" data-ad-unit-id="769122f85f4ea3366449c3fa7317d82c" data-ad-unit-name="Div/T-stk/financials/O-02-A" data-ad-unit-ad-unit="O-02-A" data-ad-unit-type="oa" data-ad-unit-only-if="exitInterstitialHasNotBeenServed" data-ad-unit-is-native="false" data-ad-unit-kfp="true"></div>
-<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/financials/O-02-A"></div></div>
+<div class="mitread--adunit__oa ad-type-O-02-A t-flex t-flex-end" id="a16f83635bef126b9f0049831406237f-c"><div id="a16f83635bef126b9f0049831406237f" data-controller="ad-unit" data-ad-unit-id="a16f83635bef126b9f0049831406237f" data-ad-unit-name="Div/T-stk/technology/O-02-A" data-ad-unit-ad-unit="O-02-A" data-ad-unit-type="oa" data-ad-unit-only-if="exitInterstitialHasNotBeenServed" data-ad-unit-is-native="false" data-ad-unit-kfp="true"></div>
+<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/technology/O-02-A"></div></div>
 </div>
 </div>
 <div class='t-flex t-mt-1 t-justify-center'></div>
@@ -4282,8 +4592,8 @@ Close
 <div class='sticky_footer--close_btn n-ads-sticky-footer--close_btn' data-action='click->modal#closeModal'>
 X
 </div>
-<div class="mitread--adunit__fpa ad-type-FP-10-A t-flex t-justify-center t-items-center t-my-1" id="e39df2e9a69d164a03946383533ffdc9-c"><div id="e39df2e9a69d164a03946383533ffdc9" data-controller="ad-unit" data-ad-unit-id="e39df2e9a69d164a03946383533ffdc9" data-ad-unit-name="Div/T-stk/financials/FP-10-A" data-ad-unit-ad-unit="FP-10-A" data-ad-unit-type="fpa" data-ad-unit-only-if="stickyFooterHasNotBeenServed" data-ad-unit-is-native="true" data-ad-unit-kfp="true"></div>
-<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/financials/FP-10-A"></div></div>
+<div class="mitread--adunit__fpa ad-type-FP-10-A t-flex t-justify-center t-items-center t-my-1" id="7db9016f0f56aa00dcc9b30978bbea3b-c"><div id="7db9016f0f56aa00dcc9b30978bbea3b" data-controller="ad-unit" data-ad-unit-id="7db9016f0f56aa00dcc9b30978bbea3b" data-ad-unit-name="Div/T-stk/technology/FP-10-A" data-ad-unit-ad-unit="FP-10-A" data-ad-unit-type="fpa" data-ad-unit-only-if="stickyFooterHasNotBeenServed" data-ad-unit-is-native="true" data-ad-unit-kfp="true"></div>
+<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/technology/FP-10-A"></div></div>
 </div>
 
 <div class='async-js' data-js-files='[]'></div>
@@ -4297,345 +4607,7 @@ X
 
 </body>
 </html>
--dividend-stocks/'>
-Dow 30 Dividend Stocks
-</a>
-<a class='t-leading-relaxed t-text-tiny t-text-gray-600 hover:t-text-white hover:t-no-underline' href='/dividend-stocks/25-year-dividend-increasing-stocks/'>
-25-Year Dividend Increasing Stocks
-</a>
-<a class='t-leading-relaxed t-text-tiny t-text-gray-600 hover:t-text-white hover:t-no-underline' href='/dividend-stocks/10-year-dividend-increasing-stocks/'>
-10-Year Dividend Increasing Stocks
-</a>
-</div>
-<div class='lg:t-w-1/5 md:t-w-1/3 t-flex t-flex-col t-mb-6 t-pr-6 t-w-1/2'>
-<h6 class='t-text-md t-text-white t-font-bold'>
-Tools
-</h6>
-<a class='t-leading-relaxed t-text-tiny t-text-gray-600 hover:t-text-white hover:t-no-underline' href='/dividend-stocks/best-dividend-stocks/'>
-Best Dividend Stocks
-</a>
-<a class='t-leading-relaxed t-text-tiny t-text-gray-600 hover:t-text-white hover:t-no-underline' href='/dividend-stocks/best-dividend-capture-stocks/'>
-Best Dividend Capture Stocks
-</a>
-<a class='t-leading-relaxed t-text-tiny t-text-gray-600 hover:t-text-white hover:t-no-underline' href='/dividend-stocks/high-dividend-yield-stocks/'>
-High Yield Stocks
-</a>
-<a class='t-leading-relaxed t-text-tiny t-text-gray-600 hover:t-text-white hover:t-no-underline' href='/ex-dividend-dates/'>
-Ex-Dividend Stocks
-</a>
-<a class='t-leading-relaxed t-text-tiny t-text-gray-600 hover:t-text-white hover:t-no-underline' href='/dividend-income/'>
-Income Generator
-</a>
-<a class='t-leading-relaxed t-text-tiny t-text-gray-600 hover:t-text-white hover:t-no-underline' href='/dividend-stocks/foreign-dividend-stocks/'>
-Foreign Dividend Stocks
-</a>
-<a class='t-leading-relaxed t-text-tiny t-text-gray-600 hover:t-text-white hover:t-no-underline' href='/dividend-stock-upgrades-downgrades/'>
-Upgrades/Downgrades
-</a>
-<a class='t-leading-relaxed t-text-tiny t-text-gray-600 hover:t-text-white hover:t-no-underline' href='/dividend-portfolios/'>
-Dividend Portfolios
-</a>
-<a class='t-leading-relaxed t-text-tiny t-text-gray-600 hover:t-text-white hover:t-no-underline' href='/tools/compounding-returns-calculator/'>
-Returns Calculator
-</a>
-<a class='t-leading-relaxed t-text-tiny t-text-gray-600 hover:t-text-white hover:t-no-underline' href='/dividend-history/'>
-Dividend History Data
-</a>
-<a class='t-leading-relaxed t-text-tiny t-text-gray-600 hover:t-text-white hover:t-no-underline' href='/premium/my-watchlist/'>
-My Watchlist
-</a>
-<a class='t-leading-relaxed t-text-tiny t-text-gray-600 hover:t-text-white hover:t-no-underline' href='/tools/most-watched-stocks/'>
-Most Watched Stocks
-</a>
-<a class='t-leading-relaxed t-text-tiny t-text-gray-600 hover:t-text-white hover:t-no-underline' href='/premium/testimonials/'>
-Testimonials
-</a>
-</div>
-<div class='lg:t-w-1/5 md:t-w-1/3 t-flex t-flex-col t-mb-6 t-pr-6 t-w-1/2'>
-<h6 class='t-text-md t-text-white t-font-bold'>
-Education
-</h6>
-<a class='t-leading-relaxed t-text-tiny t-text-gray-600 hover:t-text-white hover:t-no-underline' href='/news/'>
-The Dividend Daily
-</a>
-<a class='t-leading-relaxed t-text-tiny t-text-gray-600 hover:t-text-white hover:t-no-underline' href='/dividend-investing-101/'>
-Dividend Investing 101
-</a>
-<a class='t-leading-relaxed t-text-tiny t-text-gray-600 hover:t-text-white hover:t-no-underline' href='/how-to-invest/'>
-Dividend Investing Ideas
-</a>
-<a class='t-leading-relaxed t-text-tiny t-text-gray-600 hover:t-text-white hover:t-no-underline' href='/dividend-education/'>
-Dividend Financial Education
-</a>
-<a class='t-leading-relaxed t-text-tiny t-text-gray-600 hover:t-text-white hover:t-no-underline' href='/how-to-retire/'>
-How to Retire
-</a>
-<a class='t-leading-relaxed t-text-tiny t-text-gray-600 hover:t-text-white hover:t-no-underline' href='/my-money/'>
-How to Manage My Money
-</a>
-<a class='t-leading-relaxed t-text-tiny t-text-gray-600 hover:t-text-white hover:t-no-underline' href='/career/'>
-My Career
-</a>
-<a class='t-leading-relaxed t-text-tiny t-text-gray-600 hover:t-text-white hover:t-no-underline' href='/taxes/'>
-Taxes
-</a>
-<a class='t-leading-relaxed t-text-tiny t-text-gray-600 hover:t-text-white hover:t-no-underline' href='/insurance-and-annuities/'>
-Life Insurance &amp; Annuities
-</a>
-<a class='t-leading-relaxed t-text-tiny t-text-gray-600 hover:t-text-white hover:t-no-underline' href='/how-to-invest/how-to-invest-in-real-estate-crash-course/'>
-Real Estate
-</a>
-<a class='t-leading-relaxed t-text-tiny t-text-gray-600 hover:t-text-white hover:t-no-underline' href='/continuing-education/'>
-University &amp; College
-</a>
-<a class='t-leading-relaxed t-text-tiny t-text-gray-600 hover:t-text-white hover:t-no-underline' href='/investor-resources/'>
-Investor Resources
-</a>
-<a class='t-leading-relaxed t-text-tiny t-text-gray-600 hover:t-text-white hover:t-no-underline' href='/lighter-side/'>
-Lighter Side
-</a>
-</div>
-<div class='lg:t-w-1/5 md:t-w-1/3 t-flex t-flex-col t-mb-6 t-pr-6 t-w-1/2'>
-<h6 class='t-text-md t-text-white t-font-bold'>
-Legal
-</h6>
-<a class='t-leading-relaxed t-text-tiny t-text-gray-600 hover:t-text-white hover:t-no-underline' href='/legal/'>
-Terms of Use
-</a>
-<div class='t-flex t-relative t-mt-5'>
-<div class='social-label t-cursor-pointer t-flex t-float-right t-hidden t-items-center t-leading-loose t-mt-3 t-pt-4 t-text-base t-text-white xl:t-flex'>
-Follow dividend
-</div>
-<div class='social-module t-absolute t-flex t-top-0 t-z-10' data-module-type='link'>
-
-<div class='t-overflow-hidden t-rounded-full t-w-6 t-h-6 t-flex t-flex-wrap t-flex-col t-leading-loose button-group hover:t-flex-inline-block t-will-change-transform t-transition-all t-transition-linear'>
-<button class='t-text-tiny t-text-center t-pull-right t-bg-blue-800 t-rounded-full t-w-6 t-h-6 t-items-center t-justify-center t-cursor-pointer follow t-flex'>
-<a class='t-text-gray-700 t-p-0 t-leading-loose t-flex'>
-<i class='fa fa-user-plus t-text-white'></i>
-</a>
-</button>
-
-<button class='facebook n-social-share-icon t-cursor-pointer t-flex t-h-6 t-items-center t-justify-center t-mx-1 t-pull-right t-rounded-full t-text-center t-text-tiny t-w-6' data-description='Stock Template' data-title='Stock Template' data-url='request.original_url'>
-<a class='t-text-gray-700 t-p-0 t-leading-loose t-flex'>
-<i class='fa fa-facebook t-text-white'></i>
-</a>
-</button>
-
-<button class='n-social-share-icon t-cursor-pointer t-flex t-h-6 t-items-center t-justify-center t-mx-1 t-pull-right t-rounded-full t-text-center t-text-tiny t-w-6 twitter' data-description='Stock Template' data-title='Stock Template' data-url='request.original_url'>
-<a class='t-text-gray-700 t-p-0 t-leading-loose t-flex'>
-<i class='fa fa-twitter t-text-white'></i>
-</a>
-</button>
-
-<button class='linkedin n-social-share-icon t-cursor-pointer t-flex t-h-6 t-items-center t-justify-center t-mx-1 t-pull-right t-rounded-full t-text-center t-text-tiny t-w-6' data-description='Stock Template' data-title='Stock Template' data-url='request.original_url'>
-<a class='t-text-gray-700 t-p-0 t-leading-loose t-flex'>
-<i class='fa fa-linkedin t-text-white'></i>
-</a>
-</button>
-
-</div>
-</div>
-<div class='async-js' data-js-files='[]'></div>
-
-</div>
-</div>
-<div class='t-w-full t-my-4'>
-<p class='t-text-tiny t-text-gray-600 t-mb-0'>
-All stock quotes on this website should be considered as having a 24-hour delay.
-</p>
-<p class='t-text-tiny t-text-gray-600 t-border-t t-border-b t-py-2 t-my-2 t-border-gray-450'>
-&ast; <a href="https://www.dividend.com" class="t-underline t-text-gray-600 hover:t-text-white" target="_blank">Dividend.com</a> does not provide financial advice and does not issue recommendations or offers to buy stock or sell any security.
-</p>
-<p class='t-text-tiny t-text-gray-600'>
-Certain financial information included in Dividend.com is proprietary to Mergent, Inc. ("Mergent") Copyright © 2014. Reproduction of such information in any form is prohibited. Because of the possibility of human or mechanical error by Mergent's sources, Mergent or others, Mergent does not guarantee the accuracy, adequacy, completeness, timeliness or availability or for the results obtained from the use of such information.
-</p>
-</div>
-</div>
-<div class='t-w-full t-bg-gray-900'>
-<div class='t-container t-mx-auto t-flex t-pt-4 t-pb-4 md:t-pb-6 t-items-center t-flex-col md:t-flex-row'>
-<figure class='t-flex-none'>
-<a href='http://mitremedia.com' rel='nofollow' target='_blank'>
-<img src="/packs/media/images/dividend/mitre-logo-d28289c4311782ed6ef77ef9866eecf5.png" />
-</a>
-</figure>
-<div class='t-flex-1 t-flex t-justify-center'>
-<h4 class='t-text-gray-600 t-text-lg t-font-bold'>
-<a target="_blank" rel="nofollow" href="http://mitremedia.com/#partner">Advertise With Us</a>
-</h4>
-</div>
-<div class='t-flex-none'>
-<h4 class='t-text-gray-600 t-text-lg t-font-bold'>
-&copy;
-2022
-<a target="_blank" rel="nofollow" href="http://mitremedia.com">Mitre Media</a>
-</h4>
-</div>
-</div>
-</div>
-
-</footer>
-<div class='t-fixed t-w-full t-h-full t-top-0 t-left-0 t-flex t-flex-wrap t-items-center t-justify-center t-z-50 t-will-change-opacity t-transition-250 t-transition-all t-overflow-auto t-hidden' data-controller='modal' id='interstitial'>
-<div class='modal-overlay t-fixed t-h-full t-w-full t-top-0 t-left-0 t-bg-gray-900 t-opacity-50'></div>
-<div class='modal-container t-bg-white t-mx-auto t-rounded t-shadow-lg t-z-50 t-my-10'>
-<div class='modal-content t-py-4 t-px-6'>
-<div class='t-flex t-justify-between t-items-center'>
-<h4 class='t-text-2xl t-font-bold t-leading-normal t-text-blue-800 t-text-center'>
-Advertisement
-</h4>
-<div class='modal-close t-cursor-pointer t-z-50' data-action='click->modal#closeModal'>
-<span class='t-fill-current t-text-gray-500 t-text-md'>&times;</span>
-</div>
-</div>
-<div class='t-h-px t-bg-gray-400 t-w-full'></div>
-<div class='t-flex t-my-2 t-items-center t-justify-center'>
-<div class="mitread--adunit__oa ad-type-O-01-A t-flex t-flex-end" id="4ff31175d26f45b79e35f282164c5722-c"><div id="4ff31175d26f45b79e35f282164c5722" data-controller="ad-unit" data-ad-unit-id="4ff31175d26f45b79e35f282164c5722" data-ad-unit-name="Div/T-stk/real-estate/O-01-A" data-ad-unit-ad-unit="O-01-A" data-ad-unit-type="oa" data-ad-unit-only-if="enterInterstitialHasNotBeenServed" data-ad-unit-is-native="false" data-ad-unit-kfp="true"></div>
-<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/real-estate/O-01-A"></div></div>
-</div>
-<div class='t-flex t-justify-end t-pt-2'>
-<button class='modal-close t-px-4 t-h-8 t-bg-white t-border t-rounded t-text-gray-800 hover:t-bg-gray-200' data-action='click->modal#closeModal'>
-Close
-</button>
-</div>
-</div>
-</div>
-</div>
-<div class='async-js' data-js-files='[]'></div>
-
-<div class='t-fixed t-w-full t-h-full t-top-0 t-left-0 t-flex t-flex-wrap t-items-center t-justify-center t-z-2000 t-will-change-opacity t-transition-250 t-transition-all t-overflow-auto t-hidden' data-controller='modal' id='exit-interstitial'>
-<div class='modal-overlay t-fixed t-h-full t-w-full t-top-0 t-left-0 t-bg-gray-900 t-opacity-50'></div>
-<div class='modal-container t-bg-white t-mx-auto t-rounded t-shadow-lg t-z-2050 t-my-10'>
-<div class='modal-content t-py-4 t-text-left t-px-6'>
-<div class='t-flex t-justify-between t-items-center'>
-<h4 class='t-text-2xl t-font-bold t-leading-normal t-text-blue-800 t-text-center'>
-Wait! Rates are rising, is your portfolio ready?
-</h4>
-<div class='modal-close t-cursor-pointer t-z-2050' data-action='click->modal#closeModal'>
-<span class='t-fill-current t-text-gray-500 t-text-md'>&times;</span>
-</div>
-</div>
-<div class='t-h-px t-bg-gray-400 t-w-full'></div>
-<div class='t-flex t-my-2'>
-<div class='t-flex t-flex-col t-flex-1'>
-<article class='t-flex-1 t-flex'>
-<figure class='t-relative t-w-40 t-mt-3 t-mr-6 t-flex sm:t-w-32 md:t-w-32'>
-<img alt='Preferred Stocks' class='t-w-40 t-mb-auto t-z-10 sm:t-w-32' href='/how-to-invest/critical-facts-about-preferred-stocks/' onerror='this.src=`/dividend-logo.svg`;this.classList.add(`t-border`);this.classList.add(`t-bg-white`);this.classList.add(`t-border-gray-300`);this.classList.add(`t-border-solid`);' src='https://images.ctfassets.net/bpdxa94spjot/5hXloVeKeTJBCMsnypajL9/2fc0bb6552d248266c23714b1fe60acc/shutterstock_351904781.jpg?&h=232&w=174'>
-</figure>
-<div class='t-flex-1 t-flex-col'>
-<p class='t-text-2xs t-uppercase t-text-blue-700 t-font-semibold t-mb-0'>
-Dividend Investing Ideas Center
-</p>
-<h2 class='t-mb-0 t-leading-zero'>
-<a class='t-text-lg t-font-semibold t-leading-tight' href='/how-to-invest/critical-facts-about-preferred-stocks/'>
-Critical Facts You Need to Know About Preferred Stocks
-</a>
-</h2>
-<div class='t-flex t-flex-row'>
-<a class='t-text-tiny t-text-gray-600' href='/authors/michael-mcdonald/'>
-Michael McDonald
-</a>
-<time class='t-text-tiny t-text-gray-600 t-ml-3'>
-
-</time>
-</div>
-<p class='t-text-tiny t-my-3'>
-Have you ever wished for the safety of bonds, but the return potential...
-</p>
-</div>
-</article>
-<div class='t-h-px t-bg-gray-400 t-w-full t-my-4'></div>
-<article class='t-flex-1 t-flex'>
-<figure class='t-relative t-w-40 t-mt-3 t-mr-6 t-flex sm:t-w-32 md:t-w-32'>
-<img alt='Retirement' class='t-w-40 t-mb-auto t-z-10 sm:t-w-32' href='/insurance-and-annuities/earn-more-dividend-stocks-annuities-retirement/' onerror='this.src=`/dividend-logo.svg`;this.classList.add(`t-border`);this.classList.add(`t-bg-white`);this.classList.add(`t-border-gray-300`);this.classList.add(`t-border-solid`);' src='https://images.ctfassets.net/bpdxa94spjot/4AhFbzFWEsc0D3ktLm9onu/cbfa294d1ca48336d9b07af558cbd13d/shutterstock_42856108.jpg?w=174&h=232'>
-</figure>
-<div class='t-flex-1 t-flex-col'>
-<p class='t-text-2xs t-uppercase t-text-blue-700 t-font-semibold t-mb-0'>
-Dividend Investing Ideas Center
-</p>
-<h2 class='t-mb-0 t-leading-zero'>
-<a class='t-text-lg t-font-semibold t-leading-tight' href='/insurance-and-annuities/earn-more-dividend-stocks-annuities-retirement/'>
-Earn More With Dividend Stocks Than With Annuities for Your Retirement
-</a>
-</h2>
-<div class='t-flex t-flex-row'>
-<a class='t-text-tiny t-text-gray-600' href='/authors/asif-imtiaz/'>
-Asif Imtiaz
-</a>
-<time class='t-text-tiny t-text-gray-600 t-ml-3'>
-
-</time>
-</div>
-<p class='t-text-tiny t-my-3'>
-If you are reaching retirement age, there is a good chance that you...
-</p>
-</div>
-</article>
-<div class='t-h-px t-bg-gray-400 t-w-full t-my-4'></div>
-<article class='t-flex-1 t-flex'>
-<figure class='t-relative t-w-40 t-mt-3 t-mr-6 t-flex sm:t-w-32 md:t-w-32'>
-<img alt='retirement' class='t-w-40 t-mb-auto t-z-10 sm:t-w-32' href='/my-money/an-introduction-to-certificates-of-deposit-cds/' onerror='this.src=`/dividend-logo.svg`;this.classList.add(`t-border`);this.classList.add(`t-bg-white`);this.classList.add(`t-border-gray-300`);this.classList.add(`t-border-solid`);' src='https://images.ctfassets.net/rh81el08iwni/1h1UJy6McNsvPrKCahOc59/9c7e488c8e16512d8b496b38cbef99a3/stock-market-chart-xs.jpg?w=174&h=232'>
-</figure>
-<div class='t-flex-1 t-flex-col'>
-<p class='t-text-2xs t-uppercase t-text-blue-700 t-font-semibold t-mb-0'>
-Dividend Investing Ideas Center
-</p>
-<h2 class='t-mb-0 t-leading-zero'>
-<a class='t-text-lg t-font-semibold t-leading-tight' href='/my-money/an-introduction-to-certificates-of-deposit-cds/'>
-Earn More With Dividend Stocks Than With Annuities for Your Retirement
-</a>
-</h2>
-<div class='t-flex t-flex-row'>
-<a class='t-text-tiny t-text-gray-600' href='/authors/asif-imtiaz/'>
-Asif Imtiaz
-</a>
-<time class='t-text-tiny t-text-gray-600 t-ml-3'>
-
-</time>
-</div>
-<p class='t-text-tiny t-my-3'>
-If you are reaching retirement age, there is a good chance that you...
-</p>
-</div>
-</article>
-<div class='t-h-px t-bg-gray-400 t-w-full t-my-4'></div>
-<div class='async-js' data-js-files='[]'></div>
-
-</div>
-<div class='t-flex t-flex-col t-flex-1'>
-<div class="mitread--adunit__oa ad-type-O-02-A t-flex t-flex-end" id="11186721a56c9099796932006541de3f-c"><div id="11186721a56c9099796932006541de3f" data-controller="ad-unit" data-ad-unit-id="11186721a56c9099796932006541de3f" data-ad-unit-name="Div/T-stk/real-estate/O-02-A" data-ad-unit-ad-unit="O-02-A" data-ad-unit-type="oa" data-ad-unit-only-if="exitInterstitialHasNotBeenServed" data-ad-unit-is-native="false" data-ad-unit-kfp="true"></div>
-<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/real-estate/O-02-A"></div></div>
-</div>
-</div>
-<div class='t-flex t-mt-1 t-justify-center'></div>
-<div class='t-flex t-justify-end t-pt-2'>
-<button class='modal-close close t-px-4 t-h-8 t-bg-white t-border t-rounded t-text-gray-800 hover:t-bg-gray-200' data-action='click->modal#closeModal'>
-Close
-</button>
-</div>
-</div>
-</div>
-</div>
-<div class='async-js' data-js-files='[]'></div>
-
-<div class='sticky_footer n-ads-sticky-footer' data-controller='modal' id='sticky_footer'>
-<div class='sticky_footer--close_btn n-ads-sticky-footer--close_btn' data-action='click->modal#closeModal'>
-X
-</div>
-<div class="mitread--adunit__fpa ad-type-FP-10-A t-flex t-justify-center t-items-center t-my-1" id="5e38ff23ccca6fec281a709263b910b7-c"><div id="5e38ff23ccca6fec281a709263b910b7" data-controller="ad-unit" data-ad-unit-id="5e38ff23ccca6fec281a709263b910b7" data-ad-unit-name="Div/T-stk/real-estate/FP-10-A" data-ad-unit-ad-unit="FP-10-A" data-ad-unit-type="fpa" data-ad-unit-only-if="stickyFooterHasNotBeenServed" data-ad-unit-is-native="true" data-ad-unit-kfp="true"></div>
-<div data-controller="ad-position" data-ad-position-id="/2143012/Div/T-stk/real-estate/FP-10-A"></div></div>
-</div>
-
-<div class='async-js' data-js-files='[]'></div>
-
-<div data-chatbots='annuity-questionaire' data-controller='multi-chatbot'>
-<div class='multistep-chat-box t-font-inter t-antialiased' data-additional-note='The information you provide will help a licensed annuity agent personalize your free consultation.' data-api-urls-show='https://lead.dividend.com/api/lead_show/' data-api-urls-start='https://lead.dividend.com/api/lead_start/' data-api-urls-step='https://lead.dividend.com/api/lead_step/' data-chatbot-content='Take our survey to qualify for a free consultation from a licensed annuity agent near you.' data-chatbot-key='annuity-questionaire' data-chatbot-title='According to a 2020 Dividend.com study, over 50% of dividend investors use Income Annuities to help safeguard their retirement portfolio.' data-inverted-area-header='You&#39;re one step closer to receiving a free consultation which will tell you how an income annuity can help with retirement planning.' data-list-of-pages-not-show='/premium/,/login/,/pricing/,/signup/,/advisors/,/practice-management/,/portfolio-management/,/expert-opinion/,/legal/,/best-dividend-fund-managers/,/top-dividend-etfs-ebook/,/top-dividend-etfs-ebook-oct-2019/,/best-dividend-fund-managers-oct-2019/,/engaging-millennials-through-dividend-investing/,/calvert-resource-channel/'></div>
-<div class='async-js' data-js-files='[]'></div>
-
-</div>
-<div class='async-js' data-js-files='[]'></div>
-
-</body>
-</html>
-inverted-area-header='You&#39;re one step closer to receiving a free consultation which will tell you how an income annuity can help with retirement planning.' data-list-of-pages-not-show='/premium/,/login/,/pricing/,/signup/,/advisors/,/practice-management/,/portfolio-management/,/expert-opinion/,/legal/,/best-dividend-fund-managers/,/top-dividend-etfs-ebook/,/top-dividend-etfs-ebook-oct-2019/,/best-dividend-fund-managers-oct-2019/,/engaging-millennials-through-dividend-investing/,/calvert-resource-channel/'></div>
+ an income annuity can help with retirement planning.' data-list-of-pages-not-show='/premium/,/login/,/pricing/,/signup/,/advisors/,/practice-management/,/portfolio-management/,/expert-opinion/,/legal/,/best-dividend-fund-managers/,/top-dividend-etfs-ebook/,/top-dividend-etfs-ebook-oct-2019/,/best-dividend-fund-managers-oct-2019/,/engaging-millennials-through-dividend-investing/,/calvert-resource-channel/'></div>
 <div class='async-js' data-js-files='[]'></div>
 
 </div>

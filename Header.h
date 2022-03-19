@@ -24,8 +24,6 @@ extern std::string freqi;
 extern std::string mktcap;
 extern std::string symbol;
 extern std::fstream file;
-extern std::vector<float> payouts;
-extern std::vector<std::string> paydates;
 extern std::vector<pay> pays;
 
 
