@@ -252,7 +252,7 @@ void findPays(std::string file) {
 	f.open(file);
 	std::string line;
 	std::string ret;
-	std::string prev = "PEEPEEPOOPPOO";
+	std::string prev = "LEAN";
 
 
 	while (getline(f, line)) {

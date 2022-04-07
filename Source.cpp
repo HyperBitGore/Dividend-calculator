@@ -21,7 +21,7 @@ std::string freqi;
 std::string mktcap;
 std::string symbol;
 
-std::fstream file;
+std::ofstream file;
 std::vector<pay> pays;
 
 cApp::cApp() {

@@ -23,7 +23,7 @@ extern std::string yieldanddividend;
 extern std::string freqi;
 extern std::string mktcap;
 extern std::string symbol;
-extern std::fstream file;
+extern std::ofstream file;
 extern std::vector<pay> pays;
 
 
