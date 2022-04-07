@@ -105,6 +105,35 @@ void findYieldandDiv(std::string file) {
 	f.close();
 
 }
+void findFreqETF(std::string file) {
+	std::ifstream f;
+	f.open(file);
+	std::string line;
+	std::string ret;
+	while (getline(f, line)) {
+		int count = 0;
+		bool get = false;
+		while (getline(f, line)) {
+			if (get) {
+				count++;
+				if (count > 3) {
+					freqi = line;
+					f.close();
+					return;
+				}
+			}
+			if (line.find("t-p-3 table--row_label t-w-44") != std::string::npos) {
+				count++;
+				if (count > 1) {
+					get = true;
+				}
+			}
+		}
+	}
+
+	f.close();
+}
+
 void findFreq(std::string file) {
 	std::ifstream f;
 	f.open(file);
@@ -157,6 +186,30 @@ void findPriceRecov(std::string file) {
 
 	f.close();
 }
+void findAvgYieldETF(std::string file) {
+	std::ifstream f;
+	f.open(file);
+	std::string line;
+	std::string ret;
+	int count = 0;
+	bool get = false;
+	while (getline(f, line)) {
+		if (get) {
+			count++;
+			if (count >= 3) {
+				averageyield = line;
+				f.close();
+				return;
+			}
+		}
+		if (line.find("t-p-3 table--row_label t-w-44") != std::string::npos) {
+			count++;
+			get = true;
+		}
+	}
+	f.close();
+}
+
 void findAvgYield(std::string file) {
 	std::ifstream f;
 	f.open(file);
@@ -189,7 +242,34 @@ void findAvgYield(std::string file) {
 
 }
 
-
+void findGrowthsETF(std::string file) {
+	std::ifstream f;
+	f.open(file);
+	std::string line;
+	std::string ret;
+	int c = 0;
+	bool getnextline = false;
+	while (getline(f, line)) {
+		if (getnextline) {
+			int t = 0;
+			for (t; line[t] != '>' && t < line.size(); t++);
+			for (++t; line[t] != '<' && t < line.size(); t++) {
+				ret.push_back(line[t]);
+			}
+			growth[c - 3] = ret;
+			ret.clear();
+			getnextline = false;
+		}
+		if (line.find("Period") != std::string::npos) {
+			c++;
+			if (c > 2 && c < 7) {
+				getnextline = true;
+			}
+		}
+	}
+	growth[4] = "N/A";
+	f.close();
+}
 
 void findGrowths(std::string file) {
 	std::ifstream f;
@@ -229,17 +309,12 @@ void findSymbol(std::string file) {
 	bool savenextline = false;
 	while (getline(f, line)) {
 		if (savenextline) {
-			for (int i = 0; i < line.size(); i++) {
-				if (line[i] != '\n') {
-					ret.push_back(line[i]);
-				}
-			}
-			symbol = ret;
+			symbol = line;
 			ret.clear();
 			f.close();
 			return;
 		}
-		if (line.find("t-flex t-h-full t-items-center t-font-semibold t-text-2xl md:t-text-lg t-uppercase t-leading-tighter") != std::string::npos) {
+		if (line.find("t-flex t-h-full t-items-center t-font-semibold t-text-2xl md:t-text-lg t-uppercase") != std::string::npos) {
 			savenextline = true;
 		}
 	}
@@ -247,6 +322,41 @@ void findSymbol(std::string file) {
 	f.close();
 
 }
+void findPaysETF(std::string file) {
+	std::ifstream f;
+	f.open(file);
+	std::string line;
+	std::string ret;
+	bool getpay = false;
+	bool getdate = false;
+	pay p;
+	while (getline(f, line)) {
+		if (getpay) {
+			for (int i = 0; i < line.size(); i++) {
+				if (line[i] != '$') {
+					ret.push_back(line[i]);
+				}
+			}
+			p.payout = std::stof(ret);
+			getpay = false;
+			ret.clear();
+			pays.push_back(p);
+		}
+		else if (getdate) {
+			p.paydate = line;
+			getdate = false;
+		}
+		if (line.find("td class='t-p-3 table--cell_text t-text-left' data-th='Amount'") != std::string::npos) {
+			getpay = true;
+		}
+		else if (line.find("td class='t-p-3 table--cell_text t-text-left' data-th='Date'") != std::string::npos) {
+			getdate = true;
+		}
+
+	}
+	f.close();
+}
+
 void findPays(std::string file) {
 	std::ifstream f;
 	f.open(file);
@@ -386,14 +496,23 @@ void mFrame::OnSetURLB(wxCommandEvent& evt) {
 	text->Clear();
 	evt.Skip();
 	file.close();
+	bool skipsecrequest = false;
+	if (temp.find("/funds/") != std::string::npos || temp.find("/etfs/") != std::string::npos) {
+		findFreqETF("temp.txt");
+		findAvgYieldETF("temp.txt");
+		findGrowthsETF("temp.txt");
+		skipsecrequest = true;
+	}
+	else {
+		findFreq("temp.txt");
+		findAvgYield("temp.txt");
+		findGrowths("temp.txt");
+	}
+	findSymbol("temp.txt");
 	findPrice("temp.txt");
 	findMktCap("temp.txt");
 	findYieldandDiv("temp.txt");
-	findFreq("temp.txt");
 	findPriceRecov("temp.txt");
-	findAvgYield("temp.txt");
-	findGrowths("temp.txt");
-	findSymbol("temp.txt");
 
 	std::string tem1 = "Price:" + pricing;
 	wxString temp1(tem1);
@@ -433,31 +552,39 @@ void mFrame::OnSetURLB(wxCommandEvent& evt) {
 	symbolout->SetLabelText(temp12);
 
 	curl_easy_reset(curl);
-	file.open("payout.txt");
-	std::string symurl = "https://www.dividend.com/api/dividend/stocks/quote_chart/" + getFullname(temp);
-	curl_slist *header = NULL;
-	header = curl_slist_append(header, "authority:www.dividend.com");
-	header = curl_slist_append(header, "sec-ch-ua:\"Chromium\"; v = \"2021\", \";Not A Brand\"; v = \"99\"");
-	header = curl_slist_append(header, "accept:application/json,text/plain,*/*");
-	header = curl_slist_append(header, "accept-encoding:identity");
-	header = curl_slist_append(header, "content-type:application/json;charset=utf-8");
-	header = curl_slist_append(header, "dnt:1");
-	header = curl_slist_append(header, "sec-ch-ua-platform:\"Android\"");
-	header = curl_slist_append(header, "sec-fetch-dest:empty");
-	header = curl_slist_append(header, "sec-fetch-mode:cors");
-	header = curl_slist_append(header, "sec-fetch-site:same-origin");
-	header = curl_slist_append(header, "accept-language:en-US,en;q=0.9");
-	curl_easy_setopt(curl, CURLOPT_HTTPHEADER, header);
-	curl_easy_setopt(curl, CURLOPT_URL, symurl.c_str());
-	curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, get_json_data);
-	curl_easy_setopt(curl, CURLOPT_FORBID_REUSE, 1L);
-	curl_easy_perform(curl);
+	if (!skipsecrequest) {
+		file.open("payout.txt");
+		std::string symurl = "https://www.dividend.com/api/dividend/stocks/quote_chart/" + getFullname(temp);
+		curl_slist* header = NULL;
+		header = curl_slist_append(header, "authority:www.dividend.com");
+		header = curl_slist_append(header, "sec-ch-ua:\"Chromium\"; v = \"2021\", \";Not A Brand\"; v = \"99\"");
+		header = curl_slist_append(header, "accept:application/json,text/plain,*/*");
+		header = curl_slist_append(header, "accept-encoding:identity");
+		header = curl_slist_append(header, "content-type:application/json;charset=utf-8");
+		header = curl_slist_append(header, "dnt:1");
+		header = curl_slist_append(header, "sec-ch-ua-platform:\"Android\"");
+		header = curl_slist_append(header, "sec-fetch-dest:empty");
+		header = curl_slist_append(header, "sec-fetch-mode:cors");
+		header = curl_slist_append(header, "sec-fetch-site:same-origin");
+		header = curl_slist_append(header, "accept-language:en-US,en;q=0.9");
+		curl_easy_setopt(curl, CURLOPT_HTTPHEADER, header);
+		curl_easy_setopt(curl, CURLOPT_URL, symurl.c_str());
+		curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, get_json_data);
+		curl_easy_setopt(curl, CURLOPT_FORBID_REUSE, 1L);
+		curl_easy_perform(curl);
+
+		curl_slist_free_all(header);
+		file.close();
+		curl_easy_reset(curl);
+		pays.clear();
+		findPays("payout.txt");
+	}
+	else {
+		pays.clear();
+		findPaysETF("temp.txt");
+		skipsecrequest = false;
+	}
 	
-	curl_slist_free_all(header);
-	file.close();
-	curl_easy_reset(curl);
-	pays.clear();
-	findPays("payout.txt");
 	float avgp = 0;
 	datalist->Clear();
 	for (auto& i : pays) {
